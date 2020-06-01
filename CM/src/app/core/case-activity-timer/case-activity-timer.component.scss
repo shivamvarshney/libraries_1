@@ -1,0 +1,17 @@
+$color: #EC1B24;
+.caseTimeActivity{
+    text-align: right;
+    .timeShow{
+        .time{
+            font-size: 24px;
+            display: inline-block;
+            padding: 7px 20px;
+            color: $color;
+            background-color: #ffffff;
+            -webkit-box-shadow: 0px 4px 6px -4px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 4px 6px -4px rgba(0,0,0,0.75);
+            box-shadow: 0px 4px 6px -4px rgba(0,0,0,0.75);
+        }
+        .showExceedMessage{ color: $color; font-size: 16px; line-height: 3; margin-right: 15px; }
+    }
+}

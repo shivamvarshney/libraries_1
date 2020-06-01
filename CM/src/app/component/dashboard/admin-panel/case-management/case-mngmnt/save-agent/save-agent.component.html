@@ -1,0 +1,26 @@
+<section class="agentContainer">
+  <div class="makeAgent">
+  <form [formGroup]="createAgent" (ngSubmit)="saveAgent()" class="agent">
+    <div class="form-group create">
+      <!-- <label class="d-block">
+        {{ 'businessLine' }}
+      </label> -->
+      <div class="form-group create w-50 mat-border-line">
+        <label class="f-20 d-block">{{ 'BusinessLine' }}</label>
+        <mat-select class="input_border" placeholder="{{ 'Select BusinessLine' }}" name="businessLine"
+          formControlName="businessLine" multiple="true" required>
+          <mat-option *ngFor="let businessLine of businessLineObj" [value]="businessLine">
+            {{businessLine}}
+          </mat-option>
+        </mat-select>
+      </div>
+    </div>
+    <div class="submit-btn buttonStatus">
+      <!-- {{createAgent.valid}} -->
+      <button [disabled]="!createAgent.valid" class="common_btn common_red_btn common-btn">
+        {{ 'Submit' }}
+      </button>
+    </div>
+  </form>
+</div>
+</section>

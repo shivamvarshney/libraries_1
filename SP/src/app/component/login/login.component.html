@@ -1,0 +1,174 @@
+<div class="bg-color h-500">
+  <div>
+    <lang-selection></lang-selection>
+  </div>
+  <div class="container h-100">
+    <div class="row h-100">
+      <div class="col-sm-6 col-xs-12 min-h-250">
+        <slideshow [imageUrls]="imageUrlArray" [autoPlay]="false" [showArrows]="false"></slideshow>
+      </div>
+      <div class="col-sm-6 col-xs-12 min-h-360">
+        <mat-card class="login-card">
+          <div class="">
+            <div class="">
+              <figure class="m-b-20 text-center">
+                <img class="w-150" src="./assets/images/login-airtel-logo.png" />
+              </figure>
+
+              <div class="text-center title_bar">
+                <h1 class="f-26 common_gray_color tondo-corp-regular">
+                  {{ 'reg_header.log_title' | translate }}</h1>
+              </div>
+            </div>
+            <div class="wd-200">
+              <!-- <mat-card-header>
+           </mat-card-header> -->
+              <mat-card-content class="radio_group">
+                <!-- Check Login Type First Screen Render -->
+                <div *ngIf="checkLoginType">
+                  <form class="example-form" [formGroup]="loginTypeForm" (ngSubmit)="loginTypeAction(loginTypeForm)"
+                    novalidate>
+                    <table class="example-full-width" cellspacing="0">
+                      <tr>
+                        <td class="position-relative">
+                          <mat-form-field class="mat-form-width w-100 pd-b-10">
+                            <input matInput type="text" formControlName="loginTypeStatus"
+                              placeholder="{{ 'reg_header.login_fields.loginTypeStatus' | translate }}" required>
+                            <mat-error *ngIf="loginHasError('loginTypeStatus', 'required')">
+                              {{ 'reg_header.login_fields.loginType_req' | translate }}</mat-error>
+                            <mat-error *ngIf="loginHasError('loginTypeStatus', 'pattern')">
+                              <!-- {{ 'reg_header.login_fields.loginTypePattern' | translate }} -->
+                              {{ loginTypePattern }}
+                            </mat-error>
+                          </mat-form-field>
+                          <button type="submit" [disabled]="!loginTypeForm.valid"
+                            class="d-i-block bg-transparent arrowLogin">
+                            <i class="material-icons">arrow_right_alt</i></button>
+                        </td>
+                      </tr>
+                    </table>
+                  </form>
+                </div>
+
+                <!-- If Login Type AUUID then AUUID From Render -->
+                <div *ngIf="showAUUIDForm">
+                  <form class="example-form" [formGroup]="auuidForm" (ngSubmit)="onSubmitAction(auuidForm, 'password')"
+                    novalidate>
+                    <table class="example-full-width" cellspacing="0">
+                      <tr>
+                        <td>
+                          <mat-form-field class="mat-form-width w-100 pd-b-30">
+                            <input matInput type="text" formControlName="number"
+                              placeholder="{{'reg_header.login_fields.loginAuuidStatus' | translate}}" readonly
+                              required>
+                            <mat-error *ngIf="hasAuuidError('number', 'pattern')">
+                              {{ 'reg_header.login_fields.pattern_err' | translate }}</mat-error>
+                            <mat-error *ngIf="hasAuuidError('number', 'required')">
+                              {{'reg_header.login_fields.loginAuuidStatus' | translate}}
+                              {{ 'reg_header.login_fields.name_req' | translate }}</mat-error>
+                            <mat-error *ngIf="hasAuuidError('number', 'minlength')">
+                              {{ 'reg_header.login_fields.field_min_len' | translate }}</mat-error>
+                          </mat-form-field>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <mat-form-field class="example-full-width mat-form-width">
+                            <input class="mysecretpassword" formControlName="password" name="password"
+                              placeholder="{{ 'reg_header.login_fields.password_label' | translate }}" type="password"
+                              matInput showHideInput required [type]="hide? 'password':'text'">
+                            <mat-icon *ngIf="showAUUIDStatus" matSuffix
+                              class="visibility-icon c-pointer abs visible-status" (click)="hide = !hide">
+                              {{hide ? ('reg_header.login_fields.show' | translate) : ('reg_header.login_fields.hide' | translate)}}
+                            </mat-icon>
+                            <mat-error *ngIf="hasAuuidError('password', 'required')">
+                              {{ 'reg_header.login_fields.password_req' | translate }}</mat-error>
+                          </mat-form-field>
+                          <p *ngIf="errorMsg" class="common-color alert alert-danger"> {{unauthorized_msg}}</p>
+                        </td>
+                      </tr>
+                    </table>
+                    <mat-card-actions class="text-center">
+                      <p class="d-i-block c-pointer titleBar" (click)="backToHome()">
+                        <span class="back">{{ 'back' | translate }}</span>
+                      </p>
+                      <button type="submit" mat-raised-button [disabled]="!auuidForm.valid"
+                        class="btn-lg btn-block mat-danger login-btn w-60 text-uppercase rounded-0 login_button">{{ 'reg_header.log_button' | translate }}</button>
+                    </mat-card-actions>
+                  </form>
+                </div>
+
+                <!-- If Login Type MSISDN then MSISDN From Render -->
+                <div *ngIf="showMSISDNForm">
+                  <form class="example-form" [formGroup]="msisdnForm" (ngSubmit)="onSubmitAction(msisdnForm, 'otp')"
+                    novalidate>
+                    <table class="example-full-width" cellspacing="0">
+                      <tr>
+                        <td>
+                          <mat-form-field class="mat-form-width w-100 pd-b-30">
+                            <input matInput type="text" formControlName="number"
+                              placeholder="{{'reg_header.login_fields.loginMSISDNStatus' | translate}}"
+                              [maxlength]="numberLength" readonly required>
+                            <mat-error *ngIf="hasError('number', 'pattern')">
+                              {{ 'reg_header.login_fields.pattern_err' | translate }}</mat-error>
+                            <mat-error *ngIf="hasError('number', 'required')">
+                              {{'reg_header.login_fields.loginMSISDNStatus' | translate}}
+                              {{ 'reg_header.login_fields.name_req' | translate }}</mat-error>
+                            <mat-error *ngIf="hasError('number', 'minlength')">
+                              {{ 'reg_header.login_fields.field_min_len' | translate }}</mat-error>
+                          </mat-form-field>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <mat-form-field class="example-full-width mat-form-width">
+                            <input class="mysecretpassword" formControlName="otp" name="otp"
+                              placeholder="{{ 'reg_header.login_fields.otp_label' | translate }}" type="password"
+                              matInput showHideInput required [type]="hide? 'password':'text'">
+                            <mat-icon *ngIf="showMSISDNStatus" matSuffix class="visibility-icon c-pointer abs"
+                              style="font-family: Tondo-light;text-align: center;margin-bottom: 7px;;font-size: 17px;color: #ED1C24;width:50px"
+                              (click)="hide = !hide">
+                              {{hide ? ('reg_header.login_fields.show' | translate) : ('reg_header.login_fields.hide' | translate)}}
+                            </mat-icon>
+                            <mat-error *ngIf="hasError('otp', 'required')">
+                              {{ 'reg_header.login_fields.otp_req' | translate }}</mat-error>
+                            <mat-error *ngIf="hasError('otp', 'pattern')">
+                              {{ 'reg_header.login_fields.msisdnLoginTypePattern' | translate }}</mat-error>
+                          </mat-form-field>
+                          <p *ngIf="errorMsg" class="common-color alert alert-danger"> {{unauthorized_msg}}</p>
+                          <p *ngIf="hideOTPTimer" class="common_gray_color f-12 text-right mg-15">
+                            <small class="common-color f-14">
+                              <span id="zeroMinuts"> 0{{minutes}}</span>:
+                              <span *ngIf="timer < 10">0</span>{{ timer}}</small></p>
+                          <div class="f-14 tondo-corp-light mb-20 text-right pd-top-15">
+                            <span
+                              class="d-i-block common-d-gray">{{ 'reg_header.login_fields.otp_resend' | translate }}</span>
+                            <div matTooltip="{{tooltipMsg}}" class="d-i-block b-radius">
+                              <button type="button"
+                                class="comon_red_color d-i-block text-uppercase text-underline c-pointer p-l resend"
+                                [ngClass]="{isDisabledBtn: isDisabled }" [disabled]="isDisabled"
+                                (click)="resendOTP('')">{{ 'reg_header.login_fields.resendOTP' | translate }}
+                              </button>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                    <mat-card-actions class="text-center">
+                      <p class="d-i-block c-pointer titleBar" [ngClass]="{isDisabledBtn: isDisabled }"
+                         (click)="backToHome()">
+                        <span class="back">{{ 'back' | translate }}</span>
+                      </p>
+                      <button type="submit" mat-raised-button [disabled]="!msisdnForm.valid"
+                        class="btn-lg d-i-block mat-danger login-btn w-60 text-uppercase rounded-0 login_button">{{ 'reg_header.submit_button' | translate }}</button>
+                    </mat-card-actions>
+                  </form>
+                </div>
+              </mat-card-content>
+            </div>
+          </div>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>

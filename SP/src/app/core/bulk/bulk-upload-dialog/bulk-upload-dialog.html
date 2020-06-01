@@ -1,0 +1,23 @@
+<div class="commonModelDialog">
+  <div>
+    <h1 mat-dialog-title class="common_txt_color f-26">{{data.uplaodBulkInfo.uploadTitle}}</h1>
+    <form>
+      <div mat-dialog-content>
+        <div class="file_block">
+          <input #file type="file" class="file-img" accept="{{ '.'+data.uplaodBulkInfo.fileType }} "
+            placeholder="{{'cp_black_list' | translate}}" appDrag (files)="filesDropped($event)"
+            (change)="onFileChange($event)" />
+          <label for="files" class="select-file">{{'cp_select_file' | translate}}</label>
+          <label for="files" class="select-file choose"></label>
+          <span class="format">Format: .{{ data.uplaodBulkInfo.fileType.toUpperCase() }}</span>
+          <span style="color:red;" class="upload-error" *ngIf="fileUploadErrorCheck">{{ data.uplaodBulkInfo.errorMessage }}</span>
+        </div>
+      </div>
+      <div mat-dialog-actions class="d-block">
+        <button class="common_red_color mr-100 text-uppercase"
+          (click)="uploadFile()">{{'cp_upload' | translate}}</button>
+        <button class="common_red_color text-uppercase" (click)="modelPopupClose()">{{'cp_cancle' | translate}}</button>
+      </div>
+    </form>
+  </div>
+</div>

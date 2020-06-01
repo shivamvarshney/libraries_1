@@ -1,0 +1,11 @@
+<nav mat-tab-nav-bar class="navLink matTabLink">
+  <a class="kyclinks" mat-tab-link label="Cases" [routerLink]="['cases']" routerLinkActive="active-link">
+    <span class="linkK">{{ 'cases' | translate }}</span></a>
+  <!-- <a class="kyclinks" mat-tab-link label="Reports" [routerLink]="['reports']" routerLinkActive="active-link">
+    <span class="linkB">Reports</span></a> -->
+    <ng-container *appPermissionCanAccess="[pIds.SEARCH_AGENT]">
+      <a class="kyclinks" mat-tab-link label="Create Agents" [routerLink]="['manage-users']" routerLinkActive="active-link">
+        <span class="linkO">{{ 'manageUser' | translate }}</span>
+      </a>
+    </ng-container>
+</nav>

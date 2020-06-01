@@ -1,0 +1,145 @@
+.create-role-wrapper{
+    padding: 20px 30px 0;
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    z-index: 999;
+}
+.page-header.role{
+    padding-top: 110px;
+    position: relative;
+}
+.input-border{
+    width: 100%;   
+}
+.input-border input {
+    height: 60px;
+    color: #ffffff !important;
+    padding: 5px 90px 5px 20px;
+    margin: -10px 0 0 0;
+    border-radius: 2px;
+    outline: none;
+}
+.role-filters .input-border input {
+    background-color: #707070 !important;
+}
+.role-filters .filter-parent .input-border input {
+    background: #ffffff !important;
+    padding: 0;
+    height: 45px;
+    border: 1px solid #eeeeee;
+}
+.role-filters .filter-parent .input-border .mat-form-field-label-wrapper {
+    top: -25px;
+}
+.input-border input:hover {
+    outline: none;
+}
+.table-column td.mat-cell, td.mat-footer-cell, th.mat-header-cell{
+    font-size: 17px;
+    font-family: tondo-regular;
+    color: #707070;
+    padding: 12px 20px 20px 13px !important;
+    vertical-align: middle;
+}
+.table-responsive {
+    padding-top: 80px;
+}
+.role-grid .table-column tbody > tr > td {
+    padding-top: 25px !important;
+}
+.role-grid .table-column tbody > tr > td > p {
+    margin: 0;
+    line-height: 1.2;
+}
+.role-grid .table-column td ul.m-0 li{
+    font-size: 18px;
+}
+.list-top-header{
+    padding: 0px;
+    overflow: hidden;
+    position: fixed;
+    width: 88%;
+    z-index: 999;
+    background: #ffffff;
+    margin-left: 0px !important;
+}
+.list-top-header .kits{
+    width: 100%;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.f-19 {
+    font-size: 16px;
+}
+.img-wrapper{
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+    vertical-align: top;
+    min-width: 80px;
+}
+::-webkit-scrollbar {
+    height: 4px;              /* height of horizontal scrollbar ← You're missing this */
+    width: 4px;               /* width of vertical scrollbar */
+    border: 1px solid #d5d5d5;
+  }
+
+
+
+  .search-btn {
+    height: 44px;
+    width: 140px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0;
+    border-radius: 3px;
+    background: #ED1C24;
+    margin: 4px 13px 0;
+    box-shadow: 1px 1px #eeeeee;
+}
+.select-option .mat-form-field-appearance-legacy > .mat-form-field-wrapper {
+    padding: 0;
+}
+.table-column .mat-checkbox-checkmark-path {
+    stroke: #01A9F4 !important;
+}
+.select-option{
+    min-width: 140px;
+    margin: 0 10px;
+    vertical-align: text-bottom;
+}
+.filter-parent .mat-opt{
+    padding: 9px 10px;
+    border: 1px solid #D7DAE2;
+    border-radius: 3px;
+    min-height: 45px;
+}
+.role-grid > table > thead > tr > th:first-child, .role-grid > table > tbody > tr > td:first-child{
+    padding: 0 0 0 18px !important;
+}
+.img-wrapper.role-select-all {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    z-index: 999;
+}
+.fig{
+    float: left;
+}
+.label-text{
+    font-size: 15px;
+    width: 160px;
+    line-height: 1.2;
+    float: right;
+    text-align: left;
+    margin-left: 15px;
+}
+.label-text .showCase {
+    color: #ED1C24;
+}
+.label-text .subTitle {
+    color: #707070;
+}

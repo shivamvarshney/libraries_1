@@ -1,0 +1,4 @@
+  <div class="toggleSlide m-l-0" *ngFor="let datasetVal of lineDataSet">
+    <p class="casesHeading">{{datasetVal.title}}</p>
+    <canvas [id]="datasetVal.id" width="400" height="220"></canvas>
+  </div>

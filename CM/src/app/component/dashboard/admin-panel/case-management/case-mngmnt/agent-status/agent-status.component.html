@@ -1,0 +1,18 @@
+<ng-container *appPermissionCanAccess="[permissionIds.AVAILABILITY_STATUS_CHANGE]">
+  <section *ngIf="dataExecutive" class="overflow-hidden header" id="myHeader" #agentstatus>
+    <div class="toggleContainer">
+      <section class="toggleStatus">
+        <div class="d-inline-block pd-avaiable">
+          <span [ngClass]="{'enable': disableStatus}" matTooltip="{{breakTime}}"
+            class="f-12 common-gray-color toggleTxt">{{ breakStatus }}</span>
+          <mat-slide-toggle class="example-margin" [color]="color" [checked]="checkedAvailable"
+            (change)="toggle($event)">
+          </mat-slide-toggle>
+          <span [ngClass]="{'enable':  enableStatus }"
+            class="f-12 common-gray-color toggleTxt">{{ availableStatus }}</span>
+        </div>
+      </section>
+    </div>
+  </section>
+</ng-container>
+<router-outlet></router-outlet>

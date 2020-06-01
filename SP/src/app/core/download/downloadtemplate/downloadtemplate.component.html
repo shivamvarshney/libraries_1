@@ -1,0 +1,7 @@
+<div class="user_template">
+    <img *ngIf="downloadInfo.bulk.download.thumbnail" class="downloadImage"
+        src="assets/fonts/svg/{{ downloadInfo.bulk.download.thumbnail }}">
+    <a (click)="downloadSampleFile()" class="sub-heading">
+        {{ downloadInfo.bulk.download.downloadTitle }}
+    </a>
+</div>

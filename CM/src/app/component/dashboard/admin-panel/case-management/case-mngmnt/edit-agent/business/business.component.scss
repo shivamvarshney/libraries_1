@@ -1,0 +1,48 @@
+.mr-15{
+    margin-right: 15px;
+}
+.reasonCheck{
+    padding: 10px 20px;
+    .remark{
+        width: 35%;
+        .remarkColor{ color: #EC1B24;font-size: 12px;  }
+        .remtext{
+          font-size: 14px;
+          padding: 5px 5px;
+          line-height: 1;
+        }
+      }
+}
+.formFields {
+  width: 33%;
+  float: left;
+}
+// will remove this css once get proper solutions
+.isActive{
+  position: absolute;
+  bottom: 320px;
+}
+.imgSlider{
+  height: 256px;
+}
+
+.userId{
+  .pdfIframe{
+    text-align: center;
+    color: #4D79F6;
+    display: block;
+    padding-right: 40px;
+  }
+}
+.imgSliderPopup{ 
+  position: fixed;
+  top: 60%;
+  left: 63%;
+  width: 35% !important;
+  margin: 0 auto;
+  z-index: 9999999;
+  border: 1px solid #eeeeee;
+  padding: 11px;
+  background: #FFFFFF;
+  transform:scale(1.5) translate(-50%, -50%);
+}

@@ -1,0 +1,15 @@
+<div class="create-role-wrapper">
+  <div class="title">
+    <p class="common-color f-18 titleBar c-pointer" (click)="back()">
+      <img class="back-icon" src="assets/fonts/svg/back.svg">
+      <span class="back f-18">{{ 'Back' }}</span>
+    </p>
+    <p class="common-color f-26 titleBar">
+      {{ 'Freelance Agents' }}
+    </p>
+  </div>
+</div>
+<div *ngIf="freelanceAgentConfig">  
+  <aaf-grid [config]="freelanceAgentConfig" [dataProvider]="freelanceAgentsDataProvider" [actionProvider]="freelanceAgentsActionsProvider">
+  </aaf-grid>
+</div>

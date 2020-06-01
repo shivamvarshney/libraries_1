@@ -1,0 +1,7 @@
+<div [ngClass]="{ 'd_template': !downloadInfo.cardText, 'user_template': downloadInfo.cardText }">
+    <img *ngIf="downloadInfo.downloadImage" class="downloadImage"
+        src="assets/fonts/svg/{{ downloadInfo.downloadImage }}">
+    <a (click)="downloadSampleCSVFiles()" class="sub-heading">
+        {{downloadInfo.downloadTitle | translate}}
+    </a>
+</div>

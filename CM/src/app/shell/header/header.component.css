@@ -1,0 +1,59 @@
+.h-width{
+    width: 100%;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+.mat-width {
+    width: 100px;
+    margin-left: 35px;
+}
+.mat-toolbar{
+    background-color: #ffffff !important;
+}
+.mat-toolbar-multiple-rows, .mat-toolbar-row{
+    min-height: 70px !important;
+    border: 0.5px solid #eeeeee;
+}
+.w-10{
+width: 10%;
+}
+.line-height-2{
+    line-height: 1;
+}
+.header-section{
+    border: 1px solid #eeeeee;
+}
+.user-detail{display: inline-block}
+.fs-15{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.fs-12{
+    font-size: 12px;
+}
+.p-r-10{
+    padding-right: 20px;
+}
+.cursor-pointer{cursor: pointer;}
+.w-26{
+    width: 45%;
+    padding-top: 10px;
+    }
+    .float-right{
+        float: right;
+    }
+@media (max-width:767px){
+    .w-5{
+        width: 50%;
+    }
+    .pd-l-30{
+        padding-left:30px; 
+    }
+    .v-align-b{
+        vertical-align: bottom;
+    }
+    .fs-15{
+        margin-bottom: 5px;
+    }
+}
+

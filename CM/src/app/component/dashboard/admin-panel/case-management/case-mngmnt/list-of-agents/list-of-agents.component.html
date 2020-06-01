@@ -1,0 +1,204 @@
+<section class="listOfAgentsContainer">
+  <!-- <case-activity-timer></case-activity-timer> -->
+  <div class="agentsFilter">
+    <form class="agent-form" [formGroup]="filterForm" (ngSubmit)="getFilteredData()" novalidate>
+      <mat-form-field class="agent-width m-0 w-24">
+        <input matInput formControlName='caseSearch' placeholder="CP Account No" [value]="">
+      </mat-form-field>
+
+      <mat-form-field class="agent-width fromDate">
+        <mat-label>{{ 'type' | translate }}</mat-label>
+        <mat-select formControlName='type'>
+          <mat-option *ngFor="let caseType of caseTypes" [value]="caseType.value">
+            {{caseType.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field> 
+
+      <mat-form-field class="agent-width fromDate">
+        <mat-label>{{ 'caseStatus' | translate }}</mat-label>
+        <mat-select formControlName='caseStatus'>
+          <mat-option *ngFor="let status of caseStatus" [value]="status.value">
+            {{status.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field class="agent-width fromDate">
+        <mat-label>{{ 'from' | translate }}</mat-label>
+        <input matInput formControlName='fromDate' [matDatepicker]="picker1" [max]="tomorrow">
+        <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+        <mat-datepicker #picker1></mat-datepicker>
+      </mat-form-field>
+
+      <mat-form-field class="agent-width fromDate m-0">
+        <mat-label>{{ 'to' | translate }}</mat-label>
+        <input matInput formControlName='endDate' [matDatepicker]="picker2" [max]="tomorrow">
+        <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+        <mat-datepicker #picker2></mat-datepicker>
+      </mat-form-field>
+      <div class="saveBtn">
+        <button type="submit" [disabled]="!filterForm.valid" mat-raised-button
+          class="btnStyle searchBtn">{{ 'search' | translate }}</button>
+        <button type="submit" mat-raised-button class="btnStyle searchBtn reset"
+          (click)="resetForm()">{{ 'reset' | translate }}</button>
+        <button type="button" mat-raised-button class="btnStyle searchBtn reset"
+          (click)="getAssignedMeCases()">{{ 'myCases' | translate }}</button>
+        <button type="submit" mat-raised-button class="btnStyle searchBtn reset refresh" (click)="resetForm()">
+          <i class="material-icons ref">refresh</i></button>
+      </div>
+    </form>
+  </div>
+  <div class="agentTables">
+    <div class="mat-elevation-z8">
+
+      <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8 w-100">
+
+        <!-- Id Column -->
+        <!-- <ng-container matColumnDef="Cases">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Case </th>
+          <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+        </ng-container> -->
+
+        <!-- Title Column -->
+        <ng-container matColumnDef="Account No">
+          <th mat-header-cell *matHeaderCellDef>{{ 'cpAccNo' | translate }}</th>
+          <td mat-cell *matCellDef="let element">
+            <a class="cplink" (click)="caseDetails(element)">{{element.cpAccountNo}}</a>
+          </td>
+        </ng-container>
+
+        <!-- Category Column -->
+        <ng-container matColumnDef="CP Name">
+          <th mat-header-cell *matHeaderCellDef>{{ 'cpName' | translate }}</th>
+          <td mat-cell *matCellDef="let element">
+            <span
+              [ngClass]="[ element.info && element.info.outlets && element.info.outlets.id_cpName ? '': 'emptyField']">{{( element.info && element.info.outlets && element.info.outlets.id_cpName ) ? element.info.outlets.id_cpName : '-'}}</span>
+          </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Type">
+          <th mat-header-cell *matHeaderCellDef>{{ 'cpType' | translate }}</th>
+          <td mat-cell *matCellDef="let element"> {{element.ownerType}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Business Line">
+          <th mat-header-cell *matHeaderCellDef> {{ 'businessLine' | translate }} </th>
+          <td mat-cell *matCellDef="let element"> {{element.businessLine}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Case Type">
+          <th mat-header-cell *matHeaderCellDef> {{ 'type' | translate }} </th>
+          <td mat-cell *matCellDef="let element"> {{element.type}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Created Date">
+          <th mat-header-cell *matHeaderCellDef> {{ 'createdDate' | translate }} </th>
+          <td mat-cell *matCellDef="let element"> {{ element.createdOn | convertToDate}}
+            {{element.createdOn | convertToTime}} </td>
+        </ng-container>
+
+        <!-- <ng-container matColumnDef="Created time">
+          <th mat-header-cell *matHeaderCellDef> Created time </th>
+          <td mat-cell *matCellDef="let element"> {{element.createdAt | convertToTime}} </td>
+        </ng-container> -->
+
+        <ng-container matColumnDef="Created / Modified by">
+          <th mat-header-cell *matHeaderCellDef> {{ 'modifyBy' | translate }}</th>
+          <td mat-cell *matCellDef="let element">
+            <ng-container *ngIf="element.createdByName && element.createdByLoginInfo; then dynamicInfo else noData">
+            </ng-container>
+            <ng-template #dynamicInfo>
+              <div class="createdModify">
+                <span class="createdDate" title="{{ element.createdByLoginInfo }}">
+                  Created By: {{ element.createdByName }}
+                </span>
+                <span *ngIf="element.updatedByName && element.updatedByLoginInfo" class="createdDate" title="{{ element.updatedByLoginInfo }}">
+                  Modified By: {{ element.updatedByName }}
+                </span>
+              </div>
+            </ng-template>
+            <ng-template #noData>
+              <span class="emptyField">-</span>
+            </ng-template>
+            <!-- <span *ngIf="element.updatedBy">{{element.updatedBy}}</span>
+            <span class="emptyField" *ngIf="!element.updatedBy">-</span> -->
+          </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Case status">
+          <th mat-header-cell *matHeaderCellDef> {{ 'caseStatus' | translate }}</th>
+          <td mat-cell *matCellDef="let element"> {{element.status}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Assignment Status">
+          <th mat-header-cell *matHeaderCellDef> {{ 'assignment' | translate }}</th>
+          <td mat-cell *matCellDef="let element">
+            <div *ngIf="element.actorName" matTooltip="{{ element.assignedTo }}" matTooltipPosition="left">
+              <span>{{element.assignedTo == actorInfo.id ? 'Self' : element.actorName}}</span>
+            </div>
+            <span class="emptyField" *ngIf="!element.actorName">-</span>
+          </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Assign to">
+          <th mat-header-cell *matHeaderCellDef> {{ 'assignTo' | translate }} </th>
+          <td mat-cell *matCellDef="let element">
+            <div class="overflow-hidden"
+              matTooltip="{{ element.status !== 'PENDING' ? 'Case is already '+element.status : '' }}"
+              *appPermissionCanAccess="[PIds.TRANSACTION_ANY]">
+              <a class="float-left editAssign cursor-pointer" (click)="agentListPopup(element, true)"><img
+                  src="./assets/fonts/svg/assignTo.svg"></a>
+              <a style="display: none;" class="float-right editAssign"
+                [routerLink]="['/case-management/case/kyc/', element.id]"><img src="./assets/fonts/svg/sw-edit.svg"></a>
+            </div>
+          </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+      </table>
+      <mat-card *ngIf="isLoading" style="display: flex; justify-content: center; align-items: center">
+        <mat-progress-spinner color="accent" mode="indeterminate" diameter=40 strokeWidth="3">
+        </mat-progress-spinner>
+      </mat-card>
+      <div *ngIf="!dataSource" class="common_red_txt pd-t-10">{{ notFoundRec }} </div>
+      <mat-paginator *ngIf="dataSource" (page)="pageEvent=onPageChange($event)" [pageSize]="paginationObj.pageSize"
+        [pageIndex]="paginationObj.pageNo" [length]="paginationObj.totalCount" class="custom-pagination"
+        [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons>
+      </mat-paginator>
+    </div>
+  </div>
+</section>
+
+<div class="comonPopupstyle">
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content inActiveModel">
+      <span class="close" (click)="closeBtn()">&times;</span>
+      <div *ngIf="caseInfo">
+        <p *ngIf="caseInfo.status != 'PENDING'">
+          {{ 'alreadyAssign' | translate }}
+          <b>{{caseInfo.status}}</b>
+        </p>
+        <p *ngIf="caseInfo.status == 'PENDING'">
+          {{ 'assignSomeOne' | translate }} {{fetchCurrectUserInfo}}. {{ 'assignSomeOne2' | translate }} ?
+        </p>
+        <div *ngIf="caseInfo.status == 'APPROVED' || caseInfo.status == 'REJECTED'" mat-dialog-content
+          class="css-popup">
+          <div mat-dialog-actions class="cancel-procd-btn float-right">
+            <button type="button" class="btnStyle proceed" (click)="closeBtn()">{{ 'ok' | translate }}</button>
+          </div>
+        </div>
+        <div *ngIf="caseInfo.status == 'PENDING'" mat-dialog-content class="css-popup">
+          <div mat-dialog-actions class="cancel-procd-btn float-right">
+            <button type="button" class="btnStyle cancel" (click)="closeBtn()">{{ 'cp_cancle' | translate }}</button>
+            <button type="button" class="btnStyle proceed"
+              (click)="callAssignmentPopup(caseInfo)">{{ 'proceed' | translate }}</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

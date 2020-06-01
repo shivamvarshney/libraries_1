@@ -1,0 +1,28 @@
+<ng-container *ngIf="visibleCaseDetails && visibleCaseDetails.length > 0">
+  <div *ngFor="let section of visibleCaseDetails">
+    <h3>{{ section.name }}</h3>
+    <ng-container *ngIf="section.outlets && section.outlets.length > 0;then dynamicRendering else staticRendering">
+    </ng-container>
+    <ng-template #dynamicRendering>
+      <ng-container *ngFor="let sOutlet of section.outlets">
+        <h4>{{ sOutlet.name }}</h4>
+        <ng-container *ngFor="let d_field of sOutlet.fields">
+          <ng-container
+            *ngIf="d_field.templateOptions.properties.isDisable == false && d_field.templateOptions.properties.isHide == false">
+            <h3>{{ d_field.templateOptions.label }}</h3>
+            <h5>{{ d_field.templateOptions.value }}</h5>
+          </ng-container>
+        </ng-container>
+      </ng-container>
+    </ng-template>
+    <ng-template #staticRendering>
+      <ng-container *ngFor="let s_field of section.fields">
+        <ng-container
+          *ngIf="s_field.templateOptions.properties.isDisable == false && s_field.templateOptions.properties.isHide == false">
+          <h3>{{ s_field.templateOptions.label }}</h3>
+          <h5>{{ s_field.templateOptions.value }}</h5>
+        </ng-container>
+      </ng-container>
+    </ng-template>
+  </div>
+</ng-container>

@@ -1,0 +1,66 @@
+<div class="popup-module common-popup">
+  <div (click)="onNoClick()" class="cancel-popup">X</div>
+  <h1 mat-dialog-title class="title">
+    <span *ngIf="data.title" class="d-block">{{ data.title }}</span>
+  </h1>
+  <div *ngIf="data.data.data === 'agentlist'">
+    <ng-container *appPermissionCanAccess="[PIds.LIST_AVAILABLE_AGENTS]">
+      <div class="agentList" *ngIf="ListOfAgents.length > 0">
+        <ul class="p-0 m-0">
+          <li *ngFor="let agent of ListOfAgents" (click)="currentAgent(agent.id)"
+            [ngClass]="{active: isActive(agent.id)}">
+            {{agent.actorName}}</li>
+        </ul>
+      </div>
+      <div *ngIf="ListOfAgents.length == 0">No Agents Available</div>
+    </ng-container>
+    <div mat-dialog-content>
+      <div mat-dialog-actions class="cancel-procd-btn" *ngIf="data.proceedText">
+        <button type="button" *ngIf="data.data.caseDataInfo.assignedTo !== actorInfo.id" class="proceed"
+          (click)="assignToMe()">Assign to me</button>
+        <button *ngIf="ListOfAgents.length > 0" [disabled]="!currentSelectedAgentname" type="button" class="proceed"
+          (click)="onSubmit()">
+          {{ data && data.proceedText }}
+        </button>
+        <button type="button" class="cancel" (click)="onNoClick()">{{ data && data.cancelText }}</button>
+      </div>
+    </div>
+  </div>
+  <div class="reject-container" *ngIf="data.caseDataInfo && (data.data.data !== 'agentlist')">
+    <ul class="rejectData">
+      <li class="reasonList" *ngFor="let reason of data.caseDataInfo; let i = index">
+        <section class="reasonInfo">
+          <mat-checkbox [checked]="reason.id == '1'" class="example-margin"
+            (change)="onParentChangeHandler(reason.id, $event.checked, $event)">
+            {{reason.reason}}</mat-checkbox>
+        </section>
+        <ul class="subReason rejectData" [ngClass]="{'activeReason': ('reason_'+reason.id) == reasonID}"
+          *ngIf="'reason_'+reason.id == reasonID && reason.rejectionSubReasons.length > 0">
+          <li class="subReasonList" *ngFor="let SubReasoninfo of reason.rejectionSubReasons; let j=index">
+            <section class="example-section">
+              <mat-checkbox class="example-margin" [checked]="SubReasoninfo.CheckStatus"
+                (change)="onChangeHandler(SubReasoninfo.id, $event.checked, reason.id)">
+                {{SubReasoninfo.subReason+'and '+SubReasoninfo.CheckStatus}}
+              </mat-checkbox>
+            </section>
+          </li>
+        </ul>
+      </li>
+      <div class="remark" *ngIf="remarks">
+        <p class="fs-14">Remarks:</p>
+        <textarea class="remtext" rows="9" cols="35" (ngModelChange)="remarkOnChange($event)" [(ngModel)]="remarkText"
+          maxlength="100"></textarea>
+        <span class="remarkColor" *ngIf="showRemarkError">Please enter remarks</span>
+      </div>
+    </ul>
+
+    <div mat-dialog-content>
+      <div mat-dialog-actions class="" *ngIf="data.proceedText">
+        <button type="button" class="proceed" (click)="onRejectHandler()">
+          {{ data && data.proceedText }}
+        </button>
+        <button type="button" class="cancel" (click)="onNoClick()">{{ data && data.cancelText }}</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,56 @@
+<div *ngIf="showHeader" class="header-section bg-white">
+	<app-header></app-header>
+</div>
+<div class="row w-100 m-0">
+	<div *ngIf="showSideNav" class="col-sm-2 p-0">
+		<div class="dashboard-sidenav overflow-hidden w-80">
+			<mat-nav-list class="">
+				<ng-container *ngFor="let item of salesList">
+					<ng-container *ngIf="item.visible">
+						<mat-list-item>
+							<!-- *appCanAccess="[item.permissionGroup]" -->
+							<a matLine class="color-name text-center sidenav_hover h-120" href="javascript:void(0)"
+								routerLinkActive="activeSideNav">
+								<span class="mat-icon-class d-block mb-10">
+									<img src="./assets/fonts/svg/{{item.iconName}}">
+								</span>
+								<span class="d-block fs-12 common_gray_color">{{ item.name }}</span>
+							</a>
+						</mat-list-item>
+					</ng-container>
+				</ng-container>
+			</mat-nav-list>
+		</div>
+	</div>
+	<div id="notfound" class="col-sm-9 p-0">
+		<div class="notfound">
+			<ng-container *ngIf="(pageStatus == '404'); then notFoundTemplate else unAuthTemplate"></ng-container>
+			<ng-template #notFoundTemplate>
+				<div class="notfound-404">
+					<h1 class="m-0"><img class="h-100 w-100" src="./assets/fonts/svg/404.svg"></h1>
+				</div>
+				<div class="align-center">
+					<h2 class="f-30 common_gray_color">{{'notFoundTxt' | translate}}</h2>
+					<p class="tondo-corp-regular common_gray_color txt-msg">
+						{{'pageNotFound' | translate}}
+					</p>
+				</div>
+			</ng-template>
+			<ng-template #unAuthTemplate>
+				<div class="notfound-404">
+					<h1 class="m-0"><img class="h-100 w-100" src="./assets/fonts/svg/403.svg"></h1>
+				</div>
+				<div class="align-center">
+					<h2 class="f-30 common_gray_color">{{'unauthorizePage' | translate}}</h2>
+					<p class="tondo-corp-regular common_gray_color txt-msg">
+						{{'unauthorizeTxt' | translate}}
+					</p>
+				</div>
+			</ng-template>
+			<div>
+				<button type="submit" (click)="redirectToDefaultPage()"
+					class="d-block bk-btn">{{ 'back' | translate }}</button>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,142 @@
+.example-form{
+    width: 277px;
+    margin: 0 auto;
+}
+.example-full-width{
+    margin-bottom: 0px;
+    width: 100%;
+}
+.example-form .auuid{
+    margin-right: 39px;
+}
+.login-card{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+}
+.mat-card-header,.mg-l-0,.mat-card-actions{
+    margin-left: 0;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.login_button{
+    height: 35px;
+    line-height: 1;
+    font-size: 14px;
+}
+.login-btn{ padding: 5px 0;
+    background-color: #ED1C24;
+    color: #ffffff;}
+.h-500{ height: 500px;}
+.w-150{width: 125px;}
+.pd-t-10{padding-top: 40px;}
+.pd-b-30{padding-bottom: 30px;}
+.pd-b-10{padding-bottom: 10px;}
+.w-60{width: 123px}
+.login-header-text span{
+    display: block;
+    padding-top: 10px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.pd-top-15{
+    padding-top: 15px;
+}
+.mat-card-actions, .mat-card-content, .mat-card-subtitle{
+    margin-bottom: 0;
+}
+.visible-status{
+    font-family: Tondo-light;
+    text-align: center;
+    margin-bottom: 7px;
+    font-size: 17px;
+    width:50px !important;
+}
+@media (max-width:767px){
+    .h-500{
+        height: 100%;
+    }
+    .min-h-250{
+        min-height: 260px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .example-form{
+        width: 100%;
+    }
+    .min-h-360{
+        min-height: 360px;
+    }
+    
+}
+.m-b-20{margin-bottom: 30px;}
+.title_bar{margin-bottom: 40px;}
+.radio_group {
+    margin-bottom: 20px;
+}
+.mr-25{
+    margin-right: 30px;
+}
+.auuid, .msisdn{
+    color: #818181;
+    font-size: 15px;
+    line-height: 1;
+    font-family: Tondo-corp-regular;
+}
+.mysecretpassword{
+    position: relative;
+    color: #01A9F4;
+}
+.titleBar{
+    margin: 0 30px 0 0;
+}
+.abs{
+    position: absolute;
+    right: 0;
+    top:-17px;
+    color: #ED1C24;
+}
+.p-l{
+    padding-left: 3px;
+    text-decoration: underline !important;
+}
+.resend{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.isDisabledBtn{
+    /* background: lightgray; */
+    opacity: 0.5;
+}
+.mg-15{
+    margin-top: -15px;
+}
+.arrowLogin {
+    border-radius: 30%;
+    line-height: 0;
+    position: absolute;
+    width: 30px;
+    height: 15px;
+    right: 0%;
+    top: 18px;
+    padding: 0;
+    cursor: pointer;
+    border: 1px solid #15B0F4;
+}
+.arrowLogin .material-icons{
+    font-size: 24px;
+    color: #15B0F4;
+    margin-top: -5px;
+}
+.b-radius{
+    border-radius: 5px;
+}
+.mht-50{
+    min-height: 89px;
+}

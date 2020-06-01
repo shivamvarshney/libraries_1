@@ -1,0 +1,54 @@
+<div class="commonModelDialog">
+  <div>
+    <h1 mat-dialog-title class="common_txt_color f-26">{{data.title}}</h1>
+    <form>
+      <div mat-dialog-content>
+        <div class="file_block">
+          <div id="dropContainer">
+            {{filetxt}}
+          </div>
+          <input #file type="file" id="fileInput" class="file-img"
+            accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"
+            placeholder="{{'cp_black_list' | translate}}" appDrag (files)="filesDropped($event)"
+            (change)="onFileChange($event)" />
+          <label for="files" class="select-file">{{'cp_select_file' | translate}}</label>
+          <span class="format">{{'cp_file_format' | translate}}</span>
+          <span style="color:red;" class="upload-error" *ngIf="fileUploadErrorCheck">{{fileUploadError}}</span>
+          <div *ngFor="let file of files"></div>
+        </div>
+      </div>
+    </form>
+    <div mat-dialog-actions class="d-block">
+      <button class="common_red_color mr-100 text-uppercase"
+        (click)="uploadFile(data)">{{'cp_upload' | translate}}</button>
+      <button class="common_red_color text-uppercase" (click)="modelPopupClose()">{{'cp_cancle' | translate}}</button>
+    </div>
+  </div>
+  <!-- hide bulk roles, will use in future -->
+  <div *ngIf="false">
+    <h1 mat-dialog-title class="common_txt_color f-26">{{data.selectAgg}}</h1>
+    <div class="black-parent">
+      <div class="col-xs-12 c-black" (click)="blackListed('user_dashboard_card_free_aggr')">
+        <div class="card-black-parent">
+          <img alt="card-images" class="card-img mat-card-image" src="./assets/fonts/svg/freelance_agents.svg">
+          <h2 class="common_black f-26">{{'user_dashboard_card_free_aggr' | translate}}</h2>
+        </div>
+      </div>
+      <div class="col-xs-12 c-black" (click)="blackListed('user_dashboard_card_aggregator')">
+        <div class="card-black-parent">
+          <img alt="card-images" class="card-img mat-card-image" src="./assets/fonts/svg/blacklisted.svg">
+          <h2 class="common_black f-26">{{'user_dashboard_card_aggregator' | translate}}</h2>
+        </div>
+      </div>
+      <div class="col-xs-12 c-black" (click)="blackListed('user_dashboard_card_free_agent')">
+        <div class="card-black-parent">
+          <img alt="card-images" class="card-img mat-card-image" src="./assets/fonts/svg/freelance_agents.svg">
+          <h2 class="common_black f-26">{{'user_dashboard_card_free_agent' | translate}}</h2>
+        </div>
+      </div>
+    </div>
+    <div class="c-btn">
+      <button class="common_red_color titleBar" (click)="modelPopupClose()">{{'cp_cancle' | translate}}</button>
+    </div>
+  </div>
+</div>

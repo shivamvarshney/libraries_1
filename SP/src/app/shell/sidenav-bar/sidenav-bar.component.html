@@ -1,0 +1,17 @@
+<div class="dashboard-sidenav overflow-hidden">
+  <mat-nav-list class="">
+    <ng-container *ngFor="let item of salesList">
+      <ng-container *ngIf="item.visible">
+        <mat-list-item *appCanAccess="[item.permissionGroup]">
+          <a matLine class="color-name text-center sidenav_hover h-120" routerLink="{{item.url}}"
+            routerLinkActive="activeSideNav">
+            <span class="mat-icon-class d-block mb-10">
+              <img src="./assets/fonts/svg/{{item.iconName}}">
+            </span>
+            <span class="d-block fs-12 common_gray_color">{{ item.name }}</span>
+          </a>
+        </mat-list-item>
+      </ng-container>
+    </ng-container>
+  </mat-nav-list>
+</div>

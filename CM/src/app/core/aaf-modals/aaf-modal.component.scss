@@ -1,0 +1,187 @@
+.pd-tp-12 {
+  padding-top: 12px;
+}
+.popup-module {
+  position: relative;
+  padding-top: 20px;
+  .cancel-popup {
+    position: absolute;
+    right: 0;
+    top: -10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #999;
+    font-family: Tondo-regular;
+    display: inline;
+  }
+  .title {
+    margin-bottom: 10px;
+    color: #555454;
+  }
+
+  span.art-blnce {
+    color: purple;
+  }
+
+  button {
+    box-shadow: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 13px;
+    margin-left: 14px;
+    padding: 10px 15px;
+    line-height: 1;
+    background: transparent;
+    font-family: Tondo-regular;
+  }
+  button.cancel {
+    border: 1px solid #656060;
+  }
+  .cancel-procd-btn{
+    padding: 50px 0 30px;
+    overflow: hidden;
+    line-height: 1;
+  }
+  .common-form {
+    min-width: 150px;
+    max-width: 540px;
+    width: 100%;
+    margin: 0 auto 5px;
+    overflow: hidden;
+  }
+  
+  .common-full-width {
+    width: 100%;
+  }
+  .mat-radio-button ~ .mat-radio-button {
+    margin-left: 16px;
+  }
+  .sp-cp-checked{
+    margin-top: 19px;
+    display: block;
+    text-align: center;
+  }
+  ::ng-deep .mat-form-field-underline { 
+    display: none;
+  }
+  .mat-dialog-content{
+    min-height: 50px;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .agentList {
+    ul {
+      height: 150px;
+      overflow: auto;
+      li{
+        list-style: none;
+        color: #555454;
+        font-size: 13px;
+        line-height: 2;
+        cursor: pointer;
+        margin-bottom: 5px;
+        padding-left: 5px;
+      }
+      li:hover {
+        background: #eeeeee;
+      }
+      li.active {
+        background: #eeeeee;
+      }
+    }
+  }
+
+}
+.user button.cancel {
+  color:#656060;
+  margin-right: 20px;
+}
+.proceed{
+  color: #EC1B24;
+  border: 1px solid #EC1B24;
+}
+
+@media screen and (max-width: 767px) {
+  .popup-module{
+    .title {
+      margin-bottom: 10px;
+      font-size: 16px;
+  }
+  button{
+    font-size: 12px;
+    margin-left: 0;
+    width: 105px;
+    height: 30px;
+    line-height: 1;
+  }
+  button.proceed{
+    margin-right: 10px;
+  }
+  .cancel-procd-btn {
+    padding: 26px 0 15px 0;
+  }
+  .cancel-popup {
+    right: -10px;
+      top: -20px;
+      font-size: 16px;
+  }
+    padding-top: 5px;
+  }
+}
+
+.reject-container{
+  position: relative;
+  .rejectData{
+    height: 260px;
+    overflow-y: auto;
+    padding-left: 0px;
+    margin: 0;
+    width: 58%;
+    border-right: 3px solid #eeeeee;
+    .remark{
+      position: absolute;
+      top: 0;right: 0;width: 35%;
+      .remarkColor{ color: #EC1B24;font-size: 12px;  }
+      .remtext{
+        font-size: 14px;
+        padding: 5px 5px;
+        line-height: 1;
+      }
+    }
+    .reasonList{
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      width: 90%;
+      .reasonInfo{
+        .mat-checkbox-inner-container{
+          display: none;
+        }
+      }
+      .subReason{
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        padding: 10px 10px 24px;
+        width: 40%;
+        display: none;
+        .subReasonList{
+          list-style-type: none;
+        }
+      }
+    }
+  }
+}
+.activeReason{
+  display: block !important;
+}
+@media screen and (max-width:767px) {
+  .user button.cancel {
+    margin-right: 0;
+  }
+}

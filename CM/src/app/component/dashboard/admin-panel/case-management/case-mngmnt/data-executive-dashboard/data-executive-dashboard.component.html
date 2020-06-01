@@ -1,0 +1,59 @@
+<section class="tabContainer">
+  <div class="reviewCases">
+    <h2 class="reviewCaseHeDING">{{ 'reviewCase' | translate }}</h2>
+    <div class="reviewTableContainer">
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>{{ 'caseId' | translate }}</th>
+              <th>{{ 'acc_no' | translate }}</th>
+              <th>{{ 'name' | translate }}</th>
+              <th>{{ 'type' | translate }}</th>
+              <th>{{ 'createdOn' | translate }}</th>
+              <th>{{ 'createdTime' | translate }}</th>
+              <th>{{ 'businessLine' | translate }}</th>
+              <th>{{ 'caseType' | translate }}</th>
+              <th>{{ 'modifyBy' | translate }}</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let deData of acceptUserData">
+              <td>{{deData.caseId}}</td>
+              <td><a class="common-color" routerLink="case">{{deData.accNo}}</a></td>
+              <td>{{deData.name}}</td>
+              <td>{{deData.type}}</td>
+              <td>{{deData.createdOn}}</td>
+              <td>{{deData.createdTime}}</td>
+              <td>{{deData.businessLine}}</td>
+              <td>{{deData.caseType}}</td>
+              <td>{{deData.modufyBy}}</td>
+              <td>
+                <div *ngIf="!timerToggleOnAccept" class="edit_btn"><a routerLink="case"><img
+                      src="./assets/fonts/svg/edit_approve.svg"></a></div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="oppositeTimer" *ngIf="timerToggleOnAccept">
+      <div class="progressTimer">
+        <round-progress [current]="current" [max]="max" [color]="color" [responsive]="true"></round-progress>
+        <div class="innerTimerContainer">
+          <span class="timeCouting">{{current}}</span>
+          <span class="sec">{{ 'sec' | translate }}</span>
+        </div>
+        <p class="restTimer">{{ 'remaining' | translate }}</p>
+      </div>
+    </div>
+    <div class="buttonStatus">
+      <button class="common-btn common-dec-btn" (click)="OnDeclineHandler()">{{ 'decline' | translate }}</button>
+      <button class="common-btn common-acc-btn" (click)="onAcceptHandler()">{{ 'accept' | translate }}</button>
+    </div>
+  </div>
+  <!-- <doughnutchart [droughtDataSet] = "droughtDataSet"></doughnutchart>
+  <linechart></linechart> -->
+  <!-- <chart></chart> -->
+</section>

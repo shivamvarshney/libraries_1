@@ -1,0 +1,24 @@
+.list-item-pd-0{
+    padding-left: 0px;
+}
+.list-item-pd-0 li{
+    list-style: none;   
+    float: left;
+}
+.pd-t-10{
+    padding: 0 15px;
+}
+.m-l-10{
+    margin-left: 10x;
+}
+.m-t-1{
+    margin-top: 1px;
+}
+.header-section{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+@media screen and (max-width: 767px) {
+    .w-75{ width: 100% !important; }
+}

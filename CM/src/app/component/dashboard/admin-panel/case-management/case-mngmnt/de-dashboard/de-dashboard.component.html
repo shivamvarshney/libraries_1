@@ -1,0 +1,173 @@
+<section class="swCaseContainer">
+  <section class="deActivity">
+    <div class="layout">
+      <input name="nav" type="radio" class="nav home-radio" id="home" checked="checked" />
+      <div class="page home-page">
+        <div class="page-contents">
+
+          <section id="Daily-graphs" class="tabContainer sw-content">
+            <div class="toggleSlide de m-l-0">
+              <p class="casesHeading">{{'Total Cases'}}</p>
+              <canvas id="daily_drought_chart" width="400" height="220"></canvas>
+            </div>
+            <div class="toggleSlide de m-l-0">
+              <p class="casesHeading">{{'Approved Cases'}}</p>
+              <canvas id="ctxDailyTotalCases" width="400" height="220"></canvas>
+            </div>
+            <div class="toggleSlide de m-l-0">
+              <p class="casesHeading">{{'Rejected Cases'}}</p>
+              <canvas id="ctxDailyApprovedCases" width="400" height="220"></canvas>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="topTab">
+        <label class="nav" for="home">
+          <span [ngClass]="{'activeTab' : currectSelectedTab == 'daily'}" (click)="userActiveTab($event, 'daily')">
+            {{ 'daily' | translate }} </span>
+        </label>
+        <label class="nav" for="about">
+          <span [ngClass]="{'activeTab' : currectSelectedTab == 'weekly'}" (click)="userActiveTab($event, 'weekly')">
+            {{ 'weekly' | translate }} </span>
+        </label>
+        <label class="nav" for="contact">
+          <span [ngClass]="{'activeTab' : currectSelectedTab == 'monthly'}" (click)="userActiveTab($event, 'monthly')">
+            {{ 'monthly' | translate }} </span>
+        </label>
+      </div>
+
+      <input name="nav" type="radio" class="about-radio" id="about" />
+      <div class="page about-page">
+        <div class="page-contents">
+
+          <section id="Weekly-graphs" class="tabContainer sw-content">
+            <div class="toggleSlide de m-l-0">
+              <p class="casesHeading">{{'Total Cases'}}</p>
+              <canvas id="weekly_drought_chart" width="400" height="220"></canvas>
+            </div>
+            <div class="toggleSlide de m-l-0">
+              <p class="casesHeading">{{'Approved Cases'}}</p>
+              <canvas id="ctxWeeklyTotalCases" width="400" height="220"></canvas>
+            </div>
+            <div class="toggleSlide de m-l-0">
+              <p class="casesHeading">{{'Rejected Cases'}}</p>
+              <canvas id="ctxWeeklyApprovedCases" width="400" height="220"></canvas>
+            </div>
+          </section>
+
+        </div>
+      </div>
+
+
+      <input name="nav" type="radio" class="contact-radio" id="contact" />
+      <div class="page contact-page">
+        <div class="page-contents">
+
+          <section id="Monthly-graphs" class="tabContainer sw-content">
+            <div class="toggleSlide de m-l-0">
+              <p class="casesHeading">{{'Total Cases'}}</p>
+              <canvas id="monthly_drought_chart" width="400" height="220"></canvas>
+            </div>
+            <div class="toggleSlide de m-l-0">
+              <p class="casesHeading">{{'Approved Cases'}}</p>
+              <canvas id="ctxMonthlyTotalCases" width="400" height="220"></canvas>
+            </div>
+            <div class="toggleSlide de m-l-0">
+              <p class="casesHeading">{{'Rejected Cases'}}</p>
+              <canvas id="ctxMonthlyApprovedCases" width="400" height="220"></canvas>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="timerContainer">
+      <span class="timetxt">{{ 'avgTime' | translate }}</span>
+      <span class="avgTimer">{{ 'time' | translate }}</span>
+    </div>
+  </section>
+
+
+
+
+  <div class="reviewCases" *appPermissionCanAccess="[permissionIds.LISTING_OF_CASE]">
+    <div class="row">
+      <div class="col-sm-6">
+        <h2 class="reviewCaseHeDING">{{ 'assingCase' | translate }}</h2>
+      </div>
+      <div class="col-sm-6">
+        <case-activity-timer *ngIf="booleanTimer" [showTimer]="booleanTimer"></case-activity-timer>
+      </div>
+    </div>
+    <div class="reviewTableContainer">
+      <div class="table-responsive">
+        <table class="table table-w">
+          <thead>
+            <tr>
+              <th>{{ 'cpAccNo' | translate }}</th>
+              <th>{{ 'cpName' | translate }}</th>
+              <th>{{ 'cpType' | translate }}</th>
+              <th>{{ 'businessLine' | translate }}</th>
+              <th>{{ 'type' | translate }}</th>
+              <th>{{ 'createdDate' | translate }}</th>
+              <th>{{ 'modifyBy' | translate }}</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="de-case" *ngFor="let deData of dePreapredCaseInfo" (click)="acceptCase(deData)">
+              <td>
+                <a class="common-color c-pointer">
+                  {{ deData.cpAccountNo }}
+                </a>
+              </td>
+              <td>{{ deData.cpName }} </td>
+              <td>{{ deData.caseOwnerType }}</td>
+              <td>{{ deData.businessLine }}</td>
+              <td>{{ deData.caseType }}</td>
+              <td>{{ deData.caseCreatedOn | convertToDate }} {{ deData.caseCreatedOn | convertToTime }}</td>
+              <td>
+                <ng-container *ngIf="deData.createdByName && deData.createdByLoginInfo; then dynamicInfo else noData">
+                </ng-container>
+                <ng-template #dynamicInfo>
+                  <div class="createdModify">
+                    <span class="createdDate" title="{{ deData.createdByLoginInfo }}">
+                      Created By: {{ deData.createdByName }}
+                    </span>
+                    <span *ngIf="deData.updatedByName && deData.updatedByLoginInfo" class="createdDate"
+                      title="{{ deData.updatedByLoginInfo }}">
+                      Modified By: {{ deData.updatedByName }}
+                    </span>
+                  </div>
+                </ng-template>
+                <ng-template #noData>
+                  <span class="emptyField">-</span>
+                </ng-template>
+                <!-- {{ deData.caseUpdatedBy }} -->
+              </td>
+              <td>
+                <!-- <div class="edit_btn">
+                  <a (click)="acceptCase(deData)">
+                    <img src="./assets/fonts/svg/edit_approve.svg">
+                  </a>
+                </div> -->
+              </td>
+            </tr>
+            <tr class="commonRedColor p-m-10" *ngIf="dePreapredCaseInfo.length == 0">
+              {{ 'noCaseAssing' | translate }}
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="oppositeTimer" *ngIf="timerToggleOnAccept">
+      <div class="progressTimer">
+        <round-progress [current]="current" [max]="max" [color]="color" [responsive]="true"></round-progress>
+        <div class="innerTimerContainer">
+          <span class="timeCouting">{{current}}</span>
+          <span class="sec">{{ 'sec' | translate }}</span>
+        </div>
+        <p class="restTimer">{{ 'remaining' | translate }}</p>
+      </div>
+    </div>
+  </div>
+</section>

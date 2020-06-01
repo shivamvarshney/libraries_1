@@ -1,0 +1,7087 @@
+{
+    "status": true,
+    "message": "200",
+    "statusCode": "Record Fetched",
+    "result": {
+      "cluster": [
+        {
+          "id": 40,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "KISENYI",
+          "parent": {
+            "id": 6,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "CBD",
+            "parent": {
+              "id": 1,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 1",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 41,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "NATEETE",
+          "parent": {
+            "id": 6,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "CBD",
+            "parent": {
+              "id": 1,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 1",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 42,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "RUBAGA",
+          "parent": {
+            "id": 6,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "CBD",
+            "parent": {
+              "id": 1,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 1",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 43,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "KABOWA",
+          "parent": {
+            "id": 7,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "ENTEBBE",
+            "parent": {
+              "id": 1,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 1",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 44,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "NKUMBA",
+          "parent": {
+            "id": 7,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "ENTEBBE",
+            "parent": {
+              "id": 1,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 1",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 45,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "BWAISE",
+          "parent": {
+            "id": 8,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "KAWEMPE",
+            "parent": {
+              "id": 1,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 1",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 46,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "GAYAZA",
+          "parent": {
+            "id": 8,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "KAWEMPE",
+            "parent": {
+              "id": 1,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 1",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 47,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "KABALAGALA",
+          "parent": {
+            "id": 9,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "MAKINDYE",
+            "parent": {
+              "id": 1,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 1",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 48,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "SALAAMA",
+          "parent": {
+            "id": 9,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "MAKINDYE",
+            "parent": {
+              "id": 1,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 1",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 49,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "BUGOLOBI",
+          "parent": {
+            "id": 10,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "NAKAWA",
+            "parent": {
+              "id": 1,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 1",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 50,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "KIREKA",
+          "parent": {
+            "id": 10,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "NAKAWA",
+            "parent": {
+              "id": 1,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 1",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 51,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "KYALIWAJJALA",
+          "parent": {
+            "id": 10,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "NAKAWA",
+            "parent": {
+              "id": 1,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 1",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 53,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "MATUGGA",
+          "parent": {
+            "id": 11,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "WAKISO",
+            "parent": {
+              "id": 1,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 1",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 54,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Nansana",
+          "parent": {
+            "id": 11,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "WAKISO",
+            "parent": {
+              "id": 1,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 1",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 55,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kayunga",
+          "parent": {
+            "id": 12,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Kayunga",
+            "parent": {
+              "id": 2,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 2",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 56,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Bombo",
+          "parent": {
+            "id": 13,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Luweero",
+            "parent": {
+              "id": 2,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 2",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 57,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kasana",
+          "parent": {
+            "id": 13,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Luweero",
+            "parent": {
+              "id": 2,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 2",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 58,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Koki Ward",
+          "parent": {
+            "id": 14,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Lyantonde",
+            "parent": {
+              "id": 2,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 2",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 59,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kyotera",
+          "parent": {
+            "id": 14,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Lyantonde",
+            "parent": {
+              "id": 2,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 2",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 60,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Rushere",
+          "parent": {
+            "id": 14,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Lyantonde",
+            "parent": {
+              "id": 2,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 2",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 61,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kalangala",
+          "parent": {
+            "id": 15,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Masaka",
+            "parent": {
+              "id": 2,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 2",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 62,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Lugusulu-Sembabule",
+          "parent": {
+            "id": 15,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Masaka",
+            "parent": {
+              "id": 2,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 2",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 63,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Masaka Town",
+          "parent": {
+            "id": 15,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Masaka",
+            "parent": {
+              "id": 2,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 2",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 64,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Mbirizi",
+          "parent": {
+            "id": 15,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Masaka",
+            "parent": {
+              "id": 2,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 2",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 65,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kiboga",
+          "parent": {
+            "id": 16,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Mityana",
+            "parent": {
+              "id": 2,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 2",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 66,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Mityana Central",
+          "parent": {
+            "id": 16,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Mityana",
+            "parent": {
+              "id": 2,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 2",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 67,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kayabwe",
+          "parent": {
+            "id": 17,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Mpigi",
+            "parent": {
+              "id": 2,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 2",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 68,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kalamba",
+          "parent": {
+            "id": 18,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Mubende",
+            "parent": {
+              "id": 2,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 2",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 69,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Mubende",
+          "parent": {
+            "id": 18,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Mubende",
+            "parent": {
+              "id": 2,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 2",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 70,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Lugazi",
+          "parent": {
+            "id": 19,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Mukono",
+            "parent": {
+              "id": 2,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 2",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 71,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Mukono Wantoni",
+          "parent": {
+            "id": 19,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Mukono",
+            "parent": {
+              "id": 2,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 2",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 72,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Busia",
+          "parent": {
+            "id": 20,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Iganga",
+            "parent": {
+              "id": 3,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Eastern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 73,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Iganga",
+          "parent": {
+            "id": 20,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Iganga",
+            "parent": {
+              "id": 3,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Eastern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 74,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Namayingo",
+          "parent": {
+            "id": 20,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Iganga",
+            "parent": {
+              "id": 3,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Eastern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 75,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Buikwe",
+          "parent": {
+            "id": 21,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Jinja",
+            "parent": {
+              "id": 3,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Eastern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 76,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Jinja",
+          "parent": {
+            "id": 21,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Jinja",
+            "parent": {
+              "id": 3,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Eastern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 77,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Mayuge",
+          "parent": {
+            "id": 21,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Jinja",
+            "parent": {
+              "id": 3,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Eastern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 78,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kaliro",
+          "parent": {
+            "id": 22,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Kamuli",
+            "parent": {
+              "id": 3,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Eastern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 79,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kamuli",
+          "parent": {
+            "id": 22,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Kamuli",
+            "parent": {
+              "id": 3,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Eastern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 80,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Luuka",
+          "parent": {
+            "id": 22,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Kamuli",
+            "parent": {
+              "id": 3,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Eastern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 81,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kapchorwa",
+          "parent": {
+            "id": 23,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Mbale",
+            "parent": {
+              "id": 3,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Eastern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 82,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Mbale",
+          "parent": {
+            "id": 23,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Mbale",
+            "parent": {
+              "id": 3,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Eastern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 83,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kumi",
+          "parent": {
+            "id": 24,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Pallisa",
+            "parent": {
+              "id": 3,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Eastern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 84,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Pallisa",
+          "parent": {
+            "id": 24,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Pallisa",
+            "parent": {
+              "id": 3,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Eastern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 85,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Katakwi",
+          "parent": {
+            "id": 25,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Soroti",
+            "parent": {
+              "id": 3,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Eastern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 86,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Soroti",
+          "parent": {
+            "id": 25,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Soroti",
+            "parent": {
+              "id": 3,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Eastern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 87,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Busolwe",
+          "parent": {
+            "id": 26,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Tororo",
+            "parent": {
+              "id": 3,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Eastern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 88,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Tororo",
+          "parent": {
+            "id": 26,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Tororo",
+            "parent": {
+              "id": 3,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Eastern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 89,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Adjumani Central",
+          "parent": {
+            "id": 27,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Adjumani",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 90,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Koboko",
+          "parent": {
+            "id": 27,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Adjumani",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 91,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Moyo",
+          "parent": {
+            "id": 27,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Adjumani",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 92,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Yumbe",
+          "parent": {
+            "id": 27,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Adjumani",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 93,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Apac",
+          "parent": {
+            "id": 28,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Apac",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 94,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Dokolo",
+          "parent": {
+            "id": 28,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Apac",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 95,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kole",
+          "parent": {
+            "id": 28,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Apac",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 96,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Arua Municipal",
+          "parent": {
+            "id": 29,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Arua",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 97,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Maracha",
+          "parent": {
+            "id": 29,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Arua",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 98,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Nebbi",
+          "parent": {
+            "id": 29,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Arua",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 99,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Pakwach",
+          "parent": {
+            "id": 29,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Arua",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 100,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Amuru",
+          "parent": {
+            "id": 30,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Gulu",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 101,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Gulu town",
+          "parent": {
+            "id": 30,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Gulu",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 102,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Laroo",
+          "parent": {
+            "id": 30,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Gulu",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 103,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Oyam",
+          "parent": {
+            "id": 30,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Gulu",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 104,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kitgum",
+          "parent": {
+            "id": 31,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Kitgum",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 105,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kotido",
+          "parent": {
+            "id": 31,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Kitgum",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 106,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Moroto",
+          "parent": {
+            "id": 31,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Kitgum",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 107,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Pader",
+          "parent": {
+            "id": 31,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Kitgum",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 108,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Lira Town",
+          "parent": {
+            "id": 32,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Lira",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 109,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Otuke",
+          "parent": {
+            "id": 32,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Lira",
+            "parent": {
+              "id": 4,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Northern",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 110,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Fortportal",
+          "parent": {
+            "id": 33,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Fortportal",
+            "parent": {
+              "id": 5,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Western",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 111,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kyenjojo",
+          "parent": {
+            "id": 33,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Fortportal",
+            "parent": {
+              "id": 5,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Western",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 112,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Bweyale",
+          "parent": {
+            "id": 34,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Hoima",
+            "parent": {
+              "id": 5,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Western",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 113,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Hoima",
+          "parent": {
+            "id": 34,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Hoima",
+            "parent": {
+              "id": 5,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Western",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 114,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kibaale",
+          "parent": {
+            "id": 34,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Hoima",
+            "parent": {
+              "id": 5,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Western",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 115,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Masindi",
+          "parent": {
+            "id": 34,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Hoima",
+            "parent": {
+              "id": 5,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Western",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 116,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Ishaka",
+          "parent": {
+            "id": 35,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Ishaka",
+            "parent": {
+              "id": 5,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Western",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 117,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kabwohe",
+          "parent": {
+            "id": 35,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Ishaka",
+            "parent": {
+              "id": 5,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Western",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 118,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kabale town",
+          "parent": {
+            "id": 36,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Kabale",
+            "parent": {
+              "id": 5,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Western",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 119,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kisoro",
+          "parent": {
+            "id": 36,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Kabale",
+            "parent": {
+              "id": 5,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Western",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 120,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Bwera",
+          "parent": {
+            "id": 37,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Kasese",
+            "parent": {
+              "id": 5,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Western",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 121,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kamwenge",
+          "parent": {
+            "id": 37,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Kasese",
+            "parent": {
+              "id": 5,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Western",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 122,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kasese",
+          "parent": {
+            "id": 37,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Kasese",
+            "parent": {
+              "id": 5,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Western",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 123,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Ibanda",
+          "parent": {
+            "id": 38,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Mbarara",
+            "parent": {
+              "id": 5,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Western",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 124,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Isingiro",
+          "parent": {
+            "id": 38,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Mbarara",
+            "parent": {
+              "id": 5,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Western",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 125,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Mbarara",
+          "parent": {
+            "id": 38,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Mbarara",
+            "parent": {
+              "id": 5,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Western",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 126,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kanungu",
+          "parent": {
+            "id": 39,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Rukungiri",
+            "parent": {
+              "id": 5,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Western",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 127,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Ntungamo",
+          "parent": {
+            "id": 39,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Rukungiri",
+            "parent": {
+              "id": 5,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Western",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 128,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Rukungiri",
+          "parent": {
+            "id": 39,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "Rukungiri",
+            "parent": {
+              "id": 5,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Western",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 52,
+          "levelHierarchy": {
+            "levelId": 3,
+            "level": "Cluster",
+            "levelType": "L_3"
+          },
+          "levelName": "Kyengera",
+          "parent": {
+            "id": 11,
+            "levelHierarchy": {
+              "levelId": 2,
+              "level": "Territory",
+              "levelType": "L_2"
+            },
+            "levelName": "WAKISO",
+            "parent": {
+              "id": 1,
+              "levelHierarchy": {
+                "levelId": 1,
+                "level": "Region",
+                "levelType": "L_1"
+              },
+              "levelName": "Central 1",
+              "parent": null,
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        }
+      ],
+      "unit": [
+        {
+          "id": 129,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Civic Centre",
+          "parent": {
+            "id": 40,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KISENYI",
+            "parent": {
+              "id": 6,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "CBD",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 130,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kagugube",
+          "parent": {
+            "id": 40,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KISENYI",
+            "parent": {
+              "id": 6,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "CBD",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 131,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kisenyi ii",
+          "parent": {
+            "id": 40,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KISENYI",
+            "parent": {
+              "id": 6,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "CBD",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 132,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Makerere 11",
+          "parent": {
+            "id": 40,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KISENYI",
+            "parent": {
+              "id": 6,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "CBD",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 133,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Mulago 1",
+          "parent": {
+            "id": 40,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KISENYI",
+            "parent": {
+              "id": 6,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "CBD",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 134,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Nakasero II",
+          "parent": {
+            "id": 40,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KISENYI",
+            "parent": {
+              "id": 6,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "CBD",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 135,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Lungujja",
+          "parent": {
+            "id": 41,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "NATEETE",
+            "parent": {
+              "id": 6,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "CBD",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 136,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Mutundwe_Rubaga",
+          "parent": {
+            "id": 41,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "NATEETE",
+            "parent": {
+              "id": 6,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "CBD",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 137,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Nateete",
+          "parent": {
+            "id": 41,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "NATEETE",
+            "parent": {
+              "id": 6,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "CBD",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 138,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Rubaga",
+          "parent": {
+            "id": 41,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "NATEETE",
+            "parent": {
+              "id": 6,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "CBD",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 139,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Busega",
+          "parent": {
+            "id": 42,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "RUBAGA",
+            "parent": {
+              "id": 6,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "CBD",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 140,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kasubi",
+          "parent": {
+            "id": 42,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "RUBAGA",
+            "parent": {
+              "id": 6,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "CBD",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 141,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Lubia",
+          "parent": {
+            "id": 42,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "RUBAGA",
+            "parent": {
+              "id": 6,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "CBD",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 142,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Namirembe",
+          "parent": {
+            "id": 42,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "RUBAGA",
+            "parent": {
+              "id": 6,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "CBD",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 143,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Bunamwaya",
+          "parent": {
+            "id": 43,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KABOWA",
+            "parent": {
+              "id": 7,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "ENTEBBE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 144,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kabowa",
+          "parent": {
+            "id": 43,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KABOWA",
+            "parent": {
+              "id": 7,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "ENTEBBE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 145,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Mutundwe_Makindye",
+          "parent": {
+            "id": 43,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KABOWA",
+            "parent": {
+              "id": 7,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "ENTEBBE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 146,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Central Ward",
+          "parent": {
+            "id": 44,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "NKUMBA",
+            "parent": {
+              "id": 7,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "ENTEBBE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 147,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kigungu Ward",
+          "parent": {
+            "id": 44,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "NKUMBA",
+            "parent": {
+              "id": 7,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "ENTEBBE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 148,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kisubi",
+          "parent": {
+            "id": 44,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "NKUMBA",
+            "parent": {
+              "id": 7,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "ENTEBBE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 149,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kitende",
+          "parent": {
+            "id": 44,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "NKUMBA",
+            "parent": {
+              "id": 7,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "ENTEBBE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 150,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Mutungo_Serena",
+          "parent": {
+            "id": 44,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "NKUMBA",
+            "parent": {
+              "id": 7,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "ENTEBBE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 151,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Nalugala",
+          "parent": {
+            "id": 44,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "NKUMBA",
+            "parent": {
+              "id": 7,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "ENTEBBE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 152,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Namulanda",
+          "parent": {
+            "id": 44,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "NKUMBA",
+            "parent": {
+              "id": 7,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "ENTEBBE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 153,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Nkumba",
+          "parent": {
+            "id": 44,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "NKUMBA",
+            "parent": {
+              "id": 7,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "ENTEBBE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 154,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Bwaise 1",
+          "parent": {
+            "id": 45,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "BWAISE",
+            "parent": {
+              "id": 8,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "KAWEMPE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 155,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kawanda",
+          "parent": {
+            "id": 45,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "BWAISE",
+            "parent": {
+              "id": 8,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "KAWEMPE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 156,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kawempe 1",
+          "parent": {
+            "id": 45,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "BWAISE",
+            "parent": {
+              "id": 8,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "KAWEMPE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 157,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kiteezi",
+          "parent": {
+            "id": 45,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "BWAISE",
+            "parent": {
+              "id": 8,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "KAWEMPE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 158,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Maganjo",
+          "parent": {
+            "id": 45,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "BWAISE",
+            "parent": {
+              "id": 8,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "KAWEMPE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 159,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Mpererwe",
+          "parent": {
+            "id": 45,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "BWAISE",
+            "parent": {
+              "id": 8,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "KAWEMPE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 160,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Gayaza",
+          "parent": {
+            "id": 46,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "GAYAZA",
+            "parent": {
+              "id": 8,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "KAWEMPE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 161,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kanyanya",
+          "parent": {
+            "id": 46,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "GAYAZA",
+            "parent": {
+              "id": 8,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "KAWEMPE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 162,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kikaya",
+          "parent": {
+            "id": 46,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "GAYAZA",
+            "parent": {
+              "id": 8,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "KAWEMPE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 163,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kiwenda",
+          "parent": {
+            "id": 46,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "GAYAZA",
+            "parent": {
+              "id": 8,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "KAWEMPE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 164,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kyanja",
+          "parent": {
+            "id": 46,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "GAYAZA",
+            "parent": {
+              "id": 8,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "KAWEMPE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 165,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kyebando",
+          "parent": {
+            "id": 46,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "GAYAZA",
+            "parent": {
+              "id": 8,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "KAWEMPE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 166,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Wampeewo",
+          "parent": {
+            "id": 46,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "GAYAZA",
+            "parent": {
+              "id": 8,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "KAWEMPE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 167,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Bukasa",
+          "parent": {
+            "id": 47,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KABALAGALA",
+            "parent": {
+              "id": 9,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "MAKINDYE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 168,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Buziga",
+          "parent": {
+            "id": 47,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KABALAGALA",
+            "parent": {
+              "id": 9,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "MAKINDYE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 169,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Ggaba",
+          "parent": {
+            "id": 47,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KABALAGALA",
+            "parent": {
+              "id": 9,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "MAKINDYE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 170,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kabalagala",
+          "parent": {
+            "id": 47,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KABALAGALA",
+            "parent": {
+              "id": 9,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "MAKINDYE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 171,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kibuli",
+          "parent": {
+            "id": 47,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KABALAGALA",
+            "parent": {
+              "id": 9,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "MAKINDYE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 172,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Lukuli",
+          "parent": {
+            "id": 47,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KABALAGALA",
+            "parent": {
+              "id": 9,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "MAKINDYE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 173,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Nsambya Central",
+          "parent": {
+            "id": 47,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KABALAGALA",
+            "parent": {
+              "id": 9,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "MAKINDYE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 174,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Busabala",
+          "parent": {
+            "id": 48,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "SALAAMA",
+            "parent": {
+              "id": 9,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "MAKINDYE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 175,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kibuye 1",
+          "parent": {
+            "id": 48,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "SALAAMA",
+            "parent": {
+              "id": 9,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "MAKINDYE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 176,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Lower Makindye",
+          "parent": {
+            "id": 48,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "SALAAMA",
+            "parent": {
+              "id": 9,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "MAKINDYE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 177,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Masaja 1",
+          "parent": {
+            "id": 48,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "SALAAMA",
+            "parent": {
+              "id": 9,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "MAKINDYE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 178,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Masaja 2",
+          "parent": {
+            "id": 48,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "SALAAMA",
+            "parent": {
+              "id": 9,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "MAKINDYE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 179,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Ndeeba",
+          "parent": {
+            "id": 48,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "SALAAMA",
+            "parent": {
+              "id": 9,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "MAKINDYE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 180,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Ndejje",
+          "parent": {
+            "id": 48,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "SALAAMA",
+            "parent": {
+              "id": 9,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "MAKINDYE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 181,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Salaama",
+          "parent": {
+            "id": 48,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "SALAAMA",
+            "parent": {
+              "id": 9,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "MAKINDYE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 182,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Upper Makindye",
+          "parent": {
+            "id": 48,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "SALAAMA",
+            "parent": {
+              "id": 9,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "MAKINDYE",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 183,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Bugolobi",
+          "parent": {
+            "id": 49,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "BUGOLOBI",
+            "parent": {
+              "id": 10,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "NAKAWA",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 184,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Bukoto ii",
+          "parent": {
+            "id": 49,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "BUGOLOBI",
+            "parent": {
+              "id": 10,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "NAKAWA",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 185,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kamwokya II",
+          "parent": {
+            "id": 49,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "BUGOLOBI",
+            "parent": {
+              "id": 10,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "NAKAWA",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 186,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Luzira",
+          "parent": {
+            "id": 49,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "BUGOLOBI",
+            "parent": {
+              "id": 10,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "NAKAWA",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 187,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Mutungo_Nakawa",
+          "parent": {
+            "id": 49,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "BUGOLOBI",
+            "parent": {
+              "id": 10,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "NAKAWA",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 188,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Nakawa",
+          "parent": {
+            "id": 49,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "BUGOLOBI",
+            "parent": {
+              "id": 10,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "NAKAWA",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 189,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Banda_Kireka",
+          "parent": {
+            "id": 50,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KIREKA",
+            "parent": {
+              "id": 10,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "NAKAWA",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 190,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Bweyogerere",
+          "parent": {
+            "id": 50,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KIREKA",
+            "parent": {
+              "id": 10,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "NAKAWA",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 191,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kireka",
+          "parent": {
+            "id": 50,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KIREKA",
+            "parent": {
+              "id": 10,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "NAKAWA",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 192,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kirinya 1",
+          "parent": {
+            "id": 50,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KIREKA",
+            "parent": {
+              "id": 10,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "NAKAWA",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 193,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kirinya 2",
+          "parent": {
+            "id": 50,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KIREKA",
+            "parent": {
+              "id": 10,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "NAKAWA",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 194,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kimwanyi",
+          "parent": {
+            "id": 51,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KYALIWAJJALA",
+            "parent": {
+              "id": 10,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "NAKAWA",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 195,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kira",
+          "parent": {
+            "id": 51,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KYALIWAJJALA",
+            "parent": {
+              "id": 10,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "NAKAWA",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 196,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kiwatule",
+          "parent": {
+            "id": 51,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KYALIWAJJALA",
+            "parent": {
+              "id": 10,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "NAKAWA",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 197,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kyaliwajala/Namugongo",
+          "parent": {
+            "id": 51,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "KYALIWAJJALA",
+            "parent": {
+              "id": 10,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "NAKAWA",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 198,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Bulumbu",
+          "parent": {
+            "id": 52,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "Kyengera",
+            "parent": {
+              "id": 11,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "WAKISO",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 199,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kasenge",
+          "parent": {
+            "id": 52,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "Kyengera",
+            "parent": {
+              "id": 11,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "WAKISO",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 200,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kikajo",
+          "parent": {
+            "id": 52,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "Kyengera",
+            "parent": {
+              "id": 11,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "WAKISO",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 212,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Lingira",
+          "parent": {
+            "id": 70,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "Lugazi",
+            "parent": {
+              "id": 19,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "Mukono",
+              "parent": {
+                "id": 2,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 2",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 211,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Lugazi Central",
+          "parent": {
+            "id": 70,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "Lugazi",
+            "parent": {
+              "id": 19,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "Mukono",
+              "parent": {
+                "id": 2,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 2",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 210,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Mpoma",
+          "parent": {
+            "id": 71,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "Mukono Wantoni",
+            "parent": {
+              "id": 19,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "Mukono",
+              "parent": {
+                "id": 2,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 2",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 209,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Kiyindi",
+          "parent": {
+            "id": 71,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "Mukono Wantoni",
+            "parent": {
+              "id": 19,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "Mukono",
+              "parent": {
+                "id": 2,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 2",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 208,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Ddungi",
+          "parent": {
+            "id": 71,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "Mukono Wantoni",
+            "parent": {
+              "id": 19,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "Mukono",
+              "parent": {
+                "id": 2,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 2",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 207,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Seeta",
+          "parent": {
+            "id": 71,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "Mukono Wantoni",
+            "parent": {
+              "id": 19,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "Mukono",
+              "parent": {
+                "id": 2,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 2",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 206,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Bakka",
+          "parent": {
+            "id": 52,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "Kyengera",
+            "parent": {
+              "id": 11,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "WAKISO",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 205,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Buloba",
+          "parent": {
+            "id": 52,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "Kyengera",
+            "parent": {
+              "id": 11,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "WAKISO",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 204,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Bulenga",
+          "parent": {
+            "id": 52,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "Kyengera",
+            "parent": {
+              "id": 11,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "WAKISO",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 203,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Nakawuka",
+          "parent": {
+            "id": 52,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "Kyengera",
+            "parent": {
+              "id": 11,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "WAKISO",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 202,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Nabbingo",
+          "parent": {
+            "id": 52,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "Kyengera",
+            "parent": {
+              "id": 11,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "WAKISO",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 201,
+          "levelHierarchy": {
+            "levelId": 4,
+            "level": "Unit",
+            "levelType": "L_4"
+          },
+          "levelName": "Maya",
+          "parent": {
+            "id": 52,
+            "levelHierarchy": {
+              "levelId": 3,
+              "level": "Cluster",
+              "levelType": "L_3"
+            },
+            "levelName": "Kyengera",
+            "parent": {
+              "id": 11,
+              "levelHierarchy": {
+                "levelId": 2,
+                "level": "Territory",
+                "levelType": "L_2"
+              },
+              "levelName": "WAKISO",
+              "parent": {
+                "id": 1,
+                "levelHierarchy": {
+                  "levelId": 1,
+                  "level": "Region",
+                  "levelType": "L_1"
+                },
+                "levelName": "Central 1",
+                "parent": null,
+                "description": null
+              },
+              "description": null
+            },
+            "description": null
+          },
+          "description": null
+        }
+      ],
+      "role": [
+        {
+          "id": 1,
+          "roleName": "asa",
+		  "roleType":"sales_user",
+          "active": false,
+          "createdDate": "2019-12-12T06:42:12.000+0000",
+          "createdBy": "dsadsa",
+          "updatedDate": "2019-12-12T06:42:12.000+0000",
+          "updatedBy": "ADSA",
+          "description": null
+        },
+        {
+          "id": 4,
+          "roleName": "AMOM",
+		  "roleType":"admin",
+          "active": false,
+          "createdDate": "2019-12-12T06:42:12.000+0000",
+          "createdBy": "dsadsa",
+          "updatedDate": "2019-12-12T06:42:12.000+0000",
+          "updatedBy": "ADSA",
+          "description": "Airtel Money Operations manager"
+        },
+        {
+          "id": 2,
+          "roleName": "MRE",
+		  "roleType":"admin",
+          "active": false,
+          "createdDate": "2019-12-12T06:42:12.000+0000",
+          "createdBy": "ada",
+          "updatedDate": "2019-12-12T06:42:12.000+0000",
+          "updatedBy": "aadad",
+          "description": "Merchant Recruitment Executive"
+        },
+        {
+          "id": 3,
+          "roleName": "RAC",
+		  "roleType":"sales_user",
+          "active": false,
+          "createdDate": "2019-12-12T06:42:12.000+0000",
+          "createdBy": "Sunil",
+          "updatedDate": "2019-12-12T06:42:12.000+0000",
+          "updatedBy": "Sunil",
+          "description": "Risk and Compliance"
+        },
+        {
+          "id": 5,
+          "roleName": "MAM",
+          "active": false,
+		  "roleType":"admin",
+          "createdDate": "2019-12-12T06:42:12.000+0000",
+          "createdBy": "Sunil",
+          "updatedDate": "2019-12-12T06:42:12.000+0000",
+          "updatedBy": "Sunil",
+          "description": "Merchant Acquisition Manager"
+        },
+        {
+          "id": 6,
+          "roleName": "Zone Manager",
+		  "roleType":"sales_user",
+          "active": true,
+          "createdDate": "2000-12-17T02:43:33.159+0000",
+          "createdBy": "User",
+          "updatedDate": "1994-10-14T09:45:25.870+0000",
+          "updatedBy": "abc",
+          "description": "Zone Manager"
+        },
+        {
+          "id": 7,
+          "roleName": "Team Lead",
+          "active": true,
+		  "roleType":"admin",
+          "createdDate": "2019-05-20T09:49:05.530+0000",
+          "createdBy": "User2",
+          "updatedDate": null,
+          "updatedBy": null,
+          "description": "Team Lead"
+        },
+        {
+          "id": 8,
+          "roleName": "Promoter",
+		  "roleType":"sales_user",
+          "active": true,
+          "createdDate": "2019-05-20T10:02:09.118+0000",
+          "createdBy": "User3",
+          "updatedDate": null,
+          "updatedBy": null,
+          "description": "Promoter"
+        }
+      ],
+      "language": [
+        {
+          "languageId": 1,
+          "name": "english"
+        }
+      ],
+      "region": [
+        {
+          "id": 1,
+          "levelHierarchy": {
+            "levelId": 1,
+            "level": "Region",
+            "levelType": "L_1"
+          },
+          "levelName": "Central 1",
+          "parent": null,
+          "description": null
+        },
+        {
+          "id": 2,
+          "levelHierarchy": {
+            "levelId": 1,
+            "level": "Region",
+            "levelType": "L_1"
+          },
+          "levelName": "Central 2",
+          "parent": null,
+          "description": null
+        },
+        {
+          "id": 3,
+          "levelHierarchy": {
+            "levelId": 1,
+            "level": "Region",
+            "levelType": "L_1"
+          },
+          "levelName": "Eastern",
+          "parent": null,
+          "description": null
+        },
+        {
+          "id": 4,
+          "levelHierarchy": {
+            "levelId": 1,
+            "level": "Region",
+            "levelType": "L_1"
+          },
+          "levelName": "Northern",
+          "parent": null,
+          "description": null
+        },
+        {
+          "id": 5,
+          "levelHierarchy": {
+            "levelId": 1,
+            "level": "Region",
+            "levelType": "L_1"
+          },
+          "levelName": "Western",
+          "parent": null,
+          "description": null
+        }
+      ],
+      "status": [
+        "ACTIVE",
+        "INACTIVE"
+      ],
+      "territory": [
+        {
+          "id": 6,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "CBD",
+          "parent": {
+            "id": 1,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Central 1",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 7,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "ENTEBBE",
+          "parent": {
+            "id": 1,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Central 1",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 8,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "KAWEMPE",
+          "parent": {
+            "id": 1,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Central 1",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 9,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "MAKINDYE",
+          "parent": {
+            "id": 1,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Central 1",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 10,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "NAKAWA",
+          "parent": {
+            "id": 1,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Central 1",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 11,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "WAKISO",
+          "parent": {
+            "id": 1,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Central 1",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 12,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Kayunga",
+          "parent": {
+            "id": 2,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Central 2",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 13,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Luweero",
+          "parent": {
+            "id": 2,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Central 2",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 14,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Lyantonde",
+          "parent": {
+            "id": 2,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Central 2",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 15,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Masaka",
+          "parent": {
+            "id": 2,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Central 2",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 16,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Mityana",
+          "parent": {
+            "id": 2,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Central 2",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 17,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Mpigi",
+          "parent": {
+            "id": 2,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Central 2",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 18,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Mubende",
+          "parent": {
+            "id": 2,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Central 2",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 19,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Mukono",
+          "parent": {
+            "id": 2,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Central 2",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 20,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Iganga",
+          "parent": {
+            "id": 3,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Eastern",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 21,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Jinja",
+          "parent": {
+            "id": 3,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Eastern",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 22,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Kamuli",
+          "parent": {
+            "id": 3,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Eastern",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 23,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Mbale",
+          "parent": {
+            "id": 3,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Eastern",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 24,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Pallisa",
+          "parent": {
+            "id": 3,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Eastern",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 25,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Soroti",
+          "parent": {
+            "id": 3,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Eastern",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 26,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Tororo",
+          "parent": {
+            "id": 3,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Eastern",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 27,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Adjumani",
+          "parent": {
+            "id": 4,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Northern",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 28,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Apac",
+          "parent": {
+            "id": 4,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Northern",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 29,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Arua",
+          "parent": {
+            "id": 4,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Northern",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 30,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Gulu",
+          "parent": {
+            "id": 4,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Northern",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 31,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Kitgum",
+          "parent": {
+            "id": 4,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Northern",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 32,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Lira",
+          "parent": {
+            "id": 4,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Northern",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 33,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Fortportal",
+          "parent": {
+            "id": 5,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Western",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 34,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Hoima",
+          "parent": {
+            "id": 5,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Western",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 35,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Ishaka",
+          "parent": {
+            "id": 5,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Western",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 36,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Kabale",
+          "parent": {
+            "id": 5,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Western",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 37,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Kasese",
+          "parent": {
+            "id": 5,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Western",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 38,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Mbarara",
+          "parent": {
+            "id": 5,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Western",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        },
+        {
+          "id": 39,
+          "levelHierarchy": {
+            "levelId": 2,
+            "level": "Territory",
+            "levelType": "L_2"
+          },
+          "levelName": "Rukungiri",
+          "parent": {
+            "id": 5,
+            "levelHierarchy": {
+              "levelId": 1,
+              "level": "Region",
+              "levelType": "L_1"
+            },
+            "levelName": "Western",
+            "parent": null,
+            "description": null
+          },
+          "description": null
+        }
+      ]
+    }
+  }

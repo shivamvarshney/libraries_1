@@ -1,0 +1,12 @@
+<section class="caseTimeActivity">
+  <div class="timeShow">
+    <span *ngIf="counter > 0" class="time">
+      <span *ngIf="hour">{{hour}}:</span>
+      <span *ngIf="minute">{{minute}}:</span>
+      <span *ngIf="seconds">{{seconds}}</span>
+    </span>
+    <div *ngIf="counter <= 0" class="showExceedMessage">
+      The Case Time limit has exceeded
+    </div>
+  </div>  
+</section>

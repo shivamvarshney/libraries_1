@@ -1,0 +1,38 @@
+<div class="commonModelDialog" *ngIf="data">
+  <div mat-dialog-content>
+    <ng-container *ngIf="checkFailedFileDownloadPermission;then clickableTemplate else stringTemplate"></ng-container>  
+    <ng-template #clickableTemplate>
+      <p>
+        <ng-container *ngIf="data.confirmationRespObj.totalFailureRecord == 0;then allSuccessTemplate else someFailureTemplate"></ng-container>
+        <ng-template #allSuccessTemplate>
+          {{ 'Bulk Upload Successfully Processed for all '+data.confirmationRespObj.totalSuccessRecord+' users.'}}          
+        </ng-template>
+        <ng-template #someFailureTemplate>
+          {{ 'Bulk Upload Processed, '}} 
+          <a (click)="downloadUploadedCSV()" class="c-pointer">
+            {{ data.confirmationRespObj.totalFailureRecord }}
+          </a> 
+          {{ data.confirmationRespObj.totalFailureRecord && data.confirmationRespObj.totalFailureRecord > 1 ? ' users ' : ' user ' }}
+          {{ 'could not be uploaded.' }}
+        </ng-template>        
+      </p>
+    </ng-template>
+    <ng-template #stringTemplate>
+      <p>
+        <ng-container *ngIf="data.confirmationRespObj.totalFailureRecord == 0;then allSuccessTemplate else someFailureTemplate"></ng-container>
+        <ng-template #allSuccessTemplate>
+          {{ 'Bulk Upload Successfully Processed for all '+data.confirmationRespObj.totalSuccessRecord+' users.' }}
+        </ng-template>
+        <ng-template #someFailureTemplate>
+          {{ 'Bulk Upload Processed, '}} 
+          <a (click)="downloadUploadedCSV()" class="c-pointer">
+          {{ data.confirmationRespObj.totalFailureRecord }}
+          </a> &nbsp;
+          {{ data.confirmationRespObj.totalFailureRecord && data.confirmationRespObj.totalFailureRecord > 1 ? ' users ' : ' user ' }} 
+          {{ 'could not be uploaded.' }}
+        </ng-template>
+      </p>      
+    </ng-template>     
+    <button (click)="modelPopupClose()" class="common_red_color text-uppercase">{{'bulkDone' | translate}}</button>
+  </div>
+</div>

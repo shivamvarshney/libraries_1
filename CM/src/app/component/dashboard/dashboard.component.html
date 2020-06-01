@@ -1,0 +1,20 @@
+<div class="header-section bg-white" #header>
+    <app-header></app-header>
+</div>
+<div class="w-100 h-100" id="header-top-height">
+    <app-admin-panel></app-admin-panel>
+</div>
+
+<div class="comonPopupstyle">
+    <div id="myModal" class="modal">
+        <div class="modal-content inActiveModel">
+            <!-- <span class="close" (click)="closeBtn()">&times;</span> -->
+            <p>{{ 'no_activity_done' | translate}}</p>
+            <div mat-dialog-content class="css-popup">
+                <div mat-dialog-actions class="cancel-procd-btn float-right">
+                    <button type="button" class="btnStyle proceed" (click)="closeBtn()">{{ 'proceed' | translate }}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

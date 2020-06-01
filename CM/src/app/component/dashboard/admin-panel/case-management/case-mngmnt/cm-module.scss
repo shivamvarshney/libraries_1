@@ -1,0 +1,54 @@
+$avgColor: #393939; $commonColor: #EC1B24; $fontsize: 17px;
+.commonRedColor{
+  color: $commonColor;
+}
+.cursor-pointer{ cursor: pointer; }
+.agentContainer{ padding: 0px 20px 20px; }
+.matTabLink{ border-bottom: 5px solid #555454; margin:20px; }
+.m-r-0{ margin-right: 0; }
+.p-m-10{ margin: 16px 0; display: inline-block; }
+/* daily week and months tab style */
+.swCaseContainer{
+    .deActivity{
+        position: relative;
+        .timerContainer{ position: absolute; top: 0%; right: 1%; font-size: 17px; width: 96.50%;
+            text-align: right; background: #fff; z-index: -1; padding: 13px 10px;box-shadow: 0px 3px 10px #00000014;
+            .timetxt { color: $avgColor; }
+            .avgTimer { color: $commonColor; }
+        }
+        .topTab{
+            margin: 0 24px; width: 100%; background: #ffffff; line-height: 2.7;
+            .nav{ .activeTab { background: #EC1B24; border-radius: 15px; color: #ffffff;
+              font-size: 16px; line-height: 2; } }    
+        }  
+          label, a{
+            cursor: pointer; text-align: center; user-select: none; text-decoration: none; display: inline-block;
+            transition: border 0.2s; padding: 3px 2px; &:hover{ border-bottom-color: #9b59b6; }
+          }  
+          .layout{
+            display: grid; height: 100%; width: 100%; overflow: hidden; grid-template-rows: 50px 1fr;
+            grid-template-columns: 1fr 1fr 1fr;}  
+          input[type="radio"]{ display: none; }  
+          label.nav{
+            margin-right: 20px; min-width: 95px; align-items: center; cursor: pointer; border-bottom: none;
+            background: transparent; transition: background 0.4s, padding-left 0.2s; padding-left: 0;
+            input[type="radio"]:checked + .page + &{ background:#EC1B24; color: #ffffff; border-radius: 26px;
+              span{  padding-left: 20px }
+            }
+            span{ padding-left: 0px;  position: relative;padding: 7px 25px; color: #555454; font-size: 16px;
+                line-height: 2; }
+          }  
+          .page{ grid-column-start: 1; grid-row-start: 2; grid-column-end: span 3; padding: 0px 20px; display: flex; align-items: center; }
+          
+          .page-contents > *{ opacity: 0; transform: translateY(20px); transition: opacity 0.2s, transform 0.2s;
+            @for $c from 1 through 20{ &:nth-child(#{$c}){ transition-delay: 0.2s + ($c * 0.2s); }
+            }
+          }
+          input[type="radio"] + .page{ transition: transform 0.2s; transform: translateX(100%); }
+          input[type="radio"]:checked + .page{ transform: translateX(0%); margin-top: 15px; 
+            .page-contents > *{ opacity: 1; transform: translateY(0px); }
+          }
+          .page-contents{ width: 100%; }
+    }
+}
+/* daily week and months tab style */

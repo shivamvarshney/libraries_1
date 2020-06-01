@@ -1,0 +1,136 @@
+.commonModelDialog{
+    min-height: 273px;
+    width: 733px;
+    text-align: center;
+    margin-top: 16px;
+    padding: 0 0px;
+}
+.upload-error{
+    color: red;
+    text-align: left;
+    display: block;
+    padding-left: 104px;
+    line-height: 1;
+}
+.mr-100{
+    margin-right: 100px;
+}
+.file_block{
+    width: 80%;
+    position: relative;
+    z-index: 1;
+    margin:0 auto 30px;
+    overflow: hidden;
+}
+.select-file{
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+    color: #01A9F4;
+    font-family: Tondo-regular;
+    z-index: -1;
+}
+.select-file.choose{
+    height: 42px;
+    width: 104px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    border-right: 1px solid #000;
+}
+.common_txt_color{
+    color: #707070;
+    line-height: 1;
+}
+.cancle-btn{
+    background: #F5F5F5;
+    color: #ED1C24;
+    outline: none;
+}
+.format{
+    color: #B1B1B1;
+    text-align: left;
+    display: block;
+    font-size: 16px;
+    font-family: Tondo-regular;
+}
+#dropContainer{
+    border:1px solid #707070;
+    height:42px;
+    margin-bottom: 10px;
+    line-height: 2.4;
+    text-align: left;
+    padding-left: 10px;
+    color: #B1B1B1;
+}
+#fileInput{
+    position: absolute;
+    top: 10px;
+    right: -210px;
+    outline: none;
+    cursor: pointer;
+    text-align-last: end;
+}
+input[type='file'] {
+    color: transparent;
+  }
+  .card-img{
+    height: 62px;
+    width: 62px;
+    margin: 30px 0 5px; 
+}
+.card-black-parent{
+    padding-top: 30px;
+    height: 100%;
+}
+.black-parent {
+    margin-bottom: 34px;
+}
+.common_black{
+    color: #4B566A;
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: tondo-corp-regular;
+}
+.c-black{
+    height: 230px;
+    width: 230px;
+    cursor: pointer;
+    vertical-align: top;
+    display: inline-block;
+    margin:0 7px;
+    box-shadow: 0px 1px 10px #00000015;
+}
+.c-black:hover{
+    border: 1px solid #eeeeee;
+}
+@media screen and (max-width: 767px) {
+    .commonModelDialog{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .mr-100 {
+        margin: 0 10px 0 0 ;
+    }
+    .file_block{
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    .commonModelDialog {
+        min-height: 210px;
+    }
+    #dropContainer {
+        font-size: 12px;
+        line-height: 3.9;
+    }
+    button.common_red_color{
+        font-size: 12px;
+        height: 30px;
+    }    
+}

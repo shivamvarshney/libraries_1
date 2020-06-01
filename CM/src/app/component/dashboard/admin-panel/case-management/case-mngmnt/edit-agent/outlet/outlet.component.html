@@ -1,0 +1,146 @@
+<ng-container *ngIf="hideInAggregatorCase; then hideOutlet else showOutlet"></ng-container>
+<ng-template #showOutlet>
+  <section class="outletContainer" [@slideInOut]>
+    <div class="outletContents" *ngIf="parsedCaseObj">
+      <div class="outlets" *ngFor="let out of parsedCaseObj; let i = index"
+        [ngClass]="{'showOutletTab' :  selectedItem ===  i}" (click)="showOutlets(i)">
+        <span class="outletnum" [ngClass]="{'showColorFirst' : i==currectIdx}">
+          {{ 'outlet' | translate }} {{i+1}}
+        </span>
+      </div>
+    </div>
+    <div class="outletFormContainer">
+      <form [formGroup]="dynamicForm" class="agent-form" novalidate>
+        <ng-container *ngFor="let controls of fields">
+          <div class="formFields details-page" *ngIf="controls.type == 'input' && controls.value != ''">
+            <div class="form-group toggleIcon">
+              <label class="d-pages-label" [for]="controls.label">{{controls.label}}</label>
+              <input [type]="controls.inputType" [ngClass]="{
+                'highlightStyle': controls.highlight,
+                'primaryStatus': controls.checkPrimaryStatus
+              }" [readonly]="true" class="form-control kyc-details-page" [value]="controls.value"
+                [placeholder]="controls.placeHolder">
+              <div *ngFor="let particularReason of rejResionRes">
+                <div *ngIf="particularReason.field == controls.label">
+                  <i mat-button [matMenuTriggerFor]="reasonPopup" matTooltip="{{reasonTxt}}"
+                    class="material-icons IconImg" (click)="toggleIconHandler(controls, particularReason)">post_add</i>
+                </div>
+              </div>
+              <div class="primary" *ngIf="controls.checkPrimaryStatus">
+                <mat-radio-group aria-label="Select an option">
+                  <mat-radio-button disabled class="checkName primaryno" *ngFor="let radio of controls.options"
+                    [checked]="radio.status" [value]="radio.checkname">{{radio.checkname}}
+                  </mat-radio-button>
+                </mat-radio-group>
+              </div>
+            </div>
+          </div>
+          <div [ngClass]="{'highlightStyle': controls.highlight}" class="userId"
+            *ngIf="controls.type === 'image' && controls.inputType !== 'pdf'">
+            <label class="d-pages-label w-80">{{controls.placeHolder}}</label>
+            <div *ngFor="let particularReason of rejResionRes">
+              <div *ngIf="particularReason.field == controls.label">
+                <i mat-button [matMenuTriggerFor]="reasonPopup" matTooltip="{{reasonTxt}}"
+                  class="lableColor material-icons IconImg"
+                  (click)="toggleIconHandler(controls, particularReason)">post_add</i>
+              </div>
+            </div>
+            <img class="w-100 mr-t-10 form-control cursor-pointer imgHeight" (click)="zoomImageInModel(controls)"
+              [src]="controls.imagePath" alt="show" />
+          </div>
+          <div class="formFields details-page" *ngIf="controls.type === 'slider'">
+            <div class="userId toggleIcon" [ngClass]="{'highlightStyle': controls.highlight}">
+              <label class="d-pages-label">{{controls.placeHolder}}</label>
+              <ng-container *ngFor="let particularReason of rejResionRes">
+                <div *ngIf="particularReason.field == controls.label">
+                  <i mat-button [matMenuTriggerFor]="reasonPopup" matTooltip="{{reasonTxt}}"
+                    class="lableColor material-icons IconImg"
+                    (click)="toggleIconHandler(controls, particularReason)">post_add</i>
+                </div>
+              </ng-container>
+              <div *ngIf="controls.imageDataUrls" [ngClass]="{'imgSliderPopup': isActive(controls.label)}">
+                <span class="close slider" (click)="closeSliderModel()">&times;</span>
+                <div class="imgSlider w-100" (click)="zoomSliderInModel(controls.label)">
+                  <slideshow [imageUrls]="controls.imageDataUrls" [autoPlay]="false" [showArrows]="true"
+                    [minHeight]="'200px'">
+                  </slideshow>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="formFields details-page" *ngIf="controls.type === 'singlepdf'">
+            <div class="userId toggleIcon">
+              <label class="d-pages-label">{{controls.placeHolder}}</label>
+              <ng-container *ngFor="let particularReason of rejResionRes">
+                <div *ngIf="particularReason.field == controls.label">
+                  <i mat-button [matMenuTriggerFor]="reasonPopup" matTooltip="{{reasonTxt}}"
+                    class="lableColor material-icons IconImg"
+                    (click)="toggleIconHandler(controls, particularReason)">post_add</i>
+                </div>
+              </ng-container>
+              <div class="d-i-block w-100" *ngIf="controls.imagePath">
+                <iframe *ngIf="controls.imagePath" [src]="controls.imagePath"></iframe>
+                <a [ngClass]="{'highlightStyle': controls.highlight}" class="pdfIframe" [href]="controls.imagePath"
+                  download>Download pdf</a>
+              </div>
+            </div>
+          </div>
+          <div class="formFields details-page">
+            <mat-menu #reasonPopup="matMenu" class="matmenuStyle">
+              <div class="reasonCheck">
+                <h6>{{curLabelTxt}}</h6>
+                <section class="">
+                  <div *ngFor="let particularReason of rejResionRes">
+                    <div *ngIf="particularReason.field == controls.label">
+                      <div *ngFor="let reason of particularReason.rejectionReasons">
+                        <mat-checkbox class="d-block" (click)="$event.stopPropagation()"
+                          (change)="onChangeHandler(reason.id, $event, particularReason)">{{reason.reason}}
+                        </mat-checkbox>
+                      </div>
+                      <div class="remark" *ngIf="remarks">
+                        <!-- <p class="fs-14">Remarks:</p> -->
+                        <textarea class="remtext" rows="9" cols="50" (click)="$event.stopPropagation()"
+                          [id]="particularReason.id" (change)="remarkOnChange($event, particularReason)"
+                          maxlength="100"></textarea>
+                        <span class="remarkColor" *ngIf="showRemarkError">{{ 'remark' | translate }}</span>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <button class="closeBtn" mat-raised-button>{{ 'ok' | translate }}</button>
+            </mat-menu>
+          </div>
+        </ng-container>
+        <div class="align-right case-action">
+          <button class="cm_btn" (click)="back()">{{ 'home' | translate }}</button>
+          <ng-container *ngIf="checkActionPermission()">
+            <div matTooltip="{{ tooltipMsg }}" class="d-i-block">
+              <button [disabled]="acceptBoolean && tooltipMsg==''" class="cm_btn approve"
+                (click)="userActionHandler('approved')">{{ 'approve' | translate }}</button>
+            </div>
+            <div matTooltip="{{ tooltipMsg }}" class="d-i-block">
+              <button [disabled]="rejectBoolean" class="cm_btn reject"
+                (click)="userRejectActionHandler('rejected')">{{ 'reject' | translate }}</button>
+            </div>
+          </ng-container>
+        </div>
+      </form>
+    </div>
+  </section>
+</ng-template>
+<ng-template #hideOutlet>
+  <div class="centerOutlet">
+    <h4 class="emptyOutlet">
+      <span class="material-icons errorOutlet"> error_outline </span>{{ 'noOutlets' | translate }}</h4>
+    <a class="backOutet" (click)="back()">{{ 'goBack' | translate }}</a>
+  </div>
+</ng-template>
+
+<!-- The Modal -->
+<div id="myModal" class="modal" *ngIf="visibleModel">
+  <!-- The Close Button -->
+  <span class="close" (click)="closeModel()">&times;</span>
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" [src]="imageURL" id="img01">
+</div>

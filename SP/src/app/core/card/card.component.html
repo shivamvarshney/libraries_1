@@ -1,0 +1,56 @@
+<mat-card class="sales-card">
+  <mat-card-header>
+    <mat-card-title></mat-card-title>
+    <mat-card-subtitle></mat-card-subtitle>
+  </mat-card-header>
+  <img *ngIf="cardData.thumbnail" mat-card-image class="card-img" src="./assets/fonts/svg/{{ cardData.thumbnail }}"
+    alt="card-images" />
+  <mat-card-content>
+    <span *ngIf="cardData.text" class="sub-heading d-block common-color">
+      {{ cardData.text }}
+    </span>
+    <span *ngIf="cardData.count && cardData.count.count" class="card-heading num d-block">
+      {{ cardData.count.count }}
+    </span>
+    <a *ngIf="cardData.bulk" class="text-upppercase d-i-block s-card">
+      <bulk [bulkData]="cardData"></bulk>
+      <ng-container *appPermissionCanAccess="[cardData.bulk.download.permissionName]">
+        <download-template [downloadInfo]="cardData"></download-template>
+      </ng-container>
+    </a>
+  </mat-card-content>
+  <mat-card-actions>
+  </mat-card-actions>
+</mat-card>
+
+<!--
+<mat-card class="sales-card">
+  <mat-card-header>
+    <mat-card-title></mat-card-title>
+    <mat-card-subtitle></mat-card-subtitle>
+  </mat-card-header>
+  <img *ngIf="cardData.image" mat-card-image class="card-img" src="./assets/fonts/svg/{{ cardData.image }}"
+    alt="card-images" />
+  <mat-card-content>
+    <ng-container *ngIf="cardData.moduleName == 'ROLES';then roles else CPheading"></ng-container>
+    <ng-template #roles>
+      <span *ngIf="cardData.totalNum" class="card-heading num d-block">{{ cardData.totalNum }}</span>
+      <span *ngIf="cardData.cardText"
+        class="sub-heading d-block common-color">{{ cardData.cardText | translate }}</span>
+    </ng-template>
+    <ng-template #CPheading>
+      <span *ngIf="cardData.cardText"
+        class="sub-heading d-block common-color">{{ cardData.cardText | translate }}</span>
+      <span *ngIf="cardData.totalNum" class="card-heading num d-block">{{ cardData.totalNum }}</span>
+    </ng-template>
+    <a *ngIf="cardData.bulkStatus === true" class="text-upppercase d-i-block s-card">
+      <bulk [bulkData]="cardData"></bulk>
+      <ng-container *appPermissionCanAccess="[cardData.downloadSampleFilePermission]">
+        <download-template [downloadInfo]="cardData"></download-template>
+      </ng-container>
+    </a>
+  </mat-card-content>
+  <mat-card-actions>
+  </mat-card-actions>
+</mat-card>
+-->

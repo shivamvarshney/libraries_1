@@ -1,0 +1,25 @@
+.search-wrapper{
+    input.search{
+        height: 65px;
+        width: 100%;
+        background: #707070;
+        font-size: 22px;
+        color: #ffffff;
+    }
+    ::placeholder { /* Firefox, Chrome, Opera */ 
+        color: #FFFFFF; 
+    } 
+      
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+        color: #FFFFFF; 
+    } 
+      
+    ::-ms-input-placeholder { /* Microsoft Edge */ 
+        color: #FFFFFF; 
+    } 
+}
+@media screen and (max-width: 767px) {
+    .search-wrapper input.search {
+        font-size: 15px;
+    }
+}

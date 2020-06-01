@@ -1,0 +1,60 @@
+<section class="editAgent">
+  <div class="row bg-grayColor w-100">
+    <div class="col-4">
+      <table class="table w-75 text-white m-0 borderless">
+        <tbody>
+          <tr>
+            <td>{{ 'salesExeName' | translate }}&nbsp;</td>
+            <td class="text-capitalize">{{ caseExecutivePerson ? caseExecutivePerson : 'N/A' }}</td>
+          </tr>
+          <tr>
+            <td>{{ 'msisdn' | translate }}&nbsp; </td>
+            <td>{{caseMSISDN ? caseMSISDN : 'N/A' }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-4">
+      <div class="agentStatus"
+        *ngIf="parsedCaseJSON && parsedCaseJSON['status'] && parsedCaseJSON['status'] != 'PENDING'"><span
+          class="case">{{parsedCaseJSON.status == 'APPROVED' ? 'Approved Case' : (parsedCaseJSON.status == 'REJECTED' ? 'Rejected Case' : '')}}</span>
+      </div>
+    </div>
+    <div class="col-4 text-right cpType">
+      <div class="lineHeight m-bt-3" *ngIf="KYCDetails">
+        <span>{{ 'cpType' | translate }} :</span>
+        <span> {{(KYCDetails.ownerType) ? (KYCDetails.ownerType) : 'N/A' }}</span>
+      </div>
+      <div class="lineHeight" *ngIf="KYCDetails">
+        <span>{{ 'cpAccNo' | translate }} :</span>
+        <span> {{KYCDetails.cpAccountNo ? KYCDetails.cpAccountNo : 'N/A' }}</span>
+      </div>
+    </div>
+  </div>
+  <div class="kycDetails" *ngIf="noKYCDetails">
+    <nav mat-tab-nav-bar class="navLink" *ngIf="KYCDetails && paramId">
+      <a class="kyclinks" mat-tab-link label="KYC" [routerLink]="['kyc',paramId]" [routerLinkActive]="['active-link']">
+        <span class="linkIcon"><span class="linkNum">1</span><i
+            class="material-icons links">perm_identity</i></span><span class="linkK">{{ 'kyc' | translate }}</span><i
+          class="material-icons tickColor">done</i></a>
+      <a class="kyclinks" mat-tab-link label="Business" [routerLink]="['business', paramId]"
+        [routerLinkActive]="['active-link']">
+        <span class="linkIcon"><span class="linkNum">2</span><i class="material-icons links">card_travel</i></span><span
+          class="linkB">{{ 'busines' | translate }}</span></a>
+      <a class="kyclinks" mat-tab-link label="Outlet" [routerLink]="['outlet', paramId]"
+        [routerLinkActive]="['active-link']">
+        <span class="linkIcon"><span class="linkNum">3</span><i
+            class="material-icons links">card_giftcard</i></span><span
+          class="linkO">{{ 'outlet' | translate }}</span></a>
+      <!-- <a class="kyclinks" mat-tab-link label="Bank" [routerLink]="['bank', paramId]"
+        [routerLinkActive]="['active-link']">
+        <span class="linkIcon"><span class="linkNum">4</span><i class="material-icons links">card_travel</i></span><span
+          class="linkB">{{ 'bank' | translate }}</span></a> -->
+      <div class="w-100" *ngIf="dataExecutive">
+        <case-activity-timer *ngIf="booleanTimer" [showTimer]="booleanTimer"></case-activity-timer>
+      </div>
+    </nav>
+    <router-outlet></router-outlet>
+  </div>
+  <div class="m-3 commonColor" *ngIf="!noKYCDetails"> {{ 'noCaseDetails' | translate }}</div>
+</section>

@@ -1,0 +1,28 @@
+<div class="templates">
+    <ul class="p-0 m-0 box">
+        <ng-container *ngFor="let selection of apiCardData">
+            <ng-container *ngFor="let s_card of selection.card">
+                <li *appPermissionCanAccess="[s_card.permissionName]">
+                    <ng-container *ngIf="s_card.count;then clickable else nonClickable"></ng-container>
+                    <ng-template #clickable>
+                        <ng-container
+                            *ngIf="s_card.count.redirectUrl && s_card.count.count > 0;then redirectableTemp else nonRedirectableTemp">
+                        </ng-container>
+                        <ng-template #redirectableTemp>
+                            <card [routerLink]="s_card.count.redirectUrl" [cardData]="s_card"></card>
+                        </ng-template>
+                        <ng-template #nonRedirectableTemp>
+                            <card [cardData]="s_card"></card>
+                        </ng-template>
+                    </ng-template>
+                    <ng-template #nonClickable>
+                        <card [cardData]="s_card"></card>
+                    </ng-template>
+                </li>
+            </ng-container>
+            <div>
+                <hr class="border-line" />
+            </div>
+        </ng-container>
+    </ul>
+</div>

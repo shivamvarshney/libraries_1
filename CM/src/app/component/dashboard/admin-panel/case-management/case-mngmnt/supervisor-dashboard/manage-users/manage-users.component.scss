@@ -1,0 +1,15 @@
+.manageUserContainer{
+    .userSection{ width: 96%; margin: 0 auto;
+        th.mat-header-cell{ width: 10%; }
+        table { width: 100%; }
+        .addAgentBtn{
+            outline: none; color: #ffffff; font-size: 16px; background-color: #EC1B24;
+            margin-left: 20px; padding: 4px 10px; 
+            i.material-icons { line-height: 1.2; }
+            .addTitle { vertical-align: top; display: inline-block; line-height: 2; padding-left: 10px; }
+        }
+        .search{ position: relative; }
+        .searchIcon{ position: absolute; right: 0;top: 0; cursor: pointer; }
+    }
+}
+

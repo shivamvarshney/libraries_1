@@ -1,0 +1,4882 @@
+{
+  "status": true,
+  "message": "Fetched user details successfully.",
+  "statusCode": "200",
+  "result": [
+    {
+      "id": 10009,
+      "auuid": "2367609",
+      "msisdn": "9876543217",
+      "firstName": "Test3",
+      "lastName": "User",
+      "gender": "Male",
+      "dob": "12121212",
+      "email": "abc@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 6,
+          "geoName": "CBD",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 40,
+          "geoName": "KISENYI",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 130,
+          "geoName": "Kagugube",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10014,
+      "auuid": null,
+      "msisdn": "706905920",
+      "firstName": "Aneno",
+      "lastName": "Bridget",
+      "gender": "female",
+      "dob": "01-01-1990",
+      "email": "",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 10,
+          "geoName": "NAKAWA",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 49,
+          "geoName": "BUGOLOBI",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 184,
+          "geoName": "Bukoto ii",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10151,
+      "auuid": null,
+      "msisdn": "123123123",
+      "firstName": "Ravtej",
+      "lastName": "Singh",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "123123123",
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10003,
+      "auuid": "2367602",
+      "msisdn": "9876543211",
+      "firstName": "Test7",
+      "lastName": "User",
+      "gender": "Female",
+      "dob": "12121212",
+      "email": "abc@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 6,
+          "geoName": "CBD",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 40,
+          "geoName": "KISENYI",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 130,
+          "geoName": "Kagugube",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10297,
+      "auuid": null,
+      "msisdn": "706171795",
+      "firstName": "TUMUSIIME",
+      "lastName": "KENNETH",
+      "gender": "Male",
+      "dob": "10-01-1995",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10004,
+      "auuid": "2367603",
+      "msisdn": "9876543212",
+      "firstName": "Test9",
+      "lastName": "User",
+      "gender": "Male",
+      "dob": "12121212",
+      "email": "abc@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 6,
+          "geoName": "CBD",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 40,
+          "geoName": "KISENYI",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 130,
+          "geoName": "Kagugube",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10005,
+      "auuid": "2367605",
+      "msisdn": "9876543213",
+      "firstName": "Test5",
+      "lastName": "User",
+      "gender": "Male",
+      "dob": "12121212",
+      "email": "abc@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 6,
+          "geoName": "CBD",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 40,
+          "geoName": "KISENYI",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 130,
+          "geoName": "Kagugube",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10296,
+      "auuid": null,
+      "msisdn": "704656720",
+      "firstName": "MAKUBUYA",
+      "lastName": "NASSER",
+      "gender": "Male",
+      "dob": "13-02-1998",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10006,
+      "auuid": "2367606",
+      "msisdn": "9876543214",
+      "firstName": "Test2",
+      "lastName": "User",
+      "gender": "Male",
+      "dob": "12121212",
+      "email": "abc@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 6,
+          "geoName": "CBD",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 40,
+          "geoName": "KISENYI",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 130,
+          "geoName": "Kagugube",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10007,
+      "auuid": "2367607",
+      "msisdn": "9876543215",
+      "firstName": "Test8",
+      "lastName": "User",
+      "gender": "Male",
+      "dob": "12121212",
+      "email": "abc@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 6,
+          "geoName": "CBD",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 40,
+          "geoName": "KISENYI",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 130,
+          "geoName": "Kagugube",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10295,
+      "auuid": null,
+      "msisdn": "700595338",
+      "firstName": "JACAN",
+      "lastName": "INNOCENT",
+      "gender": "Male",
+      "dob": "17-08-1997",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10294,
+      "auuid": null,
+      "msisdn": "759168883",
+      "firstName": "NAKIBUULE",
+      "lastName": "PROSSY",
+      "gender": "Female",
+      "dob": "16-03-1987",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10293,
+      "auuid": null,
+      "msisdn": "758771588",
+      "firstName": "MUTEBI",
+      "lastName": "EMMANUEL",
+      "gender": "Male",
+      "dob": "15-04-1996",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10292,
+      "auuid": null,
+      "msisdn": "708314664",
+      "firstName": "KOMUHANGI",
+      "lastName": "LILLIAN",
+      "gender": "Female",
+      "dob": "14-08-1998",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10291,
+      "auuid": null,
+      "msisdn": "759645758",
+      "firstName": "KAMIZA",
+      "lastName": "MARTIN",
+      "gender": "Male",
+      "dob": "12-07-1996",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10290,
+      "auuid": null,
+      "msisdn": "701639648",
+      "firstName": "SSEGUYA",
+      "lastName": "MEDDIE",
+      "gender": "Male",
+      "dob": "19-09-1989",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10289,
+      "auuid": null,
+      "msisdn": "753737143",
+      "firstName": "KIZITO",
+      "lastName": "TONNY",
+      "gender": "Male",
+      "dob": "12-03-1988",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10288,
+      "auuid": null,
+      "msisdn": "700128964",
+      "firstName": "Ivan",
+      "lastName": "Kategaya",
+      "gender": "Male",
+      "dob": "10-07-1990",
+      "email": "mbabaal@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10277,
+      "auuid": null,
+      "msisdn": "702897833",
+      "firstName": "Ajuna",
+      "lastName": "Mark J",
+      "gender": "Female",
+      "dob": "05-06-1987",
+      "email": "dniwagaba9@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10010,
+      "auuid": null,
+      "msisdn": "9833653103",
+      "firstName": "Test4",
+      "lastName": "User",
+      "gender": "Male",
+      "dob": "12121212",
+      "email": "abc@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 6,
+          "geoName": "CBD",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 40,
+          "geoName": "KISENYI",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 130,
+          "geoName": "Kagugube",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10152,
+      "auuid": null,
+      "msisdn": "123123123",
+      "firstName": "Ravtej",
+      "lastName": "Singh",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejrocks@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "123123123",
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10008,
+      "auuid": "2367608",
+      "msisdn": "9876543216",
+      "firstName": "Test6",
+      "lastName": "User",
+      "gender": "Male",
+      "dob": "12121212",
+      "email": "abc@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 6,
+          "geoName": "CBD",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 40,
+          "geoName": "KISENYI",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 130,
+          "geoName": "Kagugube",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10029,
+      "auuid": "71516338",
+      "msisdn": "981155638",
+      "firstName": "dqqww",
+      "lastName": "ewsr",
+      "gender": "adsqd",
+      "dob": "13-01-1991",
+      "email": "a0wd@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "9176690909",
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10001,
+      "auuid": "12345",
+      "msisdn": "987654329",
+      "firstName": "sunil",
+      "lastName": "mehra",
+      "gender": "male",
+      "dob": "12-12-1991",
+      "email": "mehrasunil21@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 5,
+          "geoName": "Western",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 37,
+          "geoName": "Kasese",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 120,
+          "geoName": "Bwera",
+          "desc": "Cluster",
+          "level": "L_3"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 1,
+        "roleName": "asa",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "dsadsa",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "ADSA",
+        "description": null
+      },
+      "subRole": null
+    },
+    {
+      "id": 10013,
+      "auuid": "1312342",
+      "msisdn": "752604626",
+      "firstName": "Dan",
+      "lastName": "Tumuramye",
+      "gender": "male",
+      "dob": "01-08-1984",
+      "email": "dan.tumuramye@ug.airtel.com",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 10,
+          "geoName": "NAKAWA",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 49,
+          "geoName": "BUGOLOBI",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 184,
+          "geoName": "Bukoto ii",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 5,
+        "roleName": "MAM",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "Sunil",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "Sunil",
+        "description": "Merchant Acquisition Manager"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10015,
+      "auuid": null,
+      "msisdn": "758049840",
+      "firstName": "Aturinda",
+      "lastName": "Shallot",
+      "gender": "female",
+      "dob": "02-10-1984",
+      "email": "",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 10,
+          "geoName": "NAKAWA",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 49,
+          "geoName": "BUGOLOBI",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 184,
+          "geoName": "Bukoto ii",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10016,
+      "auuid": null,
+      "msisdn": "708174780",
+      "firstName": "Nyesiga",
+      "lastName": "Agatha",
+      "gender": "female",
+      "dob": "03-10-1979",
+      "email": "",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 10,
+          "geoName": "NAKAWA",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 49,
+          "geoName": "BUGOLOBI",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 184,
+          "geoName": "Bukoto ii",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10017,
+      "auuid": null,
+      "msisdn": "751068703",
+      "firstName": "Nahabwe",
+      "lastName": "Agnes",
+      "gender": "female",
+      "dob": "14-02-1990",
+      "email": "",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 10,
+          "geoName": "NAKAWA",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 49,
+          "geoName": "BUGOLOBI",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 184,
+          "geoName": "Bukoto ii",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10018,
+      "auuid": null,
+      "msisdn": "703723070",
+      "firstName": "Wabudi Benon",
+      "lastName": "Benon",
+      "gender": "male",
+      "dob": "20-08-1978",
+      "email": "",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 10,
+          "geoName": "NAKAWA",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 49,
+          "geoName": "BUGOLOBI",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 184,
+          "geoName": "Bukoto ii",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10019,
+      "auuid": null,
+      "msisdn": "700116885",
+      "firstName": "Ampuura",
+      "lastName": "Venon",
+      "gender": "male",
+      "dob": "20-09-1989",
+      "email": "",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 10,
+          "geoName": "NAKAWA",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 49,
+          "geoName": "BUGOLOBI",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 184,
+          "geoName": "Bukoto ii",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10020,
+      "auuid": null,
+      "msisdn": "757749524",
+      "firstName": "Philip",
+      "lastName": "Tushabomwe",
+      "gender": "male",
+      "dob": "21-10-1987",
+      "email": "",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 10,
+          "geoName": "NAKAWA",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 49,
+          "geoName": "BUGOLOBI",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 185,
+          "geoName": "Kamwokya II",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10022,
+      "auuid": "13207450",
+      "msisdn": "757452935",
+      "firstName": "Lawrence",
+      "lastName": "Otim",
+      "gender": "male",
+      "dob": "21-01-1984",
+      "email": "lawrence.otim@ug.airtel.com",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 10,
+          "geoName": "NAKAWA",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 49,
+          "geoName": "BUGOLOBI",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 185,
+          "geoName": "Kamwokya II",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 3,
+        "roleName": "RAC",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "Sunil",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "Sunil",
+        "description": "Risk and Compliance"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10023,
+      "auuid": "1304063",
+      "msisdn": "752601765",
+      "firstName": "Peter",
+      "lastName": "Ntumwa",
+      "gender": "male",
+      "dob": "11-02-1978",
+      "email": "peter.ntumwa@ug.airtel.com",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 10,
+          "geoName": "NAKAWA",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 49,
+          "geoName": "BUGOLOBI",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 185,
+          "geoName": "Kamwokya II",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 3,
+        "roleName": "RAC",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "Sunil",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "Sunil",
+        "description": "Risk and Compliance"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10024,
+      "auuid": null,
+      "msisdn": "701866691",
+      "firstName": "Douglas",
+      "lastName": "Atwijukye",
+      "gender": "male",
+      "dob": "05-04-1995",
+      "email": "dniwagaba9@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 6,
+          "geoName": "CBD",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 40,
+          "geoName": "KISENYI",
+          "desc": "Cluster",
+          "level": "L_3"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10276,
+      "auuid": null,
+      "msisdn": "784297341",
+      "firstName": "Atukei",
+      "lastName": "Loy",
+      "gender": "Female",
+      "dob": "01-03-1992",
+      "email": "dniwagaba9@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10275,
+      "auuid": null,
+      "msisdn": "705948794",
+      "firstName": "Nakanwagi",
+      "lastName": "Hamida",
+      "gender": "Male",
+      "dob": "11-05-1996",
+      "email": "dniwagaba9@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10274,
+      "auuid": null,
+      "msisdn": "757749824",
+      "firstName": "Tushabamwe",
+      "lastName": "Philip",
+      "gender": "Male",
+      "dob": "15-05-1991",
+      "email": "dniwagaba9@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10043,
+      "auuid": "A1235",
+      "msisdn": "665432237",
+      "firstName": "Test",
+      "lastName": "User",
+      "gender": "Male",
+      "dob": "12-12-1991",
+      "email": "mehrasunil21@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 3,
+          "geoName": "Eastern",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 23,
+          "geoName": "Mbale",
+          "desc": "Territory",
+          "level": "L_2"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "765432981",
+      "userHeirarchy": null,
+      "role": {
+        "id": 1,
+        "roleName": "asa",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "dsadsa",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "ADSA",
+        "description": null
+      },
+      "subRole": null
+    },
+    {
+      "id": 10273,
+      "auuid": null,
+      "msisdn": "751289958",
+      "firstName": "Namwesiga",
+      "lastName": "Lydia",
+      "gender": "Female",
+      "dob": "13-06-1997",
+      "email": "dniwagaba9@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10272,
+      "auuid": null,
+      "msisdn": "701470824",
+      "firstName": "Senjala",
+      "lastName": "Hassan",
+      "gender": "Male",
+      "dob": "10-03-1990",
+      "email": "dniwagaba9@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10047,
+      "auuid": null,
+      "msisdn": "701328882",
+      "firstName": "Lubowa",
+      "lastName": "James",
+      "gender": "male",
+      "dob": "01-01-1993",
+      "email": "test@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 5,
+          "geoName": "Western",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 37,
+          "geoName": "Kasese",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 121,
+          "geoName": "Kamwenge",
+          "desc": "Cluster",
+          "level": "L_3"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10033,
+      "auuid": "12111333",
+      "msisdn": "5656656511",
+      "firstName": "yutyu",
+      "lastName": "vdggd",
+      "gender": "utyuu",
+      "dob": "44636",
+      "email": "ant@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 2,
+          "geoName": "Central 2",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 12,
+          "geoName": "Kayunga",
+          "desc": "Territory",
+          "level": "L_2"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "534553535",
+      "userHeirarchy": null,
+      "role": {
+        "id": 1,
+        "roleName": "asa",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "dsadsa",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "ADSA",
+        "description": null
+      },
+      "subRole": null
+    },
+    {
+      "id": 10030,
+      "auuid": "1212333",
+      "msisdn": "565656565",
+      "firstName": "yutyu",
+      "lastName": "vdsggd",
+      "gender": "utyuu",
+      "dob": "446336",
+      "email": "an@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 2,
+          "geoName": "Central 2",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 12,
+          "geoName": "Kayunga",
+          "desc": "Territory",
+          "level": "L_2"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "5345553535",
+      "userHeirarchy": null,
+      "role": {
+        "id": 1,
+        "roleName": "asa",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "dsadsa",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "ADSA",
+        "description": null
+      },
+      "subRole": null
+    },
+    {
+      "id": 10048,
+      "auuid": null,
+      "msisdn": "754011281",
+      "firstName": "Brenda",
+      "lastName": "Nabirye",
+      "gender": "male",
+      "dob": "01-01-1994",
+      "email": "test@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 5,
+          "geoName": "Western",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 37,
+          "geoName": "Kasese",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 121,
+          "geoName": "Kamwenge",
+          "desc": "Cluster",
+          "level": "L_3"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10321,
+      "auuid": null,
+      "msisdn": "989898504",
+      "firstName": "ashish",
+      "lastName": "sai",
+      "gender": "",
+      "dob": "",
+      "email": "ashwi01@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 2,
+          "geoName": "Central 2",
+          "desc": "Region",
+          "level": "L_1"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "987654324",
+      "userHeirarchy": {
+        "level1UserId": 10060,
+        "level2UserId": 0,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10044,
+      "auuid": null,
+      "msisdn": "752600829",
+      "firstName": "Godfrey",
+      "lastName": "Muhindo",
+      "gender": "male",
+      "dob": "01-01-1990",
+      "email": "test@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 5,
+          "geoName": "Western",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 37,
+          "geoName": "Kasese",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 122,
+          "geoName": "Kasese",
+          "desc": "Cluster",
+          "level": "L_3"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10045,
+      "auuid": null,
+      "msisdn": "752600937",
+      "firstName": "Kithula",
+      "lastName": "Geoffrey",
+      "gender": "male",
+      "dob": "01-01-1991",
+      "email": "test@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 5,
+          "geoName": "Western",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 33,
+          "geoName": "Fortportal",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 111,
+          "geoName": "Kyenjojo",
+          "desc": "Cluster",
+          "level": "L_3"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10046,
+      "auuid": null,
+      "msisdn": "752600935",
+      "firstName": "Claire",
+      "lastName": "Nanyunja",
+      "gender": "male",
+      "dob": "01-01-1992",
+      "email": "test@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 5,
+          "geoName": "Western",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 38,
+          "geoName": "Mbarara",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 123,
+          "geoName": "Ibanda",
+          "desc": "Cluster",
+          "level": "L_3"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10375,
+      "auuid": null,
+      "msisdn": "9999988888",
+      "firstName": "dummy",
+      "lastName": "user",
+      "gender": "",
+      "dob": "",
+      "email": "dummy@yopmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "9900880077",
+      "userHeirarchy": {
+        "level1UserId": 10371,
+        "level2UserId": 10060,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10050,
+      "auuid": null,
+      "msisdn": "703938893",
+      "firstName": "Henry",
+      "lastName": "Kityamuwesi",
+      "gender": "male",
+      "dob": "01-01-1996",
+      "email": "test@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 7,
+          "geoName": "ENTEBBE",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 43,
+          "geoName": "KABOWA",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 145,
+          "geoName": "Mutundwe_Makindye",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10051,
+      "auuid": null,
+      "msisdn": "702804806",
+      "firstName": "Khalid",
+      "lastName": "Kisitu",
+      "gender": "male",
+      "dob": "01-01-1997",
+      "email": "test@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 5,
+          "geoName": "Western",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 39,
+          "geoName": "Rukungiri",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 126,
+          "geoName": "Kanungu",
+          "desc": "Cluster",
+          "level": "L_3"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10052,
+      "auuid": null,
+      "msisdn": "700829020",
+      "firstName": "Abdulrahman",
+      "lastName": "Dhakaba",
+      "gender": "male",
+      "dob": "01-01-1998",
+      "email": "test@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 5,
+          "geoName": "Western",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 37,
+          "geoName": "Kasese",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 122,
+          "geoName": "Kasese",
+          "desc": "Cluster",
+          "level": "L_3"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10053,
+      "auuid": null,
+      "msisdn": "706287674",
+      "firstName": "Isaiah",
+      "lastName": "Tayebwa",
+      "gender": "male",
+      "dob": "01-01-1999",
+      "email": "test@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 5,
+          "geoName": "Western",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 37,
+          "geoName": "Kasese",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 122,
+          "geoName": "Kasese",
+          "desc": "Cluster",
+          "level": "L_3"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10386,
+      "auuid": null,
+      "msisdn": "995688884",
+      "firstName": "Zone1",
+      "lastName": "Manager",
+      "gender": "",
+      "dob": "",
+      "email": "zm1@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "ZONEMANAGER",
+      "reportingMsisdn": null,
+      "userHeirarchy": {
+        "level1UserId": 0,
+        "level2UserId": 0,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10353,
+      "auuid": null,
+      "msisdn": "9999999999",
+      "firstName": "test",
+      "lastName": "one",
+      "gender": "",
+      "dob": "",
+      "email": "test.one@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "987896547",
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10325,
+      "auuid": null,
+      "msisdn": "9358258295",
+      "firstName": "teamlead",
+      "lastName": "ravtej",
+      "gender": null,
+      "dob": null,
+      "email": "LEADravtej@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "987654324",
+      "userHeirarchy": {
+        "level1UserId": 10060,
+        "level2UserId": 0,
+        "status": "ACTIVE"
+      },
+      "role": {
+        "id": 7,
+        "roleName": "Team Lead",
+        "active": true,
+        "createdDate": "2019-05-20T09:49:05.530+0000",
+        "createdBy": "User2",
+        "updatedDate": null,
+        "updatedBy": null,
+        "description": "Team Lead"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10025,
+      "auuid": null,
+      "msisdn": "701920218",
+      "firstName": "Maureen",
+      "lastName": "Katushabe",
+      "gender": "female",
+      "dob": "08-08-1996",
+      "email": "",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 6,
+          "geoName": "CBD",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 40,
+          "geoName": "KISENYI",
+          "desc": "Cluster",
+          "level": "L_3"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10026,
+      "auuid": null,
+      "msisdn": "706663125",
+      "firstName": "Sali",
+      "lastName": "Henrico",
+      "gender": "male",
+      "dob": "05-11-1996",
+      "email": "kiwanukaeneriko@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 6,
+          "geoName": "CBD",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 40,
+          "geoName": "KISENYI",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 131,
+          "geoName": "Kisenyi ii",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10189,
+      "auuid": null,
+      "msisdn": "8506000680",
+      "firstName": "Ravtej",
+      "lastName": "Singh",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejrocks@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "ggg",
+      "reportingMsisdn": "123123123",
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10061,
+      "auuid": null,
+      "msisdn": "977345632",
+      "firstName": "Alex",
+      "lastName": "Shaw",
+      "gender": "male",
+      "dob": "15-04-1988",
+      "email": "alex@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "987896547",
+      "userHeirarchy": null,
+      "role": {
+        "id": 8,
+        "roleName": "Promoter",
+        "active": true,
+        "createdDate": "2019-05-20T10:02:09.118+0000",
+        "createdBy": "User3",
+        "updatedDate": null,
+        "updatedBy": null,
+        "description": "Promoter"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10315,
+      "auuid": null,
+      "msisdn": "900900901",
+      "firstName": "teamlead",
+      "lastName": "ravtej",
+      "gender": null,
+      "dob": null,
+      "email": "teamleaderravtej@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "987654323",
+      "userHeirarchy": null,
+      "role": {
+        "id": 7,
+        "roleName": "Team Lead",
+        "active": true,
+        "createdDate": "2019-05-20T09:49:05.530+0000",
+        "createdBy": "User2",
+        "updatedDate": null,
+        "updatedBy": null,
+        "description": "Team Lead"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10327,
+      "auuid": null,
+      "msisdn": "9358258303",
+      "firstName": "teamlead",
+      "lastName": "ravtej",
+      "gender": null,
+      "dob": null,
+      "email": "LEADravtej@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "987654324",
+      "userHeirarchy": {
+        "level1UserId": 10060,
+        "level2UserId": 0,
+        "status": "ACTIVE"
+      },
+      "role": {
+        "id": 7,
+        "roleName": "Team Lead",
+        "active": true,
+        "createdDate": "2019-05-20T09:49:05.530+0000",
+        "createdBy": "User2",
+        "updatedDate": null,
+        "updatedBy": null,
+        "description": "Team Lead"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10345,
+      "auuid": null,
+      "msisdn": "900800444",
+      "firstName": "rav",
+      "lastName": "singh",
+      "gender": null,
+      "dob": null,
+      "email": "test@string.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "900800000",
+      "userHeirarchy": {
+        "level1UserId": 10337,
+        "level2UserId": 10060,
+        "status": "ACTIVE"
+      },
+      "role": {
+        "id": 8,
+        "roleName": "Promoter",
+        "active": true,
+        "createdDate": "2019-05-20T10:02:09.118+0000",
+        "createdBy": "User3",
+        "updatedDate": null,
+        "updatedBy": null,
+        "description": "Promoter"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10365,
+      "auuid": null,
+      "msisdn": "9034767343",
+      "firstName": "test",
+      "lastName": "user",
+      "gender": "",
+      "dob": "",
+      "email": "a_tushar.mehta@airtelworld.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "987896547",
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10339,
+      "auuid": null,
+      "msisdn": "900800111",
+      "firstName": "rav",
+      "lastName": "singh",
+      "gender": null,
+      "dob": null,
+      "email": "test@string.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "900800000",
+      "userHeirarchy": {
+        "level1UserId": 10337,
+        "level2UserId": 10060,
+        "status": "ACTIVE"
+      },
+      "role": {
+        "id": 8,
+        "roleName": "Promoter",
+        "active": true,
+        "createdDate": "2019-05-20T10:02:09.118+0000",
+        "createdBy": "User3",
+        "updatedDate": null,
+        "updatedBy": null,
+        "description": "Promoter"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10059,
+      "auuid": null,
+      "msisdn": "937524826",
+      "firstName": "Dim",
+      "lastName": "Snow",
+      "gender": "female",
+      "dob": "15-04-1989",
+      "email": "dim@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "987896547",
+      "userHeirarchy": null,
+      "role": {
+        "id": 8,
+        "roleName": "Promoter",
+        "active": true,
+        "createdDate": "2019-05-20T10:02:09.118+0000",
+        "createdBy": "User3",
+        "updatedDate": null,
+        "updatedBy": null,
+        "description": "Promoter"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10337,
+      "auuid": null,
+      "msisdn": "900800000",
+      "firstName": "rav",
+      "lastName": "singh",
+      "gender": null,
+      "dob": null,
+      "email": "test@string.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "987654324",
+      "userHeirarchy": {
+        "level1UserId": 10060,
+        "level2UserId": 0,
+        "status": "ACTIVE"
+      },
+      "role": {
+        "id": 7,
+        "roleName": "Team Lead",
+        "active": true,
+        "createdDate": "2019-05-20T09:49:05.530+0000",
+        "createdBy": "User2",
+        "updatedDate": null,
+        "updatedBy": null,
+        "description": "Team Lead"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10360,
+      "auuid": null,
+      "msisdn": "783836854",
+      "firstName": "puneet",
+      "lastName": "lamba",
+      "gender": "",
+      "dob": "",
+      "email": "er.puneet1987@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "987896547",
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10058,
+      "auuid": null,
+      "msisdn": "956287342",
+      "firstName": "John",
+      "lastName": "Smith",
+      "gender": "male",
+      "dob": "13-09-1998",
+      "email": "john@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "987896547",
+      "userHeirarchy": null,
+      "role": {
+        "id": 8,
+        "roleName": "Promoter",
+        "active": true,
+        "createdDate": "2019-05-20T10:02:09.118+0000",
+        "createdBy": "User3",
+        "updatedDate": null,
+        "updatedBy": null,
+        "description": "Promoter"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10057,
+      "auuid": null,
+      "msisdn": "962354233",
+      "firstName": "Ashwani",
+      "lastName": "Ashwani",
+      "gender": "male",
+      "dob": "20-07-1996",
+      "email": "ashwani@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "987654323",
+      "userHeirarchy": null,
+      "role": {
+        "id": 7,
+        "roleName": "Team Lead",
+        "active": true,
+        "createdDate": "2019-05-20T09:49:05.530+0000",
+        "createdBy": "User2",
+        "updatedDate": null,
+        "updatedBy": null,
+        "description": "Team Lead"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10056,
+      "auuid": null,
+      "msisdn": "987896547",
+      "firstName": "Saurav",
+      "lastName": "Saurav",
+      "gender": "male",
+      "dob": "01-11-1990",
+      "email": "saurav@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "987654323",
+      "userHeirarchy": null,
+      "role": {
+        "id": 7,
+        "roleName": "Team Lead",
+        "active": true,
+        "createdDate": "2019-05-20T09:49:05.530+0000",
+        "createdBy": "User2",
+        "updatedDate": null,
+        "updatedBy": null,
+        "description": "Team Lead"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10054,
+      "auuid": null,
+      "msisdn": "701812957",
+      "firstName": "Isaac",
+      "lastName": "Mabirizi",
+      "gender": "male",
+      "dob": "01-01-2000",
+      "email": "test@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10073,
+      "auuid": null,
+      "msisdn": "964534346",
+      "firstName": "Sunil",
+      "lastName": "Singh",
+      "gender": null,
+      "dob": null,
+      "email": "test1@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "987654323",
+      "userHeirarchy": null,
+      "role": {
+        "id": 7,
+        "roleName": "Team Lead",
+        "active": true,
+        "createdDate": "2019-05-20T09:49:05.530+0000",
+        "createdBy": "User2",
+        "updatedDate": null,
+        "updatedBy": null,
+        "description": "Team Lead"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10049,
+      "auuid": null,
+      "msisdn": "705173140",
+      "firstName": "Masereka",
+      "lastName": "Xavier",
+      "gender": "male",
+      "dob": "01-01-1995",
+      "email": "test@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 2,
+        "roleName": "MRE",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "ada",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "aadad",
+        "description": "Merchant Recruitment Executive"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10369,
+      "auuid": null,
+      "msisdn": "9090909090",
+      "firstName": "teamlead",
+      "lastName": "testing",
+      "gender": "",
+      "dob": "",
+      "email": "teamlead.testing@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "987654324",
+      "userHeirarchy": {
+        "level1UserId": 10060,
+        "level2UserId": 0,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10377,
+      "auuid": null,
+      "msisdn": "9999988887",
+      "firstName": "first",
+      "lastName": "user",
+      "gender": "",
+      "dob": "",
+      "email": "first@yopmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "9900880077",
+      "userHeirarchy": {
+        "level1UserId": 10371,
+        "level2UserId": 10060,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10381,
+      "auuid": null,
+      "msisdn": "9999988885",
+      "firstName": "third",
+      "lastName": "user",
+      "gender": "",
+      "dob": "",
+      "email": "third@yopmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "9900880077",
+      "userHeirarchy": {
+        "level1UserId": 10371,
+        "level2UserId": 10060,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10055,
+      "auuid": null,
+      "msisdn": "987654323",
+      "firstName": "Puneet",
+      "lastName": "Puneet",
+      "gender": "male",
+      "dob": "12-12-1991",
+      "email": "puneet@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "ZONEMANAGER",
+      "reportingMsisdn": "975545434",
+      "userHeirarchy": null,
+      "role": {
+        "id": 6,
+        "roleName": "Zone Manager",
+        "active": true,
+        "createdDate": "2000-12-17T02:43:33.159+0000",
+        "createdBy": "User",
+        "updatedDate": "1994-10-14T09:45:25.870+0000",
+        "updatedBy": "abc",
+        "description": "Zone Manager"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10011,
+      "auuid": "121333",
+      "msisdn": "56566565",
+      "firstName": "yutyu",
+      "lastName": "vdggd",
+      "gender": "utyuu",
+      "dob": "44636",
+      "email": "ant@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 2,
+          "geoName": "Central 2",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 12,
+          "geoName": "Kayunga",
+          "desc": "Territory",
+          "level": "L_2"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "534553535",
+      "userHeirarchy": null,
+      "role": {
+        "id": 1,
+        "roleName": "asa",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "dsadsa",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "ADSA",
+        "description": null
+      },
+      "subRole": null
+    },
+    {
+      "id": 10028,
+      "auuid": "98765",
+      "msisdn": "98765430",
+      "firstName": "string",
+      "lastName": "string",
+      "gender": "string",
+      "dob": "12-02-1991",
+      "email": "string@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 5,
+          "geoName": "Western",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 37,
+          "geoName": "Kasese",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 121,
+          "geoName": "Kamwenge",
+          "desc": "Cluster",
+          "level": "L_3"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 1,
+        "roleName": "asa",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "dsadsa",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "ADSA",
+        "description": null
+      },
+      "subRole": null
+    },
+    {
+      "id": 10287,
+      "auuid": null,
+      "msisdn": "750042013",
+      "firstName": "Wasswa",
+      "lastName": "Hassan",
+      "gender": "Male",
+      "dob": "03-08-1990",
+      "email": "mbabaal@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10286,
+      "auuid": null,
+      "msisdn": "759084722",
+      "firstName": "Eudutu",
+      "lastName": "Samuel",
+      "gender": "Male",
+      "dob": "02-11-1994",
+      "email": "mbabaal@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10285,
+      "auuid": null,
+      "msisdn": "758657532",
+      "firstName": "Nabukenya",
+      "lastName": "Bridget",
+      "gender": "Female",
+      "dob": "16-08-1993",
+      "email": "mbabaal@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10284,
+      "auuid": null,
+      "msisdn": "705305706",
+      "firstName": "Tasaga",
+      "lastName": "Jackson",
+      "gender": "Male",
+      "dob": "01-07-1990",
+      "email": "mbabaal@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10283,
+      "auuid": null,
+      "msisdn": "753987588",
+      "firstName": "Ikoba",
+      "lastName": "Rasuli",
+      "gender": "Male",
+      "dob": "01-07-1992",
+      "email": "mbabaal@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10282,
+      "auuid": null,
+      "msisdn": "754331621",
+      "firstName": "Bazigo",
+      "lastName": "Samuel",
+      "gender": "Male",
+      "dob": "10-07-1990",
+      "email": "mbabaal@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10281,
+      "auuid": null,
+      "msisdn": "752676667",
+      "firstName": "Kazimba",
+      "lastName": "Arafat",
+      "gender": "Male",
+      "dob": "01-07-1995",
+      "email": "mbabaal@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10280,
+      "auuid": null,
+      "msisdn": "754442189",
+      "firstName": "Kiyemba",
+      "lastName": "Shaban",
+      "gender": "Male",
+      "dob": "19-04-1993",
+      "email": "mbabaal@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10279,
+      "auuid": null,
+      "msisdn": "757177744",
+      "firstName": "Muhangi",
+      "lastName": "Moses",
+      "gender": "Male",
+      "dob": "14-03-1993",
+      "email": "dniwagaba9@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10278,
+      "auuid": null,
+      "msisdn": "705678543",
+      "firstName": "Kusasira",
+      "lastName": "Maria",
+      "gender": "Female",
+      "dob": "10-05-1997",
+      "email": "dniwagaba9@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10271,
+      "auuid": null,
+      "msisdn": "751355021",
+      "firstName": "Ankunda",
+      "lastName": "Raymond",
+      "gender": "Male",
+      "dob": "21-02-1996",
+      "email": "dniwagaba9@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10270,
+      "auuid": null,
+      "msisdn": "758947640",
+      "firstName": "Lukwago",
+      "lastName": "Rogers",
+      "gender": "Male",
+      "dob": "01-04-1993",
+      "email": "dniwagaba9@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10354,
+      "auuid": null,
+      "msisdn": "7986314491",
+      "firstName": "test",
+      "lastName": "name",
+      "gender": null,
+      "dob": "",
+      "email": "tushar.mehta@appstreet.io",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "9358258295",
+      "userHeirarchy": {
+        "level1UserId": 10325,
+        "level2UserId": 10060,
+        "status": "ACTIVE"
+      },
+      "role": {
+        "id": 8,
+        "roleName": "Promoter",
+        "active": true,
+        "createdDate": "2019-05-20T10:02:09.118+0000",
+        "createdBy": "User3",
+        "updatedDate": null,
+        "updatedBy": null,
+        "description": "Promoter"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10366,
+      "auuid": null,
+      "msisdn": "9761813177",
+      "firstName": "ravtej",
+      "lastName": "singh",
+      "gender": "",
+      "dob": "",
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "9358258295",
+      "userHeirarchy": {
+        "level1UserId": 10325,
+        "level2UserId": 10060,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10371,
+      "auuid": null,
+      "msisdn": "9900880077",
+      "firstName": "teamlead",
+      "lastName": "user",
+      "gender": "",
+      "dob": "",
+      "email": "tushar@yopmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "987654324",
+      "userHeirarchy": {
+        "level1UserId": 10060,
+        "level2UserId": 0,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10385,
+      "auuid": null,
+      "msisdn": "9999988883",
+      "firstName": "fifth",
+      "lastName": "user",
+      "gender": "",
+      "dob": "",
+      "email": "fifth@yopmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "9900880077",
+      "userHeirarchy": {
+        "level1UserId": 10371,
+        "level2UserId": 10060,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10418,
+      "auuid": null,
+      "msisdn": "995687885",
+      "firstName": "TeamLead",
+      "lastName": "string",
+      "gender": "Male",
+      "dob": "string",
+      "email": "Teamlead1@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "995687884",
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10459,
+      "auuid": null,
+      "msisdn": "777777776",
+      "firstName": "team",
+      "lastName": "lead",
+      "gender": "",
+      "dob": "",
+      "email": "teamlead@yopmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "995687884",
+      "userHeirarchy": {
+        "level1UserId": 10384,
+        "level2UserId": 0,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10461,
+      "auuid": null,
+      "msisdn": "999999990",
+      "firstName": "team",
+      "lastName": "lead",
+      "gender": "",
+      "dob": "",
+      "email": "teamlead@yopmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "995687884",
+      "userHeirarchy": {
+        "level1UserId": 10384,
+        "level2UserId": 0,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10465,
+      "auuid": null,
+      "msisdn": "111111116",
+      "firstName": "new",
+      "lastName": "promoter",
+      "gender": "",
+      "dob": "",
+      "email": "promoter@yopmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "777777776",
+      "userHeirarchy": {
+        "level1UserId": 10459,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10310,
+      "auuid": null,
+      "msisdn": "751665900",
+      "firstName": "KITENDA",
+      "lastName": "MASTULA",
+      "gender": "Female",
+      "dob": "14-02-1993",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10309,
+      "auuid": null,
+      "msisdn": "706177649",
+      "firstName": "MIREMBE",
+      "lastName": "LIZ",
+      "gender": "Female",
+      "dob": "13-02-1995",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10308,
+      "auuid": null,
+      "msisdn": "758215487",
+      "firstName": "SSERWADA",
+      "lastName": "JOSHUA",
+      "gender": "Male",
+      "dob": "18-06-1994",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10307,
+      "auuid": null,
+      "msisdn": "756757838",
+      "firstName": "NAMUKWAYA",
+      "lastName": "JAMEO",
+      "gender": "Female",
+      "dob": "18-09-1997",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10306,
+      "auuid": null,
+      "msisdn": "701534733",
+      "firstName": "NATWERA",
+      "lastName": "MACKLINE",
+      "gender": "Female",
+      "dob": "11-10-1990",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10305,
+      "auuid": null,
+      "msisdn": "708611624",
+      "firstName": "DIKUZIMANA",
+      "lastName": "FRANCIS",
+      "gender": "Male",
+      "dob": "11-03-1997",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10304,
+      "auuid": null,
+      "msisdn": "754171123",
+      "firstName": "GALIWANGO",
+      "lastName": "SHAFIC",
+      "gender": "Male",
+      "dob": "10-03-1995",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10303,
+      "auuid": null,
+      "msisdn": "751814916",
+      "firstName": "NAKIGOYE",
+      "lastName": "MARIA",
+      "gender": "Female",
+      "dob": "01-04-1979",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10302,
+      "auuid": null,
+      "msisdn": "705225820",
+      "firstName": "NADDAMBA",
+      "lastName": "RUTH",
+      "gender": "Female",
+      "dob": "18-06-1995",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10301,
+      "auuid": null,
+      "msisdn": "757367246",
+      "firstName": "KIWEEWA",
+      "lastName": "STEVEN",
+      "gender": "Male",
+      "dob": "16-01-1988",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10300,
+      "auuid": null,
+      "msisdn": "752928627",
+      "firstName": "SSENKINDU",
+      "lastName": "GIDEON",
+      "gender": "Male",
+      "dob": "12-05-1996",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10299,
+      "auuid": null,
+      "msisdn": "754007834",
+      "firstName": "TWINEAMASIKO",
+      "lastName": "GLORIA",
+      "gender": "Female",
+      "dob": "01-02-1996",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10298,
+      "auuid": null,
+      "msisdn": "703728803",
+      "firstName": "KANIHILA",
+      "lastName": "MAUREEN",
+      "gender": "Female",
+      "dob": "14-08-1994",
+      "email": "nandiwalarhinat@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10333,
+      "auuid": null,
+      "msisdn": "98765449",
+      "firstName": "teamlead",
+      "lastName": "ravtej",
+      "gender": null,
+      "dob": null,
+      "email": "PROMravtej@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "9358258303",
+      "userHeirarchy": {
+        "level1UserId": 10327,
+        "level2UserId": 10060,
+        "status": "ACTIVE"
+      },
+      "role": {
+        "id": 8,
+        "roleName": "Promoter",
+        "active": true,
+        "createdDate": "2019-05-20T10:02:09.118+0000",
+        "createdBy": "User3",
+        "updatedDate": null,
+        "updatedBy": null,
+        "description": "Promoter"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10356,
+      "auuid": null,
+      "msisdn": "98765440",
+      "firstName": "teamlead",
+      "lastName": "ravtej",
+      "gender": null,
+      "dob": null,
+      "email": "PROMravtej@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "9358258303",
+      "userHeirarchy": {
+        "level1UserId": 10327,
+        "level2UserId": 10060,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10349,
+      "auuid": null,
+      "msisdn": "159753654",
+      "firstName": "ravtej",
+      "lastName": "singh",
+      "gender": "",
+      "dob": "",
+      "email": "test@123.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "9358258295",
+      "userHeirarchy": {
+        "level1UserId": 10325,
+        "level2UserId": 10060,
+        "status": "ACTIVE"
+      },
+      "role": {
+        "id": 8,
+        "roleName": "Promoter",
+        "active": true,
+        "createdDate": "2019-05-20T10:02:09.118+0000",
+        "createdBy": "User3",
+        "updatedDate": null,
+        "updatedBy": null,
+        "description": "Promoter"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10335,
+      "auuid": null,
+      "msisdn": "900800800",
+      "firstName": "rav",
+      "lastName": "singh",
+      "gender": null,
+      "dob": null,
+      "email": "test@string.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "9358258295",
+      "userHeirarchy": {
+        "level1UserId": 10325,
+        "level2UserId": 10060,
+        "status": "ACTIVE"
+      },
+      "role": {
+        "id": 8,
+        "roleName": "Promoter",
+        "active": true,
+        "createdDate": "2019-05-20T10:02:09.118+0000",
+        "createdBy": "User3",
+        "updatedDate": null,
+        "updatedBy": null,
+        "description": "Promoter"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10359,
+      "auuid": null,
+      "msisdn": "7777777777",
+      "firstName": "final",
+      "lastName": "one",
+      "gender": "",
+      "dob": "",
+      "email": "final.one@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "987896547",
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10021,
+      "auuid": "13205102",
+      "msisdn": "752600639",
+      "firstName": "Dan",
+      "lastName": "Mugabi",
+      "gender": "male",
+      "dob": "08-01-1984",
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [
+        {
+          "geoId": 1,
+          "geoName": "Central 1",
+          "desc": "Region",
+          "level": "L_1"
+        },
+        {
+          "geoId": 10,
+          "geoName": "NAKAWA",
+          "desc": "Territory",
+          "level": "L_2"
+        },
+        {
+          "geoId": 49,
+          "geoName": "BUGOLOBI",
+          "desc": "Cluster",
+          "level": "L_3"
+        },
+        {
+          "geoId": 185,
+          "geoName": "Kamwokya II",
+          "desc": "Unit",
+          "level": "L_4"
+        }
+      ],
+      "status": "ACTIVE",
+      "userType": null,
+      "reportingMsisdn": null,
+      "userHeirarchy": null,
+      "role": {
+        "id": 4,
+        "roleName": "AMOM",
+        "active": false,
+        "createdDate": "2019-12-12T06:42:12.000+0000",
+        "createdBy": "dsadsa",
+        "updatedDate": "2019-12-12T06:42:12.000+0000",
+        "updatedBy": "ADSA",
+        "description": "Airtel Money Operations manager"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10368,
+      "auuid": null,
+      "msisdn": "9900990099",
+      "firstName": "teamlead",
+      "lastName": "tes",
+      "gender": "",
+      "dob": "",
+      "email": "teamlead.test@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "987896547",
+      "userHeirarchy": null,
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10373,
+      "auuid": null,
+      "msisdn": "1234567890",
+      "firstName": "test",
+      "lastName": "user",
+      "gender": "",
+      "dob": "",
+      "email": "test@yopmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "9900880077",
+      "userHeirarchy": {
+        "level1UserId": 10371,
+        "level2UserId": 10060,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10363,
+      "auuid": null,
+      "msisdn": "8506000888",
+      "firstName": "ravtej",
+      "lastName": "singh",
+      "gender": "",
+      "dob": "",
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "9358258295",
+      "userHeirarchy": {
+        "level1UserId": 10325,
+        "level2UserId": 10060,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10384,
+      "auuid": null,
+      "msisdn": "995687884",
+      "firstName": "Zone",
+      "lastName": "manager",
+      "gender": "",
+      "dob": "",
+      "email": "zm@yopmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "ZONEMANAGER",
+      "reportingMsisdn": null,
+      "userHeirarchy": {
+        "level1UserId": 0,
+        "level2UserId": 0,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10469,
+      "auuid": null,
+      "msisdn": "888555777",
+      "firstName": "promoter",
+      "lastName": "Si",
+      "gender": "",
+      "dob": "",
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "850600068",
+      "userHeirarchy": {
+        "level1UserId": 10467,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10475,
+      "auuid": null,
+      "msisdn": "123456666",
+      "firstName": "ravtej",
+      "lastName": "singh",
+      "gender": "",
+      "dob": "",
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "850600000",
+      "userHeirarchy": {
+        "level1UserId": 10473,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10477,
+      "auuid": null,
+      "msisdn": "995687895",
+      "firstName": "TeamLead",
+      "lastName": "string",
+      "gender": "Male",
+      "dob": "string",
+      "email": "Teamlead1@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "995687884",
+      "userHeirarchy": {
+        "level1UserId": 10384,
+        "level2UserId": 0,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10479,
+      "auuid": null,
+      "msisdn": "123456780",
+      "firstName": "ravi",
+      "lastName": "singhhhhhhhh",
+      "gender": "",
+      "dob": "",
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "850600000",
+      "userHeirarchy": {
+        "level1UserId": 10473,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10463,
+      "auuid": null,
+      "msisdn": "999999991",
+      "firstName": "ttt",
+      "lastName": "yyyy",
+      "gender": "",
+      "dob": "",
+      "email": "a_laxmi.khatri@airtelworld.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "777777776",
+      "userHeirarchy": {
+        "level1UserId": 10459,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10482,
+      "auuid": null,
+      "msisdn": "123455555",
+      "firstName": "das",
+      "lastName": "gupta",
+      "gender": "",
+      "dob": "",
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "850600000",
+      "userHeirarchy": {
+        "level1UserId": 10473,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10473,
+      "auuid": null,
+      "msisdn": "850600000",
+      "firstName": "ravtej",
+      "lastName": "singh",
+      "gender": "",
+      "dob": "",
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "995687884",
+      "userHeirarchy": {
+        "level1UserId": 10384,
+        "level2UserId": 0,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10484,
+      "auuid": null,
+      "msisdn": "856856856",
+      "firstName": "ravtej",
+      "lastName": "singh",
+      "gender": "",
+      "dob": "",
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "995687884",
+      "userHeirarchy": {
+        "level1UserId": 10384,
+        "level2UserId": 0,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10486,
+      "auuid": null,
+      "msisdn": "111111114",
+      "firstName": "promo",
+      "lastName": "ter",
+      "gender": "",
+      "dob": "",
+      "email": "promoter@yopmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "777777776",
+      "userHeirarchy": {
+        "level1UserId": 10459,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10494,
+      "auuid": null,
+      "msisdn": "123412340",
+      "firstName": "Team One",
+      "lastName": "leader",
+      "gender": "",
+      "dob": "",
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "995687884",
+      "userHeirarchy": {
+        "level1UserId": 10384,
+        "level2UserId": 0,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10520,
+      "auuid": null,
+      "msisdn": "976111574",
+      "firstName": "Jarrod",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10538,
+      "auuid": null,
+      "msisdn": "162417885",
+      "firstName": "Randall",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10598,
+      "auuid": null,
+      "msisdn": "656925462",
+      "firstName": "Chadwick",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10586,
+      "auuid": null,
+      "msisdn": "484275768",
+      "firstName": "Martin",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10606,
+      "auuid": null,
+      "msisdn": "628494337",
+      "firstName": "Palmer",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10592,
+      "auuid": null,
+      "msisdn": "718649312",
+      "firstName": "Judah",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10568,
+      "auuid": null,
+      "msisdn": "235735292",
+      "firstName": "Sylvester",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10570,
+      "auuid": null,
+      "msisdn": "782616625",
+      "firstName": "Abdul",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10572,
+      "auuid": null,
+      "msisdn": "121794839",
+      "firstName": "Raja",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10574,
+      "auuid": null,
+      "msisdn": "362466823",
+      "firstName": "Fitzgerald",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10578,
+      "auuid": null,
+      "msisdn": "284857964",
+      "firstName": "Hammett",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10576,
+      "auuid": null,
+      "msisdn": "598718797",
+      "firstName": "Keegan",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10566,
+      "auuid": null,
+      "msisdn": "431139683",
+      "firstName": "Zachary",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10562,
+      "auuid": null,
+      "msisdn": "434459723",
+      "firstName": "Acton",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10560,
+      "auuid": null,
+      "msisdn": "679311165",
+      "firstName": "Barrett",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10554,
+      "auuid": null,
+      "msisdn": "211493182",
+      "firstName": "Hector",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10528,
+      "auuid": null,
+      "msisdn": "183822885",
+      "firstName": "Vaughan",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10580,
+      "auuid": null,
+      "msisdn": "785373494",
+      "firstName": "Hoyt",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10600,
+      "auuid": null,
+      "msisdn": "727392166",
+      "firstName": "Timon",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10608,
+      "auuid": null,
+      "msisdn": "391914532",
+      "firstName": "Macon",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10558,
+      "auuid": null,
+      "msisdn": "542552896",
+      "firstName": "Dane",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10518,
+      "auuid": null,
+      "msisdn": "787393266",
+      "firstName": "Ryan",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10526,
+      "auuid": null,
+      "msisdn": "988275858",
+      "firstName": "Lester",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10532,
+      "auuid": null,
+      "msisdn": "263531852",
+      "firstName": "Beck",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10530,
+      "auuid": null,
+      "msisdn": "328439166",
+      "firstName": "Peter",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10536,
+      "auuid": null,
+      "msisdn": "767116328",
+      "firstName": "Brady",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10548,
+      "auuid": null,
+      "msisdn": "236992983",
+      "firstName": "Peter",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10550,
+      "auuid": null,
+      "msisdn": "236785322",
+      "firstName": "Gage",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10603,
+      "auuid": null,
+      "msisdn": "313535679",
+      "firstName": "Mohammad",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10582,
+      "auuid": null,
+      "msisdn": "774744738",
+      "firstName": "Deacon",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10594,
+      "auuid": null,
+      "msisdn": "293197824",
+      "firstName": "Aidan",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10588,
+      "auuid": null,
+      "msisdn": "244134611",
+      "firstName": "Keefe",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10564,
+      "auuid": null,
+      "msisdn": "251616516",
+      "firstName": "Honorato",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10504,
+      "auuid": null,
+      "msisdn": "098765431",
+      "firstName": "Promoter ",
+      "lastName": "ONE",
+      "gender": "",
+      "dob": "",
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10522,
+      "auuid": null,
+      "msisdn": "565116549",
+      "firstName": "Thaddeus",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10542,
+      "auuid": null,
+      "msisdn": "732315499",
+      "firstName": "Prescott",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10544,
+      "auuid": null,
+      "msisdn": "399529563",
+      "firstName": "Jonas",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10602,
+      "auuid": null,
+      "msisdn": "645481963",
+      "firstName": "Cade",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10584,
+      "auuid": null,
+      "msisdn": "716568882",
+      "firstName": "Robert",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10590,
+      "auuid": null,
+      "msisdn": "343741124",
+      "firstName": "Travis",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10516,
+      "auuid": null,
+      "msisdn": "481947271",
+      "firstName": "Dalton",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10524,
+      "auuid": null,
+      "msisdn": "878238634",
+      "firstName": "Gregory",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10534,
+      "auuid": null,
+      "msisdn": "489718663",
+      "firstName": "Grant",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10540,
+      "auuid": null,
+      "msisdn": "459914246",
+      "firstName": "Uriel",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10546,
+      "auuid": null,
+      "msisdn": "777158842",
+      "firstName": "Kibo",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10596,
+      "auuid": null,
+      "msisdn": "925116366",
+      "firstName": "Eagan",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10556,
+      "auuid": null,
+      "msisdn": "273114813",
+      "firstName": "Forrest",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10552,
+      "auuid": null,
+      "msisdn": "699435367",
+      "firstName": "Brady",
+      "lastName": "Promoter",
+      "gender": null,
+      "dob": null,
+      "email": "ravtejsingh123@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "123412340",
+      "userHeirarchy": {
+        "level1UserId": 10494,
+        "level2UserId": 10384,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10060,
+      "auuid": "",
+      "msisdn": "987654324",
+      "firstName": "Tim",
+      "lastName": "Smith",
+      "gender": "male",
+      "dob": "12-12-1991",
+      "email": "tim@gmail.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "ZONEMANAGER",
+      "reportingMsisdn": "975545434",
+      "userHeirarchy": {
+        "level1UserId": 0,
+        "level2UserId": 0,
+        "status": "ACTIVE"
+      },
+      "role": {
+        "id": 6,
+        "roleName": "Zone Manager",
+        "active": true,
+        "createdDate": "2000-12-17T02:43:33.159+0000",
+        "createdBy": "User",
+        "updatedDate": "1994-10-14T09:45:25.870+0000",
+        "updatedBy": "abc",
+        "description": "Zone Manager"
+      },
+      "subRole": null
+    },
+    {
+      "id": 10714,
+      "auuid": null,
+      "msisdn": "880041842",
+      "firstName": "Ankit ",
+      "lastName": "Srivastava",
+      "gender": "Male",
+      "dob": "string",
+      "email": "a_Ankit1.Srivastava@airtel.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "ZONEMANAGER",
+      "reportingMsisdn": "",
+      "userHeirarchy": {
+        "level1UserId": 0,
+        "level2UserId": 0,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10719,
+      "auuid": null,
+      "msisdn": "769650625",
+      "firstName": "Pankaj",
+      "lastName": "Badera",
+      "gender": "Male",
+      "dob": "string",
+      "email": "Pankaj.Badera@aujas.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "TEAMLEAD",
+      "reportingMsisdn": "880041842",
+      "userHeirarchy": {
+        "level1UserId": 10714,
+        "level2UserId": 0,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10721,
+      "auuid": null,
+      "msisdn": "992739612",
+      "firstName": "Prateek",
+      "lastName": "Sharma",
+      "gender": "Male",
+      "dob": "string",
+      "email": "prateek.sharma@aujas.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "PROMOTER",
+      "reportingMsisdn": "769650625",
+      "userHeirarchy": {
+        "level1UserId": 10719,
+        "level2UserId": 10714,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    },
+    {
+      "id": 10716,
+      "auuid": null,
+      "msisdn": "783836855",
+      "firstName": "Puneet ",
+      "lastName": "Lamba",
+      "gender": "Male",
+      "dob": "string",
+      "email": "Puneet.lamba@airtel.com",
+      "geoLevel": [],
+      "status": "ACTIVE",
+      "userType": "ZONEMANAGER",
+      "reportingMsisdn": "",
+      "userHeirarchy": {
+        "level1UserId": 0,
+        "level2UserId": 0,
+        "status": "ACTIVE"
+      },
+      "role": null,
+      "subRole": null
+    }
+  ]
+}

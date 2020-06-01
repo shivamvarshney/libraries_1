@@ -1,0 +1,102 @@
+<section class="swCaseContainer">
+  <section class="deActivity" [@slideInOut]>
+    <div class="layout">
+      <input name="nav" type="radio" class="nav home-radio" id="home" checked="checked" />
+      <div class="page home-page">
+        <div class="page-contents">
+
+          <section id="Daily-graphs" class="tabContainer sw-content">
+            <div class="toggleSlide m-l-0">
+              <p class="casesHeading">{{'Total Cases'}}</p>
+              <canvas id="daily_drought_chart" width="400" height="220"></canvas>
+            </div>
+            <div class="toggleSlide m-l-0">
+              <p class="casesHeading">{{'Approved Cases'}}</p>
+              <canvas id="ctxDailyTotalCases" width="400" height="220"></canvas>
+            </div>
+            <div class="toggleSlide m-l-0">
+              <p class="casesHeading">{{'Rejected Cases'}}</p>
+              <canvas id="ctxDailyApprovedCases" width="400" height="220"></canvas>
+            </div>
+            <div class="toggleSlide m-l-0">
+              <p class="casesHeading">{{'Pending Cases'}}</p>
+              <canvas id="ctxDailyRejectedCases" width="400" height="220"></canvas>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="topTab">
+        <label class="nav" for="home" >
+          <span [ngClass]="{'activeTab' : currectSelectedTab == 'daily'}" (click)="userActiveTab($event, 'daily')">{{ 'daily' | translate }}</span>
+        </label>
+        <label class="nav" for="about">
+          <span [ngClass]="{'activeTab' : currectSelectedTab == 'weekly'}" (click)="userActiveTab($event, 'weekly')">{{ 'weekly' | translate }}</span>
+        </label>
+        <label class="nav" for="contact">
+          <span [ngClass]="{'activeTab' : currectSelectedTab == 'monthly'}" (click)="userActiveTab($event, 'monthly')">{{ 'monthly' | translate }}</span>
+        </label>
+      </div>
+
+      <input name="nav" type="radio" class="about-radio" id="about" />
+      <div class="page about-page">
+        <div class="page-contents">
+
+          <section id="Weekly-graphs" class="tabContainer sw-content">
+            <div class="toggleSlide m-l-0">
+              <p class="casesHeading">{{'Total Cases'}}</p>
+              <canvas id="weekly_drought_chart" width="400" height="220"></canvas>
+            </div>
+            <div class="toggleSlide m-l-0">
+              <p class="casesHeading">{{'Approved Cases'}}</p>
+              <canvas id="ctxWeeklyTotalCases" width="400" height="220"></canvas>
+            </div>
+            <div class="toggleSlide m-l-0">
+              <p class="casesHeading">{{'Rejected Cases'}}</p>
+              <canvas id="ctxWeeklyApprovedCases" width="400" height="220"></canvas>
+            </div>
+            <div class="toggleSlide m-l-0">
+              <p class="casesHeading">{{'Pending Cases'}}</p>
+              <canvas id="ctxWeeklyRejectedCases" width="400" height="220"></canvas>
+            </div>
+          </section>
+
+        </div>
+      </div>
+
+
+      <input name="nav" type="radio" class="contact-radio" id="contact" />
+      <div class="page contact-page">
+        <div class="page-contents">
+
+          <section id="Monthly-graphs" class="tabContainer sw-content">
+            <div class="toggleSlide m-l-0">
+              <p class="casesHeading">{{'Total Cases'}}</p>
+              <canvas id="monthly_drought_chart" width="400" height="220"></canvas>
+            </div>
+            <div class="toggleSlide m-l-0">
+              <p class="casesHeading">{{'Approved Cases'}}</p>
+              <canvas id="ctxMonthlyTotalCases" width="400" height="220"></canvas>
+            </div>
+            <div class="toggleSlide m-l-0">
+              <p class="casesHeading">{{'Rejected Cases'}}</p>
+              <canvas id="ctxMonthlyApprovedCases" width="400" height="220"></canvas>
+            </div>
+            <div class="toggleSlide m-l-0">
+              <p class="casesHeading">{{'Pending Cases'}}</p>
+              <canvas id="ctxMonthlyRejectedCases" width="400" height="220"></canvas>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="timerContainer">
+      <span class="timetxt">{{ 'avgTime' | translate }}</span>
+      <span class="avgTimer">{{ 'time' | translate }}</span>
+    </div>
+  </section>
+
+  <section class="agentContainer" *appPermissionCanAccess="[PIds.LISTING_OF_CASE]"> 
+    <list-of-agents></list-of-agents>
+  </section>
+
+</section>

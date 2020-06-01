@@ -1,0 +1,29 @@
+<mat-card class="sales-card">
+  <mat-card-header>
+    <!-- <div mat-card-avatar class="example-header-image"></div> -->
+    <mat-card-title></mat-card-title>
+    <mat-card-subtitle></mat-card-subtitle>
+  </mat-card-header>
+  <img *ngIf="cardData.image" mat-card-image class="card-img" src="./assets/fonts/svg/{{ cardData.image }}"
+    alt="card-images" />
+  <mat-card-content>
+    <ng-container *ngIf="cardData.moduleName == 'ROLES';then roles else CPheading"></ng-container>
+    <ng-template #roles>
+        <span *ngIf="cardData.totalNum" class="card-heading num d-block">{{ cardData.totalNum }}</span>
+        <span *ngIf="cardData.cardText" class="sub-heading d-block common-color">{{ cardData.cardText | translate }}</span>    
+    </ng-template>
+    <ng-template #CPheading>
+        <span *ngIf="cardData.cardText" class="sub-heading d-block common-color">{{ cardData.cardText | translate }}</span>
+        <span *ngIf="cardData.totalNum" class="card-heading num d-block">{{ cardData.totalNum }}</span>
+    </ng-template>
+    <a *ngIf="cardData.bulkStatus === true" class="text-upppercase d-i-block s-card">
+      <bulk [bulkData]="cardData"></bulk>
+      <download-template [downloadInfo]="cardData"></download-template>
+    </a>
+
+  </mat-card-content>
+  <mat-card-actions>
+    <!-- <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button> -->
+  </mat-card-actions>
+</mat-card>

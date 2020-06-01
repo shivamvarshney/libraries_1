@@ -1,0 +1,51 @@
+.listOfAgentsContainer{
+    .timeShow{
+        .time{
+            margin: 0 0 5px 0;
+            font-size: 30px;
+            display: inline-block;
+            padding: 8px 20px;
+            color: #707070;
+            background-color: #ffffff;
+            -webkit-box-shadow: 0px 4px 6px -4px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 4px 6px -4px rgba(0,0,0,0.75);
+            box-shadow: 0px 4px 6px -4px rgba(0,0,0,0.75);
+        }
+    }
+    .agentsFilter{
+        margin-bottom: 3px;
+        .agent-form{
+            .agent-width{ margin-left: 25px; }
+            .agent-width.w-24{ width: 23%; }
+            .fromDate{ width: 11%; }
+            .mat-select-value-text { 
+                span { padding-left: 10px; } 
+            } 
+            .saveBtn{
+                display: inline-block;
+                .searchBtn{
+                    color: #ffffff; background: #EC1B24; font-size: 15px;padding: 9px 12px;line-height: 1;
+                }
+                .searchBtn.reset{
+                    margin-left: 18px;
+                }
+                .searchBtn.refresh {
+                    height: 33px;
+                    padding: 6px 0;
+                }
+                .searchBtn.refresh{
+                    .ref{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+    .agentTables{
+        .pd-t-10{ padding: 15px 0; }
+        .cplink{
+            color: #EC1B24;
+            cursor: pointer;
+        }
+    }
+}

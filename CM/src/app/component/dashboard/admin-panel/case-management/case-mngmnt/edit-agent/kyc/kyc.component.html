@@ -1,0 +1,31 @@
+<form class="agent-form" novalidate [@slideInOut]>
+  <ng-container *ngFor="let controls of fields">
+    <div class="formFields details-page" *ngIf="controls.type == 'input' && controls.value != ''">
+    <div class="form-group toggleIcon" >
+      <label class="d-pages-label" [for]="controls.label">{{controls.label}}</label>
+      <input [type]="controls.inputType" [readonly]="true" class="form-control kyc-details-page"
+        [value]="controls.value" [placeholder]="controls.placeHolder">
+    </div>
+  </div>
+  </ng-container>
+  <div class="">
+    <div *ngFor="let controls of fields" class="imageName">
+    <div class="userId" *ngIf="controls.type === 'image'">
+      <label class="d-pages-label">{{controls.placeHolder}}</label>
+        <img *ngIf="controls.imagePath" class="w-100 mr-t-10 form-control cursor-pointer imgHeight hImg" (click)="zoomImageInModel(controls)"
+        [src]="controls.imagePath ? controls.imagePath : '../../../../../../../../assets/images/thumb.png'" alt="show" />
+    </div>
+  </div>
+</div>
+  <div class="align-right case-action">
+    <button class="cm_btn" (click)="back()">{{ 'home' | translate }}</button>
+  </div>
+</form>
+
+<!-- The Modal -->
+<div id="myModal" class="modal" *ngIf="visibleModel">
+  <!-- The Close Button -->
+  <span class="close" (click)="closeModel()">&times;</span>
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" [src]="imageURL" id="img01">
+</div>

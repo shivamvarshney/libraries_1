@@ -1,0 +1,10 @@
+.parent-container{
+    overflow: hidden;
+    padding: 20px 0px 21px 0;
+}
+
+.lang-select{
+    width: 115px;
+    float: right;
+    margin-right: 30px;
+}
