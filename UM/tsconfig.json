@@ -1,0 +1,47 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@component/*": [
+        "src/app/component/dashboard/admin-panel/*"
+      ],
+      "@service/*": [
+        "src/app/service/*"
+      ],
+      "@i18/*": [
+        "src/assets/i18n/*"
+      ],
+      "@src/*": [
+        "src/app/*"
+      ],
+      "core-airtel-africa": [
+        "dist/core-airtel-africa"
+      ],
+      "core-airtel-africa/*": [
+        "dist/core-airtel-africa/*"
+      ],
+      "@environment/*": [
+        "src/environments/*"
+      ]
+    },
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es5",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+  }
+}

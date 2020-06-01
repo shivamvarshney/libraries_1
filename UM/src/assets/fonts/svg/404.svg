@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="422" height="264" viewBox="0 0 422 264">
+  <g id="Group_17875" data-name="Group 17875" transform="translate(-491 -315)">
+    <text id="_4" data-name="4" transform="translate(491 525)" fill="#707070" font-size="200" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">4</tspan></text>
+    <text id="_4-2" data-name="4" transform="translate(800 525)" fill="#707070" font-size="200" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">4</tspan></text>
+    <g id="Expanded" transform="translate(640 390)">
+      <g id="Group_17881" data-name="Group 17881" transform="translate(0 6)">
+        <g id="Group_17876" data-name="Group 17876">
+          <path id="Path_15505" data-name="Path 15505" d="M114.435,107.128H13.306A13.321,13.321,0,0,1,0,93.822V19.306A13.321,13.321,0,0,1,13.306,6H114.435a13.321,13.321,0,0,1,13.306,13.306V93.822A13.321,13.321,0,0,1,114.435,107.128ZM13.306,11.323a7.994,7.994,0,0,0-7.984,7.984V93.822a7.994,7.994,0,0,0,7.984,7.984H114.435a7.994,7.994,0,0,0,7.984-7.984V19.306a7.994,7.994,0,0,0-7.984-7.984Z" transform="translate(0 -6)" fill="#707070"/>
+        </g>
+        <g id="Group_17877" data-name="Group 17877" transform="translate(0 26.613)">
+          <path id="Path_15506" data-name="Path 15506" d="M125.08,21.323H2.661a2.661,2.661,0,0,1,0-5.323H125.08a2.661,2.661,0,1,1,0,5.323Z" transform="translate(0 -16)"/>
+        </g>
+        <g id="Group_17878" data-name="Group 17878" transform="translate(15.968 10.645)">
+          <ellipse id="Ellipse_40" data-name="Ellipse 40" cx="5.5" cy="5" rx="5.5" ry="5" transform="translate(0.032 0.355)"/>
+        </g>
+        <g id="Group_17879" data-name="Group 17879" transform="translate(31.935 10.645)">
+          <ellipse id="Ellipse_41" data-name="Ellipse 41" cx="5.5" cy="5" rx="5.5" ry="5" transform="translate(0.065 0.355)"/>
+        </g>
+        <g id="Group_17880" data-name="Group 17880" transform="translate(47.903 10.645)">
+          <ellipse id="Ellipse_42" data-name="Ellipse 42" cx="5.5" cy="5" rx="5.5" ry="5" transform="translate(0.097 0.355)"/>
+        </g>
+      </g>
+    </g>
+    <path id="iconfinder_icon-ios7-search-strong_211817" d="M103.751,97.161a21.5,21.5,0,1,0-6.476,6.547l.978-.68,15.39,15.39,4.776-4.861-15.376-15.39ZM97.643,73.523A17.038,17.038,0,1,1,85.6,68.535,16.926,16.926,0,0,1,97.643,73.523Z" transform="translate(639.599 367.599)" fill="#ed1c24"/>
+    <g id="iconfinder_6_-_Cross_1815573" transform="translate(662 440)">
+      <g id="Layer_x0020_1" transform="translate(3.771 3.771)">
+        <path id="Path_15507" data-name="Path 15507" d="M23.2,2.462a.943.943,0,1,0-1.333-1.333L1.129,21.868A.943.943,0,1,0,2.462,23.2L23.2,2.462Z" transform="translate(-0.853 -0.853)" fill="#ed1c24"/>
+        <path id="Path_15508" data-name="Path 15508" d="M2.462,1.129A.943.943,0,1,0,1.129,2.462L21.868,23.2A.943.943,0,0,0,23.2,21.868L2.462,1.129Z" transform="translate(-0.853 -0.853)" fill="#ed1c24"/>
+      </g>
+      <rect id="Rectangle_1403" data-name="Rectangle 1403" width="30.165" height="30.165" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Tondo-bold;
+    src: url("./tondo/tondo-bold-webfont.eot") format("embedded-opentype"),
+    url("./tondo/tondo-bold-webfont.svg") format("svg"),
+    url("./tondo/tondo-bold-webfont.ttf") format("truetype"),
+    url("./tondo/tondo-bold-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: Tondo-light;
+    src: url("./tondo/tondo-light-webfont.eot") format("embedded-opentype"),
+    url("./tondo/tondo-light-webfont.svg") format("svg"),
+    url("./tondo/tondo-light-webfont.ttf") format("truetype"),
+    url("./tondo/tondo-light-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: Tondo-regular;
+    src: url("tondo/tondo-regular-webfont.eot") format("embedded-opentype"),
+    url("./tondo/tondo-regular-webfont.svg") format("svg"),
+    url("./tondo/tondo-regular-webfont.ttf") format("truetype"),
+    url("tondo/tondo-regular-webfont.woff") format("woff");    
+}
+@font-face {
+    font-family: Tondo-corp-regular;
+    src: url("tondo/Tondo_Corp_Rg.ttf") format("truetype")
+}
+@font-face {
+    font-family: Tondo-corp-light;
+    src: url("tondo/Tondo_Corp_Lt.ttf") format("truetype")
+}
+@font-face {
+    font-family: Tondo-corp-bold;
+    src: url("tondo/Tondo_Corp_Bd.ttf") format("truetype")
+}

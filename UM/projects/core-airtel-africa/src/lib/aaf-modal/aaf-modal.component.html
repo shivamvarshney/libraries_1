@@ -1,0 +1,17 @@
+<div>
+  <h1 mat-dialog-title>{{ data.title }}</h1>
+  <mat-divider></mat-divider>
+  <div mat-dialog-content>
+    <p class="pd-tp-12">{{ data.reason }}</p>
+  </div>
+  <div mat-dialog-actions>
+    <button
+      mat-raised-button
+      color="warn"
+      [mat-dialog-close]="data.animal"
+      cdkFocusInitial
+    >
+      Ok
+    </button>
+  </div>
+</div>

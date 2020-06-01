@@ -1,0 +1,21 @@
+<div *ngIf="userName && masterDataLength > 0">
+  <div class="create-user-wrapper">
+    <div class="title">
+        <p class="common-color f-18 c-pointer titleBar" (click)="back()">
+          <img class="back-icon" src="assets/fonts/svg/back.svg">
+          <span class="back f-18">{{'users_update_user_back' | translate}}</span> 
+        </p>
+          <p class="common-color f-26 text-uppercase titleBar">{{'users_update_user_title' | translate}}</p>
+    </div>
+  </div>
+  <div class="user-heading">
+    <h1 class="name"> {{userName}} </h1>
+  </div>
+  <div class="row position-relative w-100">
+    <div *ngIf="masterDataLength > 0">
+      <aaf-form [actionProvider]="editUserActionsProvider" [fields]="regConfig" (submit)="submitEditUserForm($event)"
+        [formInfo]="editUserForm">
+      </aaf-form>
+    </div>
+  </div> 
+</div>

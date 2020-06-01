@@ -1,0 +1,15 @@
+.model-dialog{
+    width: 360px;
+    height: 200px;
+    position: relative;
+}
+.pos-abs{
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+}
+@media (max-width:767px){
+    .model-dialog{
+        width: 220px;
+    }
+}

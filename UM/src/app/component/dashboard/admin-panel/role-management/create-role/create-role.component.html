@@ -1,0 +1,186 @@
+<div class="create-role-wrapper">
+  <div class="title">
+    <p class="common-color f-18 titleBar c-pointer" (click)="back()">
+      <img class="back-icon" src="assets/fonts/svg/back.svg">
+      <span class="back f-18">{{ (editRoleId ? 'roles.edit_role.back' : 'roles.create_role.back') | translate}}</span>
+    </p>
+    <p class="common-color f-26 titleBar">
+      {{ (editRoleId ? 'roles.edit_role.edit_role' : 'roles.create_role.create_role') | translate}}
+    </p>
+  </div>
+</div>
+<form *ngIf="permissionGroups.length > 0" [formGroup]="createRole" (ngSubmit)="submit()" class="role">
+  <!-- User client Id -->
+  <div class="form-group create w-20 mat-border-line">
+    <!-- class="input_border" -->
+    <label class="sky-color f-14 d-block">{{ 'roles.create_role.user_client_id' | translate }}</label>
+    <mat-select (selectionChange)="updatePermissionModules()" class="input_border"
+      placeholder="{{ 'roles.create_role.drop_down_select' | translate }}" name="clientId" formControlName="clientId"
+      multiple="true" required>
+      <mat-option *ngFor="let client of clientObj" [value]="client.clientId">{{client.name}}</mat-option>
+    </mat-select>
+    <div *ngIf="createRole.controls['clientId'].touched && createRole.controls['clientId'].errors" class="help-block">
+      <div *ngIf="createRole.controls['clientId'].errors.required">
+        {{'roles.create_role.validations.role_client_required' | translate }}
+      </div>
+    </div>
+  </div>
+  <div class="form-group create w-20 mat-border-line">
+    <!-- class="input_border" -->
+    <label class="sky-color f-14 d-block">{{ 'roles.create_role.user_department_ids' | translate }}</label>
+    <mat-select class="input_border"
+      placeholder="{{ 'roles.create_role.drop_down_select' | translate }}" name="departments" formControlName="departments"
+      multiple="true" required>
+      <mat-option *ngFor="let department of departmentObj" [value]="department.id">{{department.label}}</mat-option>
+    </mat-select>
+    <div *ngIf="createRole.controls['departments'].touched && createRole.controls['departments'].errors" class="help-block">
+      <div *ngIf="createRole.controls['departments'].errors.required">
+        {{'roles.create_role.validations.role_department_required' | translate }}
+      </div>
+    </div>
+  </div>
+  <!-- Role Name -->
+  <div class="form-group create">
+    <label class="d-block">
+      {{ 'roles.create_role.role_name' | translate }}
+    </label>
+    <div  class="wd-227">
+      <input id="roleName" class="input_border" formControlName="roleName"
+        placeholder="{{ 'roles.create_role.role_name' | translate }}" type="text" required>
+      <div *ngIf="createRole.controls['roleName'].touched && createRole.controls['roleName'].errors" class="help-block">
+        <div *ngIf="createRole.controls['roleName'].errors.required">
+          {{'roles.create_role.validations.role_name_is_required' | translate }}
+        </div>
+        <div *ngIf="createRole.controls['roleName'].errors.pattern">
+          {{'roles.create_role.validations.role_name_pattern' | translate }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Role Type -->
+  <div class="form-group create">
+    <label class="d-block"> {{ 'roles.create_role.role_type' | translate }}</label>
+    <select formControlName="roleType" class="input_border">
+      <option value="">{{ 'roles.create_role.drop_down_select' | translate }}</option>
+      <option [value]="roleType.key" *ngFor="let roleType of roleTypeObj | keyvalue">
+        {{roleType.value}}
+      </option>
+    </select>
+    <div *ngIf="createRole.controls['roleType'].touched && createRole.controls['roleType'].errors" class="help-block">
+      <div *ngIf="createRole.controls['roleType'].errors.required">
+        {{'roles.create_role.validations.role_type_required' | translate }}
+      </div>
+    </div>
+  </div>
+  <!-- Role Level -->
+  <div class="form-group create">
+    <label class="d-block">{{ 'roles.create_role.level' | translate }}</label>
+    <select formControlName="level" class="input_border">
+      <option value="">{{ 'roles.create_role.drop_down_select' | translate }}</option>
+      <option [value]="level.level" *ngFor="let level of levelData | sortedLevels:filterargs">
+        {{level.levelTitle}}
+      </option>
+    </select>
+    <div *ngIf="createRole.controls['level'].touched && createRole.controls['level'].errors" class="help-block">
+      <div *ngIf="createRole.controls['level'].errors.required">
+        {{'roles.create_role.validations.level_required' | translate }}
+      </div>
+    </div>
+  </div>
+  <!-- Report To -->
+  <div class="form-group create">
+    <label class="d-block">{{ 'roles.create_role.report_to' | translate }}</label>
+    <select formControlName="reportsTo" class="input_border">
+      <option value="">{{ 'roles.create_role.drop_down_select' | translate }}</option>
+      <option [value]="reportingManager.id" *ngFor="let reportingManager of reportingManagers">
+        {{reportingManager.name}}
+      </option>
+    </select>
+    <div *ngIf="createRole.controls['reportsTo'].touched && createRole.controls['reportsTo'].errors" class="help-block">
+      <div *ngIf="createRole.controls['reportsTo'].errors.required">
+        {{'roles.create_role.validations.reports_to_required' | translate }}
+      </div>
+    </div>
+  </div>
+  <!-- Role Description -->
+  <div class="form-group create w-30">
+    <label class="sky-color f-14">{{ 'roles.create_role.description' | translate }}</label>
+    <textarea class="text_area w-100" formControlName="roleDescription" cols="45" rows="2"></textarea>
+    <div class="row">
+      <span class="col-sm-6 d-block">
+        <span class="fs-12 common-color d-block"
+          *ngIf="createRole.controls['roleDescription'].errors && createRole.controls['roleDescription'].errors.maxlength">
+          {{'roles.create_role.validations.role_description_max_length' | translate }}
+        </span>
+      </span>
+      <span
+        class="text-right fs-12 common_gray_color d-block col-sm-6">{{ 'roles.create_role.validations.min_char_req' | translate }}</span>
+    </div>
+  </div>
+  <!-- Select Module Name -->
+  <div class="row w-95">
+    <div class="col-sm-9">
+      <div class="row">
+        <div class="col-sm-2">
+          <label class="d-block common-color f-26 role-permissions"
+            style="display: inline !important;">{{ 'roles.create_role.permissions' | translate }}</label>
+        </div>
+        <div class="col-sm-2">
+          <div *ngIf="clientsCheck && pmsChecks">
+            <div class="form-group" class="select-all-permissions checkbox checkbox-right">
+              <input type="checkbox" class="mr-10" style="padding-left: 20px;margin-left: 10px;"
+                [value]="selectAllPermissions" [checked]="selectAllPermissions" (change)="resetAllPermissions()">
+              <label class="common_gray_color">{{'roles.create_role.select_all' | translate}}</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="s_module form-group create col-sm-3 align-right m-0 position-relative">
+      <div class="input_border" (click)="toggleShow()">
+        <label class="s_module d-block text-left pl-40">{{ 'roles.create_role.select_module_name' | translate }}
+          <i
+            class="material-icons float-right mbt-5">{{showPermissions ? 'keyboard_arrow_up': 'keyboard_arrow_down'}}</i>
+        </label>
+      </div>
+      <div class="s_module d-i-block admin position-absolute permissions-groups" *ngIf="showPermissions">
+        <label class="s_module d-block pt-10 checkbox" formArrayName="modulePermission"
+          *ngFor="let modulePermissionData of createRole.controls.modulePermission.controls; let i = index">
+          <input (change)="getThePermissions()" class="s_module mr-10 float-right" type="checkbox"
+            [formControlName]="i">
+          <label class="d-i-block float-left common_gray_color">{{permissionsModules[i].name}}</label>
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="border-line"></div>
+  <!-- Select Module Name -->
+  <div class="m-h-300" id="style-3">
+    <ng-container *ngIf="clientsCheck && pmsChecks;then permissionDataTemplate else permissionNoDataTemplate">
+    </ng-container>
+    <ng-template #permissionDataTemplate>
+      <div>
+        <ng-container *ngFor="let moduleObj of allPermissions;">
+          <span class="common-color d-block mb-20">{{moduleObj.groupName}}</span>
+          <ul class="p-0 role-permission">
+            <li *ngFor="let permissionData of moduleObj.permissions; let i = index" class="common_gray_color checkbox">
+              <input type="checkbox" class="mr-10" [checked]="moduleObj.permissions[i].selected"
+                [value]="moduleObj.permissions[i].id" (change)="onCheckboxChange(moduleObj.permissions[i].id,$event)">
+              <label>{{moduleObj.permissions[i].description}}</label>
+            </li>
+          </ul>
+        </ng-container>
+      </div>
+    </ng-template>
+    <ng-template #permissionNoDataTemplate>
+      <h2 class="errorText common_gray_color">{{ 'roles.create_role.select_module_watermark' | translate }}</h2>
+    </ng-template>
+  </div>
+  <!-- Submit Button -->
+  <div class="submit-btn">
+    <button class="common_btn common_red_btn" [disabled]="!createRole.valid">
+      {{ (editRoleId ? 'roles.edit_role.save' : 'roles.create_role.save') | translate}}
+    </button>
+    <button class="common_btn common_gray_btn" (click)="resetForm()">{{'roles.create_role.reset' | translate}}</button>
+  </div>
+</form>

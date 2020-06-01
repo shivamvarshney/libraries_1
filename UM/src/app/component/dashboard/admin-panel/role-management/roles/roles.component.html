@@ -1,0 +1,16 @@
+<div class="create-role-wrapper">
+    <div class="title" (click)="back()">
+        <p class="common-color f-18 titleBar c-pointer">
+            <img class="back-icon" src="assets/fonts/svg/back.svg">
+            <span class="back f-18">{{ 'Back' }}</span>
+        </p>
+        <p class="common-color f-26 titleBar">
+            {{ 'Roles' }}
+        </p>
+    </div>
+</div>
+<div  class="sticky-header" *ngIf="roleConfig">
+    <aaf-grid [config]="roleConfig" [dataProvider]="roleDataProvider"
+        [actionProvider]="roleActionsProvider">
+    </aaf-grid>
+</div>

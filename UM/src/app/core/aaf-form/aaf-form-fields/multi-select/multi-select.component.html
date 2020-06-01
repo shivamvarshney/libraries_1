@@ -1,0 +1,11 @@
+<mat-form-field class="demo-full-width margin-top" [formGroup]="group" *ngIf="visibility">
+    <mat-select class="css-class-2" [placeholder]="field.templateOptions.label" [name]="field.templateOptions.name"
+        [(ngModel)]="field.templateOptions.value" [formControlName]="field.templateOptions.name" [required]="field.validationRules" multiple="true">
+        <ng-container *ngIf="field.templateOptions && field.templateOptions.options && field.templateOptions.options.length > 0">
+            <mat-option *ngFor="let item of field.templateOptions.options" [value]="item.value">{{item.label}}</mat-option>
+        </ng-container>        
+    </mat-select>
+    <ng-container *ngFor="let validation of field.validationRules;" ngProjectAs="mat-error">
+        <mat-error *ngIf="group.get(field.templateOptions.name).hasError(validation.name)">{{validation.message}}</mat-error>
+    </ng-container>
+</mat-form-field>

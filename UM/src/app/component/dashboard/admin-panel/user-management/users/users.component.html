@@ -1,0 +1,15 @@
+<div class="create-role-wrapper">
+    <div class="title" (click)="back()">
+        <p class="common-color f-18 titleBar c-pointer">
+            <img class="back-icon" src="assets/fonts/svg/back.svg">
+            <span class="back f-18">{{ 'Back' }}</span>
+        </p>
+        <p class="common-color f-26 titleBar">
+            {{ 'Users' }}
+        </p>
+    </div>
+</div>
+<div class="sticky-header" *ngIf="usersConfig">
+    <aaf-grid [config]="usersConfig" [dataProvider]="usersDataProvider" [actionProvider]="userActionsProvider">
+    </aaf-grid>
+</div>

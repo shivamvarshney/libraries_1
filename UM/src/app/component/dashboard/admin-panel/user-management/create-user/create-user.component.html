@@ -1,0 +1,17 @@
+<div class="create-user-wrapper">
+  <div class="title">
+    <p class="common-color f-18 c-pointer titleBar"> 
+      <img class="back-icon" src="assets/fonts/svg/back.svg">
+      <span class="back f-18">{{'users_add_new_user_back' | translate}}</span>
+    </p>
+    <p class="common-color f-26 titleBar">{{'users_add_new_user_title' | translate}}</p>
+  </div>
+</div>
+<div class="form" *ngIf="masterDataLength > 0">
+  <form name="userCreateForm" [formGroup]="userCreateForm">
+    <aaf-form [actionProvider]="createUserActionsProvider" [fields]="formFieldConfig" [formG]="userCreateForm"
+      (submit)="submit($event)" [formInfo]="createUserForm">
+    </aaf-form>
+  </form>
+</div>
+{{ 'Submitted Form is '+submittedForm | json }}

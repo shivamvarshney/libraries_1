@@ -1,0 +1,24 @@
+.userForm{
+    width: 33%;
+    display: inline-block;
+    margin-bottom: 20px;
+    vertical-align: top;
+    min-height: 70px;
+}
+.userForm label{
+    display: block;
+    color: #707070;
+    font-size: 16px;
+    color: #01A9F4;
+}
+.rest{
+    background-color: #707070;
+}
+.dob{
+    margin-bottom: 4px;
+    line-height: 1;
+    padding-top: 5px;
+}
+.dobInput{
+    margin-bottom: 4px;
+}

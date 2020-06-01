@@ -1,0 +1,19 @@
+<div class="templates" id="templateHt">
+  <ul class="p-0 m-0 box role">
+    <ng-container *ngFor="let card of cardInfo"> 
+      <li *appPermissionCanAccess="[card.permissionName]">
+        <ng-container *ngIf="card.redirectUrl !='';then clickable else nonClickable"></ng-container>
+        <ng-template #clickable>
+          <card [routerLink]="[card.redirectUrl, card.roleStatus]" [cardData]="card"></card>
+        </ng-template>
+        <ng-template #nonClickable>
+          <card [cardData]="card"></card>
+      </ng-template>
+      </li>
+    </ng-container> 
+  </ul>
+  <!-- <div class="overflow-hidden">   
+      <line-chart *ngIf="userlineChartData" [lineChartInformation]='userlineChartData'></line-chart>
+      <pie-chart *ngIf="userPieChartData" [pieChartInformation]='userPieChartData'></pie-chart>
+  </div> -->
+</div>

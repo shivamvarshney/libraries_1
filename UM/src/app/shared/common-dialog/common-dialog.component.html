@@ -1,0 +1,31 @@
+<div class="commonModelDialog">
+  <h1 mat-dialog-title class="common_txt_color">{{data.title}}</h1>
+  <form>
+    <div mat-dialog-content>
+      <!-- <p>What's your favorite animal?</p> -->
+      <div class="file_block">
+        <!-- <input #myInput type="file" placeholder="File Name" name="filename" (change)="onChange($event)"> -->
+        <input #file type="file" class="file-img"
+          accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"
+          placeholder="Drop and Drop your file here" appDrag (files)="filesDropped($event)"
+          (change)="onFileChange($event)" />
+        <label for="files" class="select-file">Select file</label>
+        <label for="files" class="select-file choose"></label>
+        <span style="color:red;" *ngIf="message">{{message}}</span>
+        <span class="format">Format: .CSV, XLSX</span>
+
+        <div *ngFor="let file of files">
+          <!-- {{file | json}} -->
+          <!-- <img *ngIf="file" [src]="file.url" width="100px" height="100px"> -->
+        </div>
+
+      </div>
+    </div>
+    <div mat-dialog-actions class="d-block">
+      <!-- [mat-dialog-close]="data.animal" -->
+      <button class="common_red_color mr-100 text-uppercase" (click)="uploadFile(file.files)"
+        [mat-dialog-close]="data.animal" cdkFocusInitial>Upload</button>
+      <button class="common_red_color text-uppercase" (click)="modelPopupClose()">Cancel</button>
+    </div>
+  </form>
+</div>

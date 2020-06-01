@@ -1,0 +1,547 @@
+{
+
+    "choose_file" :"Choose File",
+    "welcome":"Welcome",
+
+    "role_dashboard_card_roles" :"Roles",
+    "role_dashboard_card_create_role" :"Create Role",    
+    "roles_listing_back" :"BACK",
+    "roles_listing_title" :"ROLES",
+    "roles_listing_actions_edit_role": "Edit Role",
+    "roles_listing_filter_search_role_placeholder": "Search Role",    
+
+    "user_dashboard_card_bulk_upload_users" :"Bulk Upload Users",    
+    "user_dashboard_card_download_template" :"Download Template",
+    "user_dashboard_card_add_new_user" :"Add New User",
+    "user_dashboard_card_add_active_users" :"Active Users",
+    "user_dashboard_card_add_inactive_users" :"Inactive Users",
+    "users_listing_back" :"BACK",
+    "users_listing_title" :"USERS",
+    "users_listing_actions_edit_user": "Edit",
+    "users_listing_filter_search_role_placeholder": "Search Users by First Name / MSISDN / AUUID",
+    "users_add_new_user_back":"BACK",
+    "users_add_new_user_title":"ADD NEW USER",
+    "users_update_user_back":"BACK",
+    "users_update_user_title":"EDIT USER",
+
+    "logo": "airtel-logo.png",
+    "reg_header": {
+        "reg_title": "REGISTER",
+        "log_title": "Sales Portal",
+        "log_button": "S/'identifier",
+        "submit_button": "Soumettre",
+        "login_fields": {
+            "name_label": "AUUID", 
+            "msisdn_label": "Msisdn",
+            "forgetPass": "Reset Pin/Forgot Pin",
+            "resendOTP": "Resend OTP",
+            "loginTypeStatus": "Entrez AUUID / Mobile No.",
+            "loginType_req": "AUUID / Mobile No. is required",
+            "loginAuuidStatus": "AUUID / Mobile No.",
+            "loginMSISDNStatus": "AUUID / Mobile No.",
+            "name_req": "is required",
+            "char_limit": "You have more than 60 characters",
+            "field_min_len": "Minimum length 6",
+            "password_label": "MOT DE PASSE",
+            "otp_label": "Enter OTP",
+            "password_req": "Mot de passe requis",
+            "otp_req": "OTP is required",
+            "error_name": "Special characters are not allowed",
+            "pattern_err": "This entry can only contain numbers",
+            "pattern_err_msisdn": "This entry can only contain alphanumeric",
+            "invalid": "Invalid",
+            "otp_resend": "Didn't receive the OTP?",
+            "hide":"HIDE",
+            "show":"SHOW",
+            "loginTypePattern":"Accept only Numbers having length between 6 to 11",
+            "auuidLoginTypePattern":"Accept only Numbers having length between 6 to 8",
+            "msisdnLoginTypePattern":"Accept only Numbers having length 4"
+        },
+        "forget_pass_fields": {
+            "title": "Forgot PIN",
+            "name_label": "Enter MSISDN",
+            "msisdn_error": "MSISDN is required",
+            "id_label": "Enter National ID",
+            "n_id": "Invalid National ID",
+            "id_error": "National ID is required",
+            "dob_label": "Enter Date of birth",
+            "dob_error": "DOB is required",
+            "dob_pattern": "only validates date format 'dd/mm/yyyy'.",
+            "submit": "Submit" 
+        },
+        "received_otp_fields": {
+            "title": "Enter the Received OTP",
+            "otpmsg": "OTP has been successfully sent again on your mobile number",
+            "name_label": "Enter your OTP",
+            "msisdn_error": "OTP is required",
+            "resendtxt": "Didn't receive the OTP?",
+            "resendOTP": "Resend OTP",
+            "submit": "Verify"
+        },
+        "set_password": {
+            "title": "Set Password",
+            "tempPass": "Enter temporary pin",
+            "new_pass": "Enter new pin",
+            "confirm_pass": "Confirm pin",
+            "tempPass_req": "Temporary pin required",
+            "new_pass_req": "New pin is required",
+            "confirm_pass_req": "Confirm new pin required",
+            "matchPass": "Password and confirm password must match"
+        }
+    },
+    "dashboard": {
+        "dashboard_name": "Dashboard",
+        "search": "Search",
+        "search_box": "Search Box",
+        "button": {
+            "edit": "Edit",
+            "delete": "Delete",
+            "pubAgainBtn": "Publish Again",
+            "publicBtn": "Publish",
+            "saveData": "Save Data",
+            "back": "Back",
+            "create": "Create",
+            "createUser": "Create User",
+            "createParentCP": "CREATE PARENT CP",
+            "archived": "Archived",
+            "resetPass": "Reset Password"
+        },
+        "mat_Form": {
+            "index": "No.",
+            "fName": "First Name",
+            "lName": "Last Name",
+            "gender": "Gender",
+            "auuid": "AUUID",
+            "msisdn": "MSISDN"
+        },
+        "broadcast": {
+            "title": "Title",
+            "titleField": "Title is required",
+            "titleCharField": "You have more than 160 characters",
+            "message": "Message",
+            "messageField": "Message is required",
+            "messageCharField": "You have more than 160 characters"
+        },
+        "usermanagenent": {
+            "user": "User",
+            "username": "User Name",
+            "mobilenumber": "Mobile Number",
+            "firstname": "First Name",
+            "lastname": "Last Name",
+            "auuid": "AUUID",
+            "msisdn": "MSISDN",
+            "createuser": "Create User",
+            "activeUser": "Active User",
+            "activeUserDetail": {
+                "userInfo": "User Details",
+                "role": "Role",
+                "subRole": "Sub role",
+                "status": "Status"
+            }
+        },
+        "createUserFormValidation": {
+            "username": "Name is required",
+            "mobilenumber": "Mobile number is required",
+            "firstname": "First name is required",
+            "lastname": "Last name is required",
+            "auuid": "AUUID is required",
+            "msisdn": "MSISDN is required"
+        },
+        "editActiveUser": {
+            "savebutton": "Save changes",
+            "loginId": "Login ID"
+        },
+        "roleMgmt": {
+            "rolename": "Role Name is Required",
+            "userLoginMode": "User Login Mode",
+            "placeholder": "Role Name"
+        },
+        "cp": {
+            "cp_edit_kyc_detail": {
+                "mainKycHd": "Edit KYC Details",
+                "mainEditKycHd": "Edit Business Details",
+                "idNumber": "ID Number",
+                "fname": "First Name",
+                "mName": "Middle Name",
+                "lname": "Last Name",
+                "dob": "Date Of Birth",
+                "sex": "Gender",
+                "gender": [
+                    {
+                        "value": "male",
+                        "viewValue": "Male"
+                    },
+                    {
+                        "value": "female",
+                        "viewValue": "Female"
+                    }
+                ],
+                "occupation": "Occupation",
+                "occupationObj": [
+                    {
+                        "value": "it-sale",
+                        "viewValue": "IT-sale"
+                    },
+                    {
+                        "value": "it-admin",
+                        "viewValue": "IT-Admin"
+                    }
+                ],
+                "dist": "District",
+                "distObj": [
+                    {
+                        "value": "kenya",
+                        "viewValue": "Kamapala"
+                    },
+                    {
+                        "value": "kenya",
+                        "viewValue": "Kamapala 2"
+                    }
+                ],
+                "parish": "Parish",
+                "parishObj": [
+                    {
+                        "value": "parish",
+                        "viewValue": "parish"
+                    },
+                    {
+                        "value": "parish",
+                        "viewValue": "parish 2"
+                    }
+                ],
+                "role_name": "Role Name",
+                "roleNameObj": [
+                    {
+                        "value": "it",
+                        "viewValue": "Merchant Executive"
+                    },
+                    {
+                        "value": "sso",
+                        "viewValue": "SSO"
+                    }
+                ],
+                "idFrontImage": "ID Front Image",
+                "subscrberFacialimg": "Subscrier Facial Image",
+                "phyFormImg": "KYC Physical Form Image",
+                "kycVal": {
+                    "idNumber": "ID number is required",
+                    "fname": "First name is required",
+                    "mName": "Middle name is required",
+                    "lname": "Last name is required",
+                    "dob": "Date of birth v",
+                    "sex": "Gender is required",
+                    "occupation": "Occupation is required",
+                    "dist": "District is required",
+                    "parish": "Parish is required",
+                    "role_name": "Role name is required",
+                    "idFrontImage": "ID front image is required",
+                    "subscrberFacialimg": "Subscrier facial image is required",
+                    "phyFormImg": "KYC physical form image is required"
+                },
+                "ediBusinessDetails": {
+                    "mainHd": "Edit Business Details",
+                    "selectRole": "Select Role",
+                    "mulRoleSelect": "Note - Multiple Roles can be Selected",
+                    "merchantButton": "Merchant",
+                    "agentButton": "Agent",
+                    "billerButton": "Biller",
+                    "bulkpayButton": "Bulk Pay",
+                    "merCategory": "Merchant Category",
+                    "informal": "Informal",
+                    "formal": "Formal",
+                    "busType": "Business Type",
+                    "busTypeObj": [
+                        {
+                            "value": "type1",
+                            "viewValue": "Business Type 1"
+                        },
+                        {
+                            "value": "type2",
+                            "viewValue": "Business Type 1"
+                        }
+                    ],
+                    "busContactNum": "Business Contact Number",
+                    "busContactNumReq": "Business contact number is required",
+                    "busAddress": "Business Address",
+                    "busAddressReq": "Business address is required",
+                    "tradLicImg": "Trading License Image",
+                    "tradLicImgReq": "Trading license Image is required"
+                },
+                "outletKycDetails": {
+                    "outletHD": "Outlet Business Details"
+                },
+                "bankDetails": {
+                    "bankHD": "Bank Details"
+                }
+            }
+        },
+        "airtel_promoters": {
+            "mainHd": "Edit Zone Manager",
+            "name": "Name",
+            "nameReq": "Name is required",
+            "auuid": "AUUID",
+            "auuidReq": "AUUID is required",
+            "mNum": "Mobile Number",
+            "mNumReq": "Mobile number is required",
+            "emailId": "Email ID",
+            "emailIdReq": "Email ID is required",
+            "status": "Status",
+            "statusReq": "Status is required",
+            "back": "Back",
+            "reset": "Reset",
+            "saveData": "Save Data"
+        },
+        "report": [
+            {
+                "linkText": "SIM Registration",
+                "iconname": "sim_card",
+                "redURL": "sim_registration"
+            },
+            {
+                "linkText": "SIM Upgrade",
+                "iconname": "sim_card",
+                "redURL": "sim_upgrade"
+            },
+            {
+                "linkText": "Device Sales",
+                "iconname": "dock",
+                "redURL": "device_sale"
+            },
+            {
+                "linkText": "Consolidated Sales",
+                "iconname": "trending_up",
+                "redURL": "consolidated_Sales"
+            },
+            {
+                "linkText": "Compare Report",
+                "iconname": "swap_horiz",
+                "redURL": "compare_report"
+            }
+        ],
+        "noticePromoterTask": {
+            "promHeading": "Publish New Promotion",
+            "promotionname": "Promotion Name",
+            "promotionReq": "Promotion name is required",
+            "des": "Description",
+            "desReq": "Description is required",
+            "imgUpload": "Upload Image",
+            "imgUploadReq": "Upload image is required",
+            "archivePromoHeading": "Archived Promotions"
+        },
+        "parentCP": {
+            "promHeading": "Edit Parent Channel Partners",
+            "cpname": "Parent CP Name",
+            "cpnameReq": "Parent cp name is required",
+            "mob": "Mobile Number",
+            "mobReq": "Mobile number is required",
+            "mode": "Mode",
+            "modeReq": "Mode is required",
+            "shopcount": "Shop Count",
+            "shopcountReq": "Shop count is required",
+            "type": "Parent Type",
+            "typeReq": "Parent type is required",
+            "masmobnum": "Master Mobile Number",
+            "masmobnumReq": "Master mobile number is required",
+            "ownership": "Ownership",
+            "ownershipReq": "Ownership is required",
+            "zone": "Zone",
+            "zoneReq": "Zone is required",
+            "district": "District",
+            "districtReq": "District is required",
+            "territory": "Territory",
+            "territoryReq": "Territory is required",
+            "cluster": "Cluster",
+            "clusterReq": "Cluster is required"
+        },
+        "sales_geography": {
+            "salesHeadingName": "Sales Geography",
+            "region": "Region",
+            "regionReq": "Region is required",
+            "unit": "Unit",
+            "unitReq": "Unit is required"
+        },
+        "bankDetalis": {
+            "bankHeadingName": "Bank Details",
+            "selectBank": "Select bank",
+            "branchCode": "Bank Branch Code",
+            "branchName": "Bank Branch Name",
+            "bankCode": "Bank Code"
+        }
+    },
+    "side_nav_text": [
+        {
+            "id": 2,
+            "name": "Role Management",
+            "iconName": "role-management.svg",
+            "url": "role",
+            "permissionGroup": "ROLES",
+            "visible": true
+        },
+        {
+            "id": 1,
+            "name": "User Management",
+            "iconName": "user-management.svg",
+            "url": "user",
+            "permissionGroup": "USERS",
+            "visible": true
+        },        
+        {
+            "id": 3,
+            "name": "Channel Partners",
+            "iconName": "channel-partners.svg",
+            "url": "",
+            "permissionGroup": "CHANNEL_PARTNER",
+            "visible": false
+        },
+        {
+            "id": 4,
+            "name": "Airtel Promoters",
+            "iconName": "channel-partners.svg",
+            "url": "",
+            "permissionGroup": "PROMOTERS",
+            "visible": false
+        },
+        {
+            "id": 5,
+            "name": "Manage Data Inputs",
+            "iconName": "manage-data-inputs.svg",
+            "url": "",
+            "permissionGroup": "MANAGE_INPUT_DATA",
+            "visible": false
+        },
+        {
+            "id": 6,
+            "name": "Beat Plan",
+            "iconName": "beat-plan.svg",
+            "url": "",
+            "permissionGroup": "BEAT_PLANNING",
+            "visible": false
+        },
+        {
+            "id": 7,
+            "name": "Kits Management",
+            "iconName": "kit-management.svg",
+            "url": "kit",
+            "permissionGroup": "KITS",
+            "visible": false
+        }
+    ],
+    "register": {
+        "prim_number": "WiFi Number",
+        "alt_number": "Alternate Number",
+        "sim_serial": "Last 4 Digits of SIM Serial Number",
+        "email": "Email Address",
+        "note": "Note: 4 digit password will be sent to this number",
+        "opcoCode": "256",
+        "accept": "I accept all",
+        "tnc": "Terms and Conditions"
+    },
+    "otp_rec": {
+        "headline": "Enter the OTP received",
+        "note": "We have sent One Time Password to your alternate number",
+        "placeholder": "Please enter the OTP received"
+    },
+    "setPassword": {
+        "headline": "Set Login Password",
+        "placeholder": "Please set your Login Password",
+        "confirmPlaceholder": "Confirm your Login Password",
+        "noMatch": "Passwords do not match",
+        "note": "Note: Login password minimum length should be 6 characters numbers, alphabets and special characters allowed."
+    },
+    "login": {
+        "header": "Login",
+        "alt_number": "Alternate Number",
+        "password": "Enter Password",
+        "button": "ENTER",
+        "forgot": "FORGOT / CHANGE PASSWORD?"
+    },
+    "forget-password": {
+        "placeholder": "Enter Alternate Number",
+        "otpPlaceholder": "Enter OTP Received"
+    },
+    "hbb-app": {
+        "app-header": {
+            "logo_link": "/dashboard",
+            "logo_path": "./assets/images/airtel-logo.png"
+        }
+    },
+    "body": {
+        "manage_account": {
+            "note": "A confirmation code will be sent via SMS to your new alternate number",
+            "success": "Your change request is ssuccessful."
+        }
+    },
+    "roles": {
+        "role_dashboard":{
+            "roles":"Roles"
+        },         
+        "create_role": {
+            "create_role": "CREATE ROLE 1",
+            "back":"BACK",
+            "role_name": "Role Name",
+            "role_type": "Role Type",
+            "level": "Level",
+            "report_to": "Report To",
+            "user_login_mode": "User Login Mode",
+            "user_client_id": "Select Client",
+            "user_department_ids": "Select Department",
+            "status": "Status",
+            "user_login_channel": "User Login Channel",
+            "description": "Description",
+            "select_module_name": "Modules",
+            "permissions": "Permissions",
+            "select_all":"Select All",
+            "Submit":"Create Role",
+            "reset":"Reset",
+            "drop_down_select":"Select",
+            "auuid":"AUUID",
+            "msidsn":"MSIDSN",
+            "active":"ACTIVE",
+            "inactive":"INACTIVE",
+            "save":"SAVE ROLE",
+            "select_module_watermark":"No module selected",
+            "validations": {
+                "role_name_max_length":"Name max length is 40",
+                "role_name_pattern":"Accept only Alphabets having length between 2 to 40.",
+                "role_description_max_length":"Max length 500, is allowed",
+                "role_name_is_required": "Role Name is required.",
+                "special_charactors_not_allowed": "Special charactors are not allowed.",
+                "role_type_required": "Role type is required.",
+                "role_department_required": "Department is required.",
+                "role_client_required": "Client is required.",
+                "level_required": "Level is required",
+                "reports_to_required": "'Reports To' is required.",
+                "user_login_mode_required": "User login mode is required.",
+                "status_required": "Status is required.",
+                "user_login_channel_required": "User Login Channel is required",
+                "one_permission_is_required": "Atleast 1 Permission is required",
+                "min_char_req": "500 Characters Only"
+            }            
+        },
+        "edit_role": {
+            "edit_role": "EDIT ROLE",
+            "back":"BACK",
+            "role_name": "Role Name",
+            "role_type": "Role Type",
+            "level": "Level",
+            "report_to": "Report To",
+            "user_login_mode": "User Login Mode",
+            "status": "Status",
+            "user_login_channel": "User Login Channel",
+            "description": "Description",
+            "select_module_name": "Select Module Name",
+            "save":"UPDATE ROLE",
+            "validations": {
+                "role_name_is_required": "Role Name is required.",
+                "special_charactors_not_allowed": "Special charactors are not allowed.",
+                "role_type_required": "Role type is required.",
+                "level_required": "Level is required",
+                "reports_to_required": "'Reports To' is required.",
+                "user_login_mode_required": "User login mode is required.",
+                "status_required": "Status is required.",
+                "user_login_channel_required": "User Login Channel is required",
+                "one_permission_is_required": "Atleast 1 Permission is required"
+            }                
+        }
+    }
+}

@@ -1,0 +1,21 @@
+<div class="popup-module common-popup" [ngClass]="[data.reason == 'user' ? 'user': 'popup']">
+  <div (click)="onNoClick()" class="cancel-popup">X</div>
+  <h1 mat-dialog-title class="title">
+    {{ data && data.title }}
+    <span *ngIf="data.reason == 'user'||'role'" class="d-block">
+      {{ data.status }}
+    </span> 
+  </h1>
+  <div mat-dialog-content>
+    <form class="common-form" #assignForm="ngForm">
+      <div mat-dialog-actions class="cancel-procd-btn">
+        <button type="button" class="cancel" (click)="onCancel(assignForm)" style="outline: none;border: none;">
+          {{ data && data.cancelText }}
+        </button>
+        <button type="button" class="proceed"  (click)="onSubmit(assignForm)" style="outline: none">
+          {{ data && data.proceedText }}
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

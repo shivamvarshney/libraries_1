@@ -1,0 +1,471 @@
+<div class="create-user-wrapper">
+  <div class="title">
+    <p class="common-color f-18 c-pointer titleBar" (click)="back()">
+      <img class="back-icon" src="assets/fonts/svg/back.svg">
+      <span class="back f-18">
+        {{ (paramUserId ? 'users_update_user_back' : 'users_add_new_user_back') | translate}}
+      </span>
+    </p>
+    <p class="common-color f-26 titleBar">
+      {{ (paramUserId ? 'users_update_user_title' : 'users_add_new_user_title') | translate }}
+    </p>
+  </div>
+</div>
+<div class="form" *ngIf="formLength > 0">
+  <form [formGroup]="addUserForm" (ngSubmit)="submit()" class="createUser">
+
+    <div class="userForm">
+      <label>{{ 'Client' }}
+        <span class="strict">*</span>
+      </label>
+      <mat-select (selectionChange)="clientChange()" placeholder="{{  'Select Client' }}" name="client"
+        formControlName="client" multiple="true">
+        <mat-select-trigger *ngIf="apiClientsObj && apiClientsObj.length > 0">
+          <ng-container *ngFor="let selectedClient of apiClientsObj">
+            {{ addUserForm.controls['client'].value && addUserForm.controls['client'].value[0] == selectedClient.clientId ?  selectedClient.name : '' }}
+          </ng-container>
+          <span *ngIf="addUserForm.controls['client'].value.length > 1" class="example-additional-selection">
+            (+{{ addUserForm.controls['client'].value.length - 1 }} others)
+          </span>
+        </mat-select-trigger>
+        <mat-option-select-all (click)="getAllDepartments()"></mat-option-select-all>
+        <mat-option *ngFor="let client of apiClientsObj" [value]="client.clientId">{{client.name}}</mat-option>
+      </mat-select>
+      <div *ngIf="addUserForm.controls['client'].touched && addUserForm.controls['client'].errors" class="help-block">
+        <div *ngIf="addUserForm.controls['client'].errors.required">
+          {{'Client is Required' }}
+        </div>
+      </div>
+    </div>
+    <div class="userForm">
+      <label>{{ 'Department' }}
+        <span class="strict">*</span>
+      </label>
+      <mat-select placeholder="{{  'Department' }}" (selectionChange)="getDepartmentRoles()" name="department"
+        formControlName="department">
+        <mat-option *ngFor="let department of departmentsObj" [value]="department.value">{{department.label}}
+        </mat-option>
+      </mat-select>
+      <div *ngIf="addUserForm.controls['department'].touched && addUserForm.controls['department'].errors"
+        class="help-block">
+        <div *ngIf="addUserForm.controls['department'].errors.required">
+          {{'Department is Required' }}
+        </div>
+      </div>
+    </div>
+    <div class="userForm">
+      <label>{{ 'Role' }}
+        <span class="strict">*</span>
+      </label>        
+      <mat-select  placeholder="{{  'Select Role' }}" (selectionChange)="getRoleReportingManagers()" (infiniteScroll)="getNextRoleBatch()" msInfiniteScroll [complete]="totalVisibledepartmentRoles === totalDepartmentRoles"
+        name="role" formControlName="role" multiple="true" required>
+        <mat-select-trigger *ngIf="departmentRolesOptions.value && departmentRolesOptions.value.length > 0">
+          <ng-container *ngFor="let selectedRole of departmentRolesOptions.value">
+            {{ addUserForm.controls['role'].value && addUserForm.controls['role'].value[0] == selectedRole.id ?  selectedRole.roleName : '' }}
+          </ng-container>
+          <span *ngIf="addUserForm.controls['role'].value.length > 1" class="example-additional-selection">
+            (+{{ addUserForm.controls['role'].value.length - 1 }} others)
+          </span>
+        </mat-select-trigger>        
+        <mat-option-select-all (click)="getRoleReportingManagers()"></mat-option-select-all>
+        <mat-option *ngFor="let role of departmentRolesOptions$ | async" [value]="role.id">{{role.roleName}}</mat-option>        
+      </mat-select>
+      <div *ngIf="addUserForm.controls['role'].touched && addUserForm.controls['role'].errors" class="help-block">
+        <div *ngIf="addUserForm.controls['role'].errors.required">
+          {{'Role is Required' }}
+        </div>
+      </div>
+    </div>
+
+    <!--
+    <div class="userForm">
+      <label>{{ 'Role' }}
+        <span class="strict">*</span>
+      </label>
+      <mat-select (selectionChange)="roleChange()" placeholder="{{  'Select Role' }}" name="role" formControlName="role"
+        multiple="true" required>
+        <mat-select-trigger *ngIf="rolesObj && rolesObj.length > 0">
+          <ng-container *ngFor="let selectedRole of rolesObj">
+            {{ addUserForm.controls['role'].value && addUserForm.controls['role'].value[0] == selectedRole.id ?  selectedRole.roleName : '' }}
+          </ng-container>
+          <span *ngIf="addUserForm.controls['role'].value.length > 1" class="example-additional-selection">
+            (+{{ addUserForm.controls['role'].value.length - 1 }} others)
+          </span>
+        </mat-select-trigger>
+        <mat-option-select-all (click)="roleChange()"></mat-option-select-all>
+        <mat-option *ngFor="let role of rolesObj" [value]="role.id">{{role.roleName}}</mat-option>
+      </mat-select>
+      <div *ngIf="addUserForm.controls['role'].touched && addUserForm.controls['role'].errors" class="help-block">
+        <div *ngIf="addUserForm.controls['role'].errors.required">
+          {{'Role is Required' }}
+        </div>
+      </div>
+    </div>
+    
+    <div class="userForm">
+      <label>{{ 'Client' }}
+        <span class="strict">*</span>
+      </label>
+      <mat-select (selectionChange)="clientChange()" placeholder="{{  'Select Client' }}" name="client"
+        formControlName="client" multiple="true">
+        <mat-select-trigger *ngIf="clientsObj && clientsObj.length > 0">
+          <ng-container *ngFor="let selectedClient of clientsObj">
+            {{ addUserForm.controls['client'].value && addUserForm.controls['client'].value[0] == selectedClient.value ?  selectedClient.label : '' }}
+          </ng-container>
+          <span *ngIf="addUserForm.controls['client'].value.length > 1" class="example-additional-selection">
+            (+{{ addUserForm.controls['client'].value.length - 1 }} others)
+          </span>
+        </mat-select-trigger>
+        <mat-option-select-all (click)="getAllDepartments()"></mat-option-select-all>
+        <mat-option *ngFor="let client of clientsObj" [value]="client.value">{{client.label}}</mat-option>
+      </mat-select>
+      <div *ngIf="addUserForm.controls['client'].touched && addUserForm.controls['client'].errors" class="help-block">
+        <div *ngIf="addUserForm.controls['client'].errors.required">
+          {{'Client is Required' }}
+        </div>
+      </div>
+    </div>
+    
+    <div class="userForm">
+      <label>{{ 'Department' }}
+        <span class="strict">*</span>
+      </label>
+      <mat-select placeholder="{{  'Department' }}" (selectionChange)="departmentManagers()" name="department"
+        formControlName="department">
+        <mat-option *ngFor="let department of departmentsObj" [value]="department.value">{{department.label}}
+        </mat-option>
+      </mat-select>
+      <div *ngIf="addUserForm.controls['department'].touched && addUserForm.controls['department'].errors"
+        class="help-block">
+        <div *ngIf="addUserForm.controls['department'].errors.required">
+          {{'Department is Required' }}
+        </div>
+      </div>
+    </div>
+    -->
+    <div class="userForm">
+      <label>{{ 'Reporting Manager' }}
+        <span *ngIf="reportingManagerStrict" class="strict">*</span>
+      </label>
+        <!-- (selectionChange)="getUserGeoHierarchy()" -->
+      <mat-select (selectionChange)="getManagerGeoHierarchy()" msInfiniteScroll placeholder="{{  'Reporting Manager' }}" (infiniteScroll)="getNextBatch()"
+        name="reportingMsisdn" formControlName="reportingMsisdn" [complete]="totalVisibleManagers === totalManagers">
+        <mat-option *ngFor="let manager of reportingManagersoptions$ | async" [value]="manager.id">
+          {{ manager.firstName + (manager.lastName ? ' '+manager.lastName : '')  + ' ('+manager.username+')' }}
+        </mat-option>
+      </mat-select>
+      <div *ngIf="addUserForm.controls['reportingMsisdn'].touched && addUserForm.controls['reportingMsisdn'].errors"
+        class="help-block">
+        <div *ngIf="addUserForm.controls['reportingMsisdn'].errors.required">
+          {{'Reporting Manager is Required' }}
+        </div>
+      </div>
+    </div>
+
+    <div class="userForm">
+      <label>{{ 'Login Module' }}
+        <span class="strict">*</span>
+      </label>
+      <mat-select (selectionChange)="loginModuleChange()" placeholder="{{  'Login Modules' }}" name="loginModule"
+        formControlName="loginModule">
+        <mat-option *ngFor="let loginmodule of loginModules" [value]="loginmodule.value">{{loginmodule.label}}
+        </mat-option>
+      </mat-select>
+      <div *ngIf="addUserForm.controls['loginModule'].touched && addUserForm.controls['loginModule'].errors"
+        class="help-block">
+        <div *ngIf="addUserForm.controls['loginModule'].errors.required">
+          {{'Login Module is Required' }}
+        </div>
+      </div>
+    </div>
+    <div class="userForm">
+      <label>{{ 'AUUID' }}
+        <span class="strict">*</span>
+      </label>
+      <input name="auuid" matInput formControlName="auuid" placeholder="AUUID" type="text">
+      <div *ngIf="addUserForm.controls['auuid'].touched && addUserForm.controls['auuid'].errors" class="help-block">
+        <div *ngIf="addUserForm.controls['auuid'].errors.required">
+          {{'AUUID is Required' }}
+        </div>
+        <div *ngIf="addUserForm.controls['auuid'].errors.pattern">
+          <!-- {{ 'Accept only Numbers having length between 6 to 8' }} -->
+          {{ addUserAUUIDRegexMsg }}
+        </div>
+      </div>
+    </div>
+    <div class="userForm">
+      <label>
+        {{ 'MSISDN' }}
+        <span class="strict">*</span>
+      </label>
+      <input name="msisdn" matInput formControlName="msisdn" placeholder="MSISDN" type="text">
+      <div *ngIf="addUserForm.controls['msisdn'].touched && addUserForm.controls['msisdn'].errors" class="help-block">
+        <div *ngIf="addUserForm.controls['msisdn'].errors.required">
+          {{'MSISDN is Required' }}
+        </div>
+        <div *ngIf="addUserForm.controls['msisdn'].errors.pattern">
+          <!-- {{ 'Accept only Numbers having length between 10 to 11' }} -->
+          {{ addUserRegex }}
+        </div>
+      </div>
+    </div>
+    <div class="userForm">
+      <!-- <label>{{ 'Mobile No' }}</label> -->
+      <label>{{ 'Alternate Mobile Number' }}</label>
+      <input name="mobileNumber" matInput formControlName="mobileNumber" placeholder="Alternate Mobile Number" type="text">
+      <div *ngIf="addUserForm.controls['mobileNumber'].touched && addUserForm.controls['mobileNumber'].errors"
+        class="help-block">      
+        <div *ngIf="addUserForm.controls['mobileNumber'].errors.pattern">
+          <!-- {{ 'Accept only Numbers having length between 10 to 11' }} -->
+          {{ addUserRegex }}
+        </div>
+      </div>
+    </div>
+    <div class="userForm">
+      <label>{{ 'Login Channels' }}
+        <span class="strict">*</span>
+      </label>
+      <mat-select placeholder="{{  'Login Channels' }}" name="loginChannels" formControlName="loginChannels"
+        multiple="true">
+        <mat-select-trigger *ngIf="loginChannlesObj && loginChannlesObj.length > 0">
+          <ng-container *ngFor="let selectedLoginChanel of loginChannlesObj">
+            {{ addUserForm.controls['loginChannels'].value && addUserForm.controls['loginChannels'].value[0] == selectedLoginChanel.value ?  selectedLoginChanel.label : '' }}
+          </ng-container>
+          <span *ngIf="addUserForm.controls['loginChannels'].value.length > 1" class="example-additional-selection">
+            (+{{ addUserForm.controls['loginChannels'].value.length - 1 }} others)
+          </span>
+        </mat-select-trigger>
+        <mat-option-select-all></mat-option-select-all>
+        <mat-option *ngFor="let loginChannel of loginChannlesObj" [value]="loginChannel.value">{{loginChannel.label}}
+        </mat-option>
+      </mat-select>
+      <div *ngIf="addUserForm.controls['loginChannels'].touched && addUserForm.controls['loginChannels'].errors"
+        class="help-block">
+        <div *ngIf="addUserForm.controls['loginChannels'].errors.required">
+          {{'Login Channel is Required' }}
+        </div>
+      </div>
+    </div>
+    <div class="userForm">
+      <label>{{ 'National ID Type' }}
+        <span class="strict">*</span>
+      </label>
+      <mat-select placeholder="{{  'National ID Type' }}" name="idType" formControlName="idType">
+        <mat-option *ngFor="let nationalIdType of nationalIdTypesObj" [value]="nationalIdType.value">
+          {{nationalIdType.label}}</mat-option>
+      </mat-select>
+      <div *ngIf="addUserForm.controls['idType'].touched && addUserForm.controls['idType'].errors" class="help-block">
+        <div *ngIf="addUserForm.controls['idType'].errors.required">
+          {{'National Id Type is Required' }}
+        </div>
+      </div>
+    </div>
+    <div class="userForm">
+      <label>{{ 'National ID' }}
+        <span class="strict">*</span>
+      </label>
+      <input name="nationalId" matInput formControlName="nationalId" placeholder="National ID" type="text">
+      <div *ngIf="addUserForm.controls['nationalId'].touched && addUserForm.controls['nationalId'].errors"
+        class="help-block">
+        <div *ngIf="addUserForm.controls['nationalId'].errors.required">
+          {{'National ID is Required' }}
+        </div>
+        <div *ngIf="addUserForm.controls['nationalId'].errors.pattern">
+          {{ 'Accept only AlphaNumeric having length between 7 to 20 and special characters allowed(-,/)' }}
+        </div>
+      </div>
+    </div>
+    <div class="userForm">
+      <label>{{ 'First Name' }}
+        <span class="strict">*</span>
+      </label>
+      <input name="firstName" matInput formControlName="firstName" placeholder="First Name" type="text">
+      <div *ngIf="addUserForm.controls['firstName'].touched && addUserForm.controls['firstName'].errors"
+        class="help-block">
+        <div *ngIf="addUserForm.controls['firstName'].errors.required">
+          {{'First name is Required' }}
+        </div>
+        <div *ngIf="addUserForm.controls['firstName'].errors.pattern">
+          {{ 'Accept only Alphabets having length between 2 to 30 and special characters allowed(.)' }}
+        </div>
+      </div>
+    </div>
+    <div class="userForm">
+      <label>{{ 'Last Name' }}
+        <span class="strict">*</span>
+      </label>
+      <input name="lastName" matInput formControlName="lastName" placeholder="Last Name" type="text">
+      <div *ngIf="addUserForm.controls['lastName'].touched && addUserForm.controls['lastName'].errors"
+        class="help-block">
+        <div *ngIf="addUserForm.controls['lastName'].errors.required">
+          {{'Last name is Required' }}
+        </div>
+        <div *ngIf="addUserForm.controls['lastName'].errors.pattern">
+          {{ 'Accept only Alphabets having length between 2 to 30 and special characters allowed(.)' }}
+        </div>
+      </div>
+    </div>
+    <div class="userForm">
+      <label>{{ 'Email' }}
+        <span class="strict">*</span>
+      </label>
+      <input name="email" matInput formControlName="email" placeholder="Email" type="text">
+      <div *ngIf="addUserForm.controls['email'].touched && addUserForm.controls['email'].errors" class="help-block">
+        <div *ngIf="addUserForm.controls['email'].errors.required">
+          {{'Email Id is Required' }}
+        </div>
+        <div *ngIf="addUserForm.controls['email'].errors.pattern">
+          {{ 'Invalid email' }}
+        </div>
+      </div>
+    </div>
+    <div class="userForm">
+      <label class="dob">{{ 'Date Of Birth' }}
+        <span class="strict">*</span>
+      </label>
+      <input name="dob" class="dobInput" matInput formControlName="dob" placeholder="Date Of Birth" type="text"
+        [matDatepicker]="datepickerRef" [min]="minDate" readonly [max]="maxDate">
+      <mat-datepicker-toggle [for]="datepickerRef" matSuffix></mat-datepicker-toggle>
+      <mat-datepicker #datepickerRef></mat-datepicker>
+      <mat-hint></mat-hint>
+      <div *ngIf="addUserForm.controls['dob'].touched && addUserForm.controls['dob'].errors" class="help-block">
+        <div *ngIf="addUserForm.controls['dob'].errors.required">
+          {{'Date of Birth is Required' }}
+        </div>
+      </div>
+    </div>
+    <div class="userForm">
+      <label>{{ 'Primary Language' }}
+        <span class="strict">*</span>
+      </label>
+      <mat-select placeholder="{{  'Primary Language' }}" name="languageId" formControlName="languageId">
+        <mat-option *ngFor="let language of langulagesObj" [value]="language.value">{{language.label}}</mat-option>
+      </mat-select>
+      <div *ngIf="addUserForm.controls['languageId'].touched && addUserForm.controls['languageId'].errors"
+        class="help-block">
+        <div *ngIf="addUserForm.controls['languageId'].errors.required">
+          {{'Primary Language is Required' }}
+        </div>
+      </div>
+    </div>
+    <div *ngFor="let geofield of geoFields; let i = index" class="userForm">
+      <label>{{ geofield.fieldLevel }}
+        <span class="strict">*</span>
+      </label>
+      <mat-select (selectionChange)="geoSiteHandler(geofield,$event.value)" placeholder="{{ geofield.fieldLevel }}"
+        [formControlName]="geofield.fieldLevelId" multiple="true">
+        <mat-select-trigger
+          *ngIf="geolocationData[geofield.fieldLevelId] && geolocationData[geofield.fieldLevelId].length > 0">
+          <ng-container *ngFor="let selectedValue of geolocationData[geofield.fieldLevelId]">
+            {{ addUserForm.controls[geofield.fieldLevelId].value && addUserForm.controls[geofield.fieldLevelId].value[0] == selectedValue.id ?  selectedValue.level : '' }}
+          </ng-container>
+          <span *ngIf="addUserForm.controls[geofield.fieldLevelId].value.length > 1"
+            class="example-additional-selection">
+            (+{{ addUserForm.controls[geofield.fieldLevelId].value.length - 1 }} others)
+          </span>
+        </mat-select-trigger>
+        <mat-option-select-all (click)="markcheckUncheck(geofield)"></mat-option-select-all>
+        <cdk-virtual-scroll-viewport itemSize="5" minBufferPx="200" maxBufferPx="400" class="example-viewport-select">
+          <mat-option *cdkVirtualFor="let site of geolocationData[geofield.fieldLevelId]" [value]="site.id">
+            {{site.level}}
+          </mat-option>
+        </cdk-virtual-scroll-viewport>
+      </mat-select>
+      <div
+        *ngIf="addUserForm.controls[geofield.fieldLevelId].touched && addUserForm.controls[geofield.fieldLevelId].errors"
+        class="help-block">
+        <div *ngIf="addUserForm.controls[geofield.fieldLevelId].errors.required">
+          {{ geofield.fieldLevel+' is Required' }}
+        </div>
+      </div>
+    </div>
+    <div class="userForm">
+      <label>{{ 'Site ID(s)' }}
+        <span class="strict">*</span>
+      </label>
+      <!--  (openedChange)="openedChange($event)" (selectionChange)="siteChange()"  -->
+      <mat-select class="scrollMatSelect" placeholder="{{  'Select Site ID(s)' }}" formControlName="siteId"
+        multiple="true">
+        <mat-select-trigger *ngIf="allSitesObj && allSitesObj.length > 0">
+          {{ addUserForm.controls['siteId'].value ?  addUserForm.controls['siteId'].value[0] : '' }}
+          <span *ngIf="addUserForm.controls['siteId'].value.length > 1" class="example-additional-selection">
+            (+{{ addUserForm.controls['siteId'].value.length - 1 }} others)
+          </span>
+        </mat-select-trigger>
+        <mat-option-select-all (click)="markSitecheckUncheck()"></mat-option-select-all>
+        <!-- <input matInput [formControl]="siteMultiFilterCtrl"  name="siteSearch"> -->
+        <cdk-virtual-scroll-viewport itemSize="5" minBufferPx="200" maxBufferPx="400" class="example-viewport-select">
+          <mat-option (click)="updateSiteStore(siteDetails)"
+            *cdkVirtualFor="let siteDetails of allSitesObj;let i = index" [value]="siteDetails">
+            {{siteDetails}}
+          </mat-option>
+        </cdk-virtual-scroll-viewport>
+      </mat-select>
+      <div *ngIf="addUserForm.controls['siteId'].touched && addUserForm.controls['siteId'].errors" class="help-block">
+        <div *ngIf="addUserForm.controls['siteId'].errors.required">
+          {{'Site ID is Required' }}
+        </div>
+      </div> 
+    </div>
+    <div class="submit-btn">
+      <button class="choose_file">{{ submiText }}</button>
+      <button class="choose_file rest" (click)="resetUserForm()">{{ paramUserId ? 'Cancel' : 'Reset' }}</button>
+    </div>
+
+    <!-- <div>
+      <label>{{ 'Site' }}</label>
+      <mat-chip-list #sitechipList>
+        <mat-chip *ngFor="let item of [1,2,3,4]" [selectable]="selectable" [removable]="removable" (removed)="remove(item)">
+          {{ item }}
+        </mat-chip>    
+        <input type="text" #inputTrigger placeholder="Select Site" matInput [matAutocomplete]="siteSAutocomplete" formControlName="siteId"
+          [matChipInputFor]="sitechipList">
+      </mat-chip-list>
+      <mat-autocomplete #siteSAutocomplete="matAutocomplete">
+        <cdk-virtual-scroll-viewport itemSize="5" minBufferPx="200" maxBufferPx="400" class="example-viewport-select">
+          <mat-option *cdkVirtualFor="let site of sitesObj" [value]="site.value">
+            <mat-checkbox (click)="$event.stopPropagation()">
+              {{site.label}}
+            </mat-checkbox>
+          </mat-option>
+        </cdk-virtual-scroll-viewport>
+      </mat-autocomplete>
+    </div> -->
+
+    <!-- <input type="text" name="siteId" placeholder="Select Site" matInput
+      [formControlName]="siteId" required [matAutocomplete]="siteSAutocomplete">
+      <mat-autocomplete #siteSAutocomplete="matAutocomplete">
+        <cdk-virtual-scroll-viewport itemSize="5" minBufferPx="200" maxBufferPx="400" class="example-viewport-select">
+          <mat-option *cdkVirtualFor="let site of sitesObj" [value]="site.value">{{site.label}}
+          <div (click)="siteChange()">
+            <mat-checkbox (click)="$event.stopPropagation()">
+              {{site.level}}
+            </mat-checkbox>
+          </div>
+          </mat-option>
+        </cdk-virtual-scroll-viewport>
+      </mat-autocomplete>
+    </div> -->
+
+    <!-- Using Mat-Slect-AutoComplete Module
+    <mat-select-autocomplete name="siteId" class="grid-7-11" placeholder="Select Site" [errorMsg]="siteErrorMessage"
+      [showErrorMsg]="siteShowError" [options]="sitesObj" [display]="'label'" [value]="'value'" [multiple]='true'
+      [labelCount]="2" [selectedOptions]="selectedSiteOptions" (selectionChange)="siteChange($event)" formControlName="siteId">
+    </mat-select-autocomplete> -->
+
+    <!-- <div *ngFor="let geofield of geoFields; let i = index">
+      <label>{{ geofield.fieldLevel }}</label>
+      <input type="text" placeholder="{{ geofield.fieldLevel }}" matInput
+      [formControlName]="geofield.fieldLevelId" required [matAutocomplete]="itemAutocomplete">
+      <mat-autocomplete #itemAutocomplete="matAutocomplete">
+        <mat-option *ngFor="let site of geolocationData[geofield.fieldLevelId]" [value]="site.id">   
+          <div (click)="geoSiteHandler(geofield,[site.id])">
+          <mat-checkbox (click)="$event.stopPropagation()">
+            {{site.level}}
+          </mat-checkbox>
+        </div>
+        </mat-option>
+      </mat-autocomplete>
+    </div> -->
+  </form>
+</div>

@@ -1,0 +1,18 @@
+.templates ul li{
+    list-style: none;
+    width: 268px;
+    height: 268px;
+    display: inline-block;
+    margin:0 23px 27px 0;
+    vertical-align: top;
+    text-align: center;
+}
+.box{
+    text-align: left;
+}
+@media screen and (max-width: 767px) {
+    .box { text-align: center }
+        .templates ul li {
+            height: auto !important;
+        }
+}

@@ -1,0 +1,20 @@
+export const roleRowData = [
+    { "role_details": {"user_name": "Merchant Recruitment Executive 1", "user_email": "Lorem Ipsum is simply dummy text of the printing and typesetting is simply dummy texttext of the industry."}, "id": 1 },
+    { "role_details": {"user_name": "Merchant Recruitment Executive 2", "user_email": "Lorem Ipsum is simply dummy text of the printing and typesetting is simply dummy texttext of the industry."}, "id": 2 },
+    { "role_details": {"user_name": "Merchant Recruitment Executive 3", "user_email": "Lorem Ipsum is simply dummy text of the printing and typesetting is simply dummy texttext of the industry."}, "id": 3 },
+    { "role_details": {"user_name": "Merchant Recruitment Executive 4", "user_email": "Lorem Ipsum is simply dummy text of the printing and typesetting is simply dummy texttext of the industry."}, "id": 4 },
+    { "role_details": {"user_name": "Merchant Recruitment Executive 5", "user_email": "Lorem Ipsum is simply dummy text of the printing and typesetting is simply dummy texttext of the industry."}, "id": 5 },
+    { "role_details": {"user_name": "Merchant Recruitment Executive 6", "user_email": "Lorem Ipsum is simply dummy text of the printing and typesetting is simply dummy texttext of the industry."}, "id": 6 },
+    { "role_details": {"user_name": "Merchant Recruitment Executive 7", "user_email": "Lorem Ipsum is simply dummy text of the printing and typesetting is simply dummy texttext of the industry."}, "id": 7 },
+    { "role_details": {"user_name": "Merchant Recruitment Executive 8", "user_email": "Lorem Ipsum is simply dummy text of the printing and typesetting is simply dummy texttext of the industry."}, "id": 8 },
+    { "role_details": {"user_name": "Merchant Recruitment Executive 9", "user_email": "Lorem Ipsum is simply dummy text of the printing and typesetting is simply dummy texttext of the industry."}, "id": 9 },
+    { "role_details": {"user_name": "Merchant Recruitment Executive 10", "user_email": "Lorem Ipsum is simply dummy text of the printing and typesetting is simply dummy texttext of the industry."}, "id": 10 },
+    { "role_details": {"user_name": "Merchant Recruitment Executive 11", "user_email": "Lorem Ipsum is simply dummy text of the printing and typesetting is simply dummy texttext of the industry."}, "id": 11 },
+    { "role_details": {"user_name": "Merchant Recruitment Executive 12", "user_email": "Lorem Ipsum is simply dummy text of the printing and typesetting is simply dummy texttext of the industry."}, "id": 12 },
+    { "role_details": {"user_name": "Merchant Recruitment Executive 13", "user_email": "Lorem Ipsum is simply dummy text of the printing and typesetting is simply dummy texttext of the industry."}, "id": 13 },
+    { "role_details": {"user_name": "Merchant Recruitment Executive 14", "user_email": "Lorem Ipsum is simply dummy text of the printing and typesetting is simply dummy texttext of the industry."}, "id": 14 },
+    { "role_details": {"user_name": "Merchant Recruitment Executive 15", "user_email": "Lorem Ipsum is simply dummy text of the printing and typesetting is simply dummy texttext of the industry."}, "id": 15 },
+    { "role_details": {"user_name": "Merchant Recruitment Executive 16", "user_email": "Lorem Ipsum is simply dummy text of the printing and typesetting is simply dummy texttext of the industry."}, "id": 16 },
+    { "role_details": {"user_name": "Merchant Recruitment Executive 17", "user_email": "Lorem Ipsum is simply dummy text of the printing and typesetting is simply dummy texttext of the industry."}, "id": 17 },
+];
+  

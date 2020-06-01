@@ -1,0 +1,27 @@
+<div class="commonModelDialog">
+  <div mat-dialog-content>
+    <!-- <ng-container *ngIf="data.isUnsuccess;then unsuccessTemplate else successTemplate"></ng-container>
+    <ng-template #unsuccessTemplate> -->
+      <!-- <p>
+        {{data.successUsers}} Users has been uploadeed and <a (click)="downloadUploadedCSV()">{{data.unsuccessUsers}} Users</a> not uploaded.
+      </p> -->
+      <ng-container *ngIf="checkFailedFileDownloadPermission;then clickableTemplate else stringTemplate"></ng-container>
+      <ng-template #clickableTemplate>
+        <p>
+          Bulk upload processed, <a class="c-pointer" (click)="downloadUploadedCSV()">some</a> users could not be uploaded.
+        </p>
+      </ng-template>
+      <ng-template #stringTemplate>
+        <p>
+          Bulk upload processed, some users could not be uploaded.
+        </p>
+      </ng-template>     
+    <!-- </ng-template> -->
+    <!-- <ng-template #successTemplate>
+      <p>
+        {{data.successUsers}} Users has been uploadeed.
+      </p>
+    </ng-template> -->
+    <button (click)="modelPopupClose()" class="common_red_color text-uppercase">Done</button>
+  </div>  
+</div>

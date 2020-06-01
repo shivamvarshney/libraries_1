@@ -1,0 +1,14 @@
+<div class="parent-container">
+  <div class="lang-select common-d-gray f-14">
+    <label class="m-0">{{ 'reg_header.select_language' | translate }}</label>
+    <mat-select class="input_border" matNativeControl name="lang-selection" [(ngModel)]="selectedLang"
+      (selectionChange)="setLanguage($event.value)">
+      <mat-option value="en">
+        <p>English (US)</p>
+      </mat-option>
+      <mat-option value="fr">
+        <p>French</p>
+      </mat-option>
+    </mat-select>
+  </div>
+</div>

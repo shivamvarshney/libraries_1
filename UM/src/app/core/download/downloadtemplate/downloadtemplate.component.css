@@ -1,0 +1,28 @@
+.d_template{
+    padding: 55px 0;
+}
+.d_template .sub-heading {
+    font-size: 24px;
+    font-family: Tondo-regular;
+    line-height: 1;
+    display: block;
+    text-align: center;
+    color: #4B566A !important;
+}
+.d_template .downloadImage{
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.user_template .downloadImage{
+    height: 15px;
+    float: right;
+    margin-right: 42px;
+    margin-top: 10px;
+}
+.user_template .sub-heading{
+    margin-top: 9px;
+    display: inline-block;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #4B566A !important;
+}

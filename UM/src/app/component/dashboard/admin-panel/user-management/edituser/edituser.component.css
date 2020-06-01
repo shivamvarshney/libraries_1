@@ -1,0 +1,33 @@
+.user-heading{
+    height: 65px;
+    width: 100%;
+    background: #707070;
+    margin-bottom: 50px;
+}
+.user-heading .name{
+    color: #ffffff;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    line-height: 2.9;
+    padding-left: 41px;
+    font-family: Tondo-regular;
+}
+.reset-img{
+    margin-bottom: 5px;
+}
+.reset{
+    right:5%;
+    top: 30%;
+    transform: -50% -50%;
+}
+@media screen and (max-width: 767px) {
+    .user-heading .name {
+        font-size: 16px;
+        padding-left: 20px;
+    }
+    .user-heading {
+        height: 50px;
+        margin-bottom: 30px;
+    }
+}

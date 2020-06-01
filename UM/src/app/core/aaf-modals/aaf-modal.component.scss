@@ -1,0 +1,115 @@
+.pd-tp-12 {
+  padding-top: 12px;
+}
+.popup-module {
+  position: relative;
+  padding-top: 20px;
+  .cancel-popup {
+    position: absolute;
+    right: 0;
+    top: -10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #999;
+    font-family: Tondo-regular;
+    display: inline;
+  }
+  .title {
+    margin-bottom: 70px;
+  }
+  span {
+    color: red;
+  }
+
+  span.art-blnce {
+    color: purple;
+  }
+
+  button {
+    box-shadow: none;
+    border-radius: 0;
+    width: 211px;
+    height: 45px;
+    font-size: 20px;
+    margin-left: 14PX;
+    font-family: Tondo-regular;
+  }
+  button.cancel {
+    color:#FFFFFF;
+    background: #ED1C24;
+    margin:0 0px 5px 0;
+  }
+  button.proceed {
+    color:#FFFFFF;
+    border: none;
+    margin-left: 110px;
+    margin-bottom: 5px;
+  }
+  .cancel-procd-btn{
+    padding: 26px 0 48px 0;
+  }
+  .common-form {
+    min-width: 150px;
+    max-width: 540px;
+    width: 100%;
+    margin: 0 auto 5px;
+    overflow: hidden;
+  }
+  
+  .common-full-width {
+    width: 100%;
+  }
+  .mat-radio-button ~ .mat-radio-button {
+    margin-left: 16px;
+  }
+  .sp-cp-checked{
+    margin-top: 19px;
+    display: block;
+    text-align: center;
+  }
+  ::ng-deep .mat-form-field-underline {
+    display: none;
+  }
+}
+.user button.cancel {
+  color:#FFFFFF;
+  background: #ED1C24;
+  // margin-right: 20px;
+}
+.proceed{
+  background: #ED1C24;
+}
+
+@media screen and (max-width: 767px) {
+  .popup-module .title {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.popup-module button{
+  font-size: 12px;
+  margin-left: 0;
+  width: 105px;
+  height: 30px;
+  line-height: 1;
+}
+.popup-module button.proceed{
+  margin-right: 10px;
+}
+.popup-module .cancel-procd-btn {
+  padding: 26px 0 15px 0;
+}
+.popup-module .cancel-popup {
+  right: -10px;
+    top: -20px;
+    font-size: 16px;
+}
+.popup-module {
+  padding-top: 5px;
+}
+}
+@media screen and (max-width:767px) {
+  .user button.cancel {
+    margin-right: 0;
+  }
+}

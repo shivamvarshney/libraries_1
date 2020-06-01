@@ -1,0 +1,9 @@
+export const environment = {
+  production: true,
+  BFE_API_KEY: 'e7111b44-4343-4b03-9e07-a14da484b5c1',
+  OPCO:'ZM',
+  regex: "^[0-9]{6,9}$",
+  addUserReg: "^[0-9]{6,9}$",
+  userRegexErrorMsg:"Accept only Numbers having length between 6 to 9",
+  loginTypePattern:"Accept only Numbers having length between 6 to 9"
+}; 

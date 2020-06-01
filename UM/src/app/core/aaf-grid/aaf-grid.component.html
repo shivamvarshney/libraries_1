@@ -1,0 +1,238 @@
+<div
+    [ngClass]="['page-header',(styleConfigs.rootClasses && styleConfigs.rootClasses.pageHeaderClass) ? styleConfigs.rootClasses.pageHeaderClass : 'page-default']">
+    <ng-container
+        *ngIf="allRowsSelection && hasPermission(allRowsSelection) && allRowsSelection.action && allRowsSelection.action.actionHandler && selection && selection.selected && selection.selected.length > 0">
+        <div [ngClass]="['d-i-block','img-wrapper',(styleConfigs.rootClasses && styleConfigs.rootClasses.gridSelectAllRowClass) ? styleConfigs.rootClasses.gridSelectAllRowClass : '']"
+            (click)="handleActions(allRowsSelection.action.actionHandler)">
+            <div class="fig">
+                <figure *ngIf="allRowsSelection.showCase && allRowsSelection.showCase.thumbnail"
+                    class="text-center m-0">
+                    <img src="assets/fonts/svg/{{ allRowsSelection.showCase.thumbnail }}" alt="">
+                </figure>
+            </div>
+            <div class="label-text">
+                <div class="showCase">
+                    {{ allRowsSelection.showCase && allRowsSelection.showCase.label ? allRowsSelection.showCase.label : ''  }}
+                </div>
+                <div class="subTitle">
+                    {{ allRowsSelection.showCase && allRowsSelection.showCase.subTitle ? allRowsSelection.showCase.subTitle : ''  }}
+                </div>
+            </div>
+        </div>
+    </ng-container>
+    <div [ngClass]="['list-top-header','row',(styleConfigs.rootClasses && styleConfigs.rootClasses.gridFiltersClass) ? styleConfigs.rootClasses.gridFiltersClass : '']"
+        *ngIf="filterConfigs">
+        <div [ngClass]="['text-right','p-0','col-sm-12']">
+            <section class="d-i-block kits">
+                <ng-container *ngIf="filterConfigs.default">
+                    <div class="left-section" *ngIf="filterConfigs.default.strip">
+                        <form #defaultFilterForm="ngForm" (ngSubmit)="onSubmit(defaultFilterForm.value)">
+                            <mat-form-field appearance="outline" class="input-border input-search-relative">
+                                <mat-label *ngIf="filterConfigs.default.strip.label">{{ filterConfigs.default.strip.label }}
+                                </mat-label>
+                                <input autocomplete="off" [placeholder]="filterConfigs.default.strip.placeHolder" matInput
+                                    [ngClass]="['form-control']" [name]="filterConfigs.default.strip.key" ngModel>
+                                <button type="submit" class="search-header">
+                                    <i class="material-icons p5">search</i>
+                                </button>
+                            </mat-form-field>
+                        </form>
+                    </div>
+                    <ng-container *ngIf="filterConfigs.default.hooks">
+                        <div class="right-section" *ngIf="filterConfigs.default.hooks.onChange">
+                            <mat-form-field
+                            [ngClass]="[showSideNav ? 'width-25':'width-27', showSideNav ? 'right-2':'right-0']"
+                            class="float-right input-search-absolute">                            
+                            <mat-select matNativeControl name="action-selection"
+                                [(ngModel)]="filterConfigs.default.hooks.onChange.value" *ngIf="filterConfigs.default.hooks.onChange.data"
+                                (selectionChange)="handleActions(filterConfigs.default.hooks.onChange.actionHandler,'',$event.value)">
+                                <mat-option [value]="optionInfo.value"
+                                    *ngFor="let optionInfo of filterConfigs.default.hooks.onChange.data">
+                                    <p>{{optionInfo.label}}</p>
+                                </mat-option>
+                            </mat-select>
+                            <!-- <span class="material-icons arrow">
+                                keyboard_arrow_down
+                                </span> -->
+                        </mat-form-field>
+                        </div>
+                    </ng-container>
+                </ng-container>
+                <div *ngIf="filterConfigs.advanced" class="d-i-block">
+                    <div class="d-i-block filter-parent">
+                        <form #advanceFilterForm="ngForm" (ngSubmit)="onSubmit(advanceFilterForm.value)">
+                            <div *ngFor="let advanceFilter of filterConfigs.advanced" class="d-i-block select-option">
+                                <div *ngIf="advanceFilter.inputType == 'text'" class="d-i-block">
+                                    <mat-form-field class="input-border">
+                                        <mat-label *ngIf="advanceFilter.label">{{ advanceFilter.label }}</mat-label>
+                                        <input matInput [placeholder]="advanceFilter.placeHolder"
+                                            [name]="advanceFilter.key" ngModel>
+                                    </mat-form-field>
+                                </div>
+                                <div *ngIf="advanceFilter.inputType == 'select'" class="mat-opt">
+                                    <mat-select [name]="advanceFilter.key" ngModel *ngIf="advanceFilter.masterData"
+                                        [placeholder]="advanceFilter.placeHolder">
+                                        <mat-option [value]="actionOption.value"
+                                            *ngFor="let actionOption of advanceFilter.masterData">
+                                            {{ actionOption.label }}
+                                        </mat-option>
+                                    </mat-select>
+                                </div>
+                            </div>
+                            <div class="d-i-block float-right">
+                                <div class="d-i-block">
+                                    <button type="submit" class="search-btn">Search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div
+        [ngClass]="['table-responsive',(styleConfigs.rootClasses && styleConfigs.rootClasses.gridClass) ? styleConfigs.rootClasses.gridClass : '']">
+        <table *ngIf="data && data.data.length > 0" [ngClass]="[data !== undefined ? 'visible': 'hidden']" mat-table
+            [dataSource]="data" matSort class="mat-elevation-z8 table-column">
+            <!-- Code for Showing Checkboxes -->
+            <ng-container *ngIf="allRowsSelection && hasPermission(allRowsSelection)" matColumnDef="select">
+                <th mat-header-cell *matHeaderCellDef>
+                    <mat-checkbox (change)="$event ? masterToggle() : null"
+                        [checked]="selection.hasValue() && isAllSelected()"
+                        [indeterminate]="selection.hasValue() && !isAllSelected()" [aria-label]="checkboxLabel()">
+                    </mat-checkbox>
+                </th>
+                <td mat-cell *matCellDef="let row">
+                    <mat-checkbox (click)="$event.stopPropagation()" (change)="$event ? selection.toggle(row) : null"
+                        [checked]="selection.isSelected(row)" [aria-label]="checkboxLabel(row)">
+                    </mat-checkbox>
+                </td>
+            </ng-container>
+            <ng-container *ngFor="let column of headerConfig.mapping" matColumnDef="{{ column.key }}">
+                <th mat-header-cell *matHeaderCellDef>{{column.header}}</th>
+                <td mat-cell *matCellDef="let element">
+                    <!-- Validating the field Key, is type of MultiLine Object -->
+                    <ng-container *ngIf="isObj(column.key,element);then objectTemplate else stringTemplate">
+                    </ng-container>
+                    <!-- For MultiLine Object we are having ArrayObj fieldMultiLineObj, which will be iterateed, and the value will comes in new line  -->
+                    <ng-template #objectTemplate>
+                        <ng-container *ngIf="fieldMultiLineObj.length > 0">
+                            <div>
+                                <ul class="m-0 p-0 len-columg">
+                                    <ng-container *ngFor="let columnObjKeys of fieldMultiLineObj">
+                                        <ng-container
+                                            *ngIf="isObj(columnObjKeys,element);then multiLineObjectTemplate else multiLineStringTemplate">
+                                        </ng-container>
+                                        <ng-template #multiLineStringTemplate>
+                                            <li>
+                                                <p> {{ fieldValue }} </p>
+                                            </li>
+                                        </ng-template>
+                                        <ng-template #multiLineObjectTemplate></ng-template>
+                                    </ng-container>
+                                </ul>
+                            </div>
+                        </ng-container>
+                    </ng-template>
+                    <!-- All the Single Line Information, eiher nested or sagrigated by special charactors -->
+                    <ng-template #stringTemplate>
+                        <p>{{ fieldValue }}</p>
+                    </ng-template>
+                </td>
+            </ng-container>
+            <ng-container matColumnDef="actions" *ngIf="actionConfigs">
+                <th mat-header-cell *matHeaderCellDef></th>
+                <td mat-cell *matCellDef="let element">
+                    <div class="action-data">
+                        <ng-container *ngFor="let action of actionConfigs">
+                            <ng-container [ngSwitch]="action.type">
+                                <!-- For Dropdown type Action -->
+                                <ng-container *ngIf="action.type === 'select' && hasPermission(action,element)">
+                                    <mat-select placeholder="{{action.name}}"
+                                        (selectionChange)="handleActions(action.actionHandler,element,$event.value)">
+                                        <mat-option [value]="actionOptions"
+                                            *ngFor="let actionOptions of action.options">
+                                            {{actionOptions}}
+                                        </mat-option>
+                                    </mat-select>
+                                </ng-container>
+                                <!-- For Button type Action -->
+                                <ng-container *ngIf="action.type === 'button' && hasPermission(action,element)">
+                                    <div class="d-i-block img-wrapper"
+                                        (click)="handleActions(action.actionHandler,element)">
+                                        <figure *ngIf="action.showCase && action.showCase.thumbnail"
+                                            class="text-center m-0">
+                                            <img src="assets/fonts/svg/{{ action.showCase.thumbnail }}" alt="">
+                                        </figure>
+                                        {{ action.showCase && action.showCase.label ? action.showCase.label : ''  }}
+                                    </div>
+                                </ng-container>
+                                <!-- For QuickLink type Action -->
+                                <ng-container *ngIf="action.type === 'quicklink' && hasPermission(action,element)">
+                                    <ng-container
+                                        *ngIf="action.showCase && element[action.showCase.key];then redirectionDo else redirectionDont">
+                                    </ng-container>
+                                    <ng-template #redirectionDo>
+                                        <div class="d-i-block img-wrapper"
+                                            (click)="handleActions(action.actionHandler,element)">
+                                            <figure *ngIf="action.showCase && action.showCase.thumbnail"
+                                                class="text-center m-0">
+                                                <img src="assets/fonts/svg/{{ action.showCase.thumbnail }}" alt="">
+                                            </figure>
+                                            {{ (element[action.showCase.key] ? element[action.showCase.key] : 0) + ' '+action.showCase.label }}
+                                        </div>
+                                    </ng-template>
+                                    <ng-template #redirectionDont>
+                                        <div class="d-i-block img-wrapper">
+                                            <figure *ngIf="action.showCase && action.showCase.thumbnail"
+                                                class="text-center m-0">
+                                                <img src="assets/fonts/svg/{{ action.showCase.thumbnail }}" alt="">
+                                            </figure>
+                                            {{ (element[action.showCase.key] ? element[action.showCase.key] : 0) + ' '+action.showCase.label }}
+                                        </div>
+                                    </ng-template>
+                                </ng-container>
+                                <!-- For Toggel type Action -->
+                                <ng-container *ngIf="action.type === 'toggle' && hasPermission(action,element)">
+                                    <div class="d-i-block img-wrapper"
+                                        (click)="handleActions(action.actionHandler,element)">
+                                        <ng-container
+                                            *ngIf="element[action.showCase.key] == action.showCase.rules.active.value;then enableTemplate else disableTemplate">
+                                        </ng-container>
+                                        <ng-template #enableTemplate>
+                                            <figure *ngIf="action.showCase.rules.active.thumbnail"
+                                                class="text-center m-0">
+                                                <img src="assets/fonts/svg/{{ action.showCase.rules.active.thumbnail }}"
+                                                    alt="">
+                                            </figure>
+                                            {{ action.showCase.rules.active.label }}
+                                        </ng-template>
+                                        <ng-template #disableTemplate>
+                                            <figure *ngIf="action.showCase.rules.inactive.thumbnail"
+                                                class="text-center m-0">
+                                                <img src="assets/fonts/svg/{{ action.showCase.rules.inactive.thumbnail }}"
+                                                    alt="">
+                                            </figure>
+                                            {{ action.showCase.rules.inactive.label }}
+                                        </ng-template>
+                                    </div>
+                                </ng-container>
+                            </ng-container>
+                        </ng-container>
+                    </div>
+                </td>
+            </ng-container>
+            <ng-container *ngIf="showTableHeader">
+                <tr mat-header-row *matHeaderRowDef="headerConfig.gridHeaderFieldKeys"></tr>
+            </ng-container>            
+            <tr mat-row *matRowDef="let row; columns: headerConfig.gridHeaderFieldKeys;"
+                (click)="selection.toggle(row)">
+            </tr>
+        </table>
+        <div class="pd-l-49 common-color" *ngIf="!data || data.data.length == 0">{{ norecordFound }}</div>
+        <mat-paginator *ngIf="data && data.data.length > 0" (page)="pageEvent=onPageChange($event)"
+            [pageSize]="paginationObj.pageSize" [pageIndex]="paginationObj.pageNo" [length]="paginationObj.totalCount"
+            class="custom-pagination" [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons>
+        </mat-paginator>
+    </div>
+</div>

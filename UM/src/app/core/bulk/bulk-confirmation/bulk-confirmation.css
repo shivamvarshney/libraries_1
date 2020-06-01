@@ -1,0 +1,86 @@
+.commonModelDialog{
+    min-height: 273px;
+    width: 733px;
+    text-align: center;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.commonModelDialog p {
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+.commonModelDialog p a{
+    color: #ed1c24;
+    text-decoration: underline;
+}
+.mr-100{
+    margin-right: 100px;
+}
+.file_block{
+    width: 630px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+.select-file{
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+    color: #01A9F4;
+    font-family: Tondo-regular;
+    z-index: -1;
+}
+.select-file.choose{
+    height: 42px;
+    width: 104px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    border-right: 1px solid #000;
+}
+.file-img{
+    width: 100%;
+    border: 1px solid #707070;
+    height: 42px;
+    padding: 5px;
+    /* color: transparent; */
+    outline: none;
+}
+.common_txt_color{
+    color: #707070;
+    line-height: 1;
+}
+.cancle-btn{
+    background: #F5F5F5;
+    color: #ED1C24;
+    outline: none;
+}
+.format{
+    color: #B1B1B1;
+    text-align: left;
+    display: block;
+    font-size: 16px;
+    padding: 5px 0 0 104px;
+    font-family: Tondo-regular;
+}
+@media screen and (max-width: 767px) {
+    .commonModelDialog{
+        width: 100%;
+    }
+    .mr-100 {
+        margin: 0 10px 0 0 ;
+    }
+    .file_block{
+        width: 100% !important;
+    }
+    .commonModelDialog {
+        min-height: 230px;
+    }
+}

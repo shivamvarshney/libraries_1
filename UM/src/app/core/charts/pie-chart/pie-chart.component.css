@@ -1,0 +1,15 @@
+.graph-chart{
+    /* float: right;
+    height: 300px;
+    width: 300px;
+    display: block; */
+    margin-right: 22px;
+    min-height: 345px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+}
+/* #graphCanvasId{
+    padding-top: 40px;
+    height: 270px !important;
+} */

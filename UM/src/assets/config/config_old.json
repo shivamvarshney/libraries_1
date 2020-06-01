@@ -1,0 +1,20 @@
+{
+    "localCPO": "",
+    "localIP": "http://172.23.19.54:30011",
+    "login": "/api/sales-service/v1/login",
+    "loginold": "/api/bfe/web/auth/sales/api/sales-service/v1/login",
+    "createuser": "/api/sales-service/v1/user/create",
+    "umDashboard": "/sales-service/v1/userManagementDashboard/",
+    "search": "/api/sales-service/v1/user/search",
+    "roll": "/sales-service/v1/user/+rollname",
+    "logout": "/sales-service/v1/logout",
+    "bulkUpload": "/api/sales-service/v1/user/bulkUpload",  
+    "notification": "/sales-service/v1/user/submitNotification",
+    "deleteUser": "/api/sales-service/v1/user-action/deleteUser",
+    "resetPassword": "/api/sales-service/v1/user/reset-password",
+    "fetchUserById": "/api/sales-service/v1/user/getUserDetails",
+    "fetchEditUserDetails": "/api/sales-service/v1/user/fetchEditUserDetails",
+    "StatusCount": "/api/sales-service/v1/user/fetchCount",
+    "updateUser": "/api/sales-service/v1/user-action/updateUser",
+    "fetchUsers": "/api/sales-service/v1/user/fetchUsers"
+}
